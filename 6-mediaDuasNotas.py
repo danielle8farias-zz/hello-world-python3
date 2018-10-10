@@ -3,6 +3,9 @@ Digite duas notas e se a média for menor do que 5, informe que foi
 reprovaddo. Se a média for entre 5 e 7, informe que está de recuperação.
 Se maior do que 7, está aprovado.
 '''
+print('-'*50)
+print('{: ^50}'.format('MÉDIA ESCOLAR'))
+print('-'*50)
 nota1 = int(input("Digite a primeira nota: "))
 nota2 = int(input("Digite a segunda nota: "))
 

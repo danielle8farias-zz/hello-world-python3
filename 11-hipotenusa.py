@@ -1,6 +1,9 @@
 '''
 Dados os catetos, calcule o valor da hipotenusa.
 '''
+print('-'*50)
+print('{: ^50}'.format('CÁLCULO DA HIPOTENUSA'))
+print('-'*50)
 from math import sqrt
 b = float(input('Digite o primeiro cateto: '))
 c = float(input('Digite o segundo cateto: '))

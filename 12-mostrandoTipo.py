@@ -1,6 +1,9 @@
 '''
 Digite algo e mostre a tipagem da mesma.
 '''
+print('-'*50)
+print('{: ^50}'.format('TIPO DE DADO'))
+print('-'*50)
 a = input('Digite algo: ')
 print('O tipo primitivo desse valor é', type(a))
 print('Só tem espaços?', a.isspace())

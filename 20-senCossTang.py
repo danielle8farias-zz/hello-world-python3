@@ -1,6 +1,9 @@
 '''
 Informe um ângulo e calcule o valor do seno, cosseno e tangente.
 '''
+print('-'*50)
+print('{: ^50}'.format('SENO COSSENO TANGENTE'))
+print('-'*50)
 import math
 angulo = float(input('Digite um ângulo: '))
 seno = math.sin(math.radians(angulo))

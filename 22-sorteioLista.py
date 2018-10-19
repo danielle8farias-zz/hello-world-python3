@@ -1,6 +1,7 @@
 '''
 Faça um sorteio de apresentação de 4 alunos.
 '''
+print('-'*50)
 from random import shuffle
 aluno1 = input('Primeiro aluno: ')
 aluno2 = input('Segundo aluno: ')

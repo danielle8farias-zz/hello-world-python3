@@ -5,7 +5,7 @@ print('-'*30)
 print('Sequência de Fibonacci')
 print('-'*30)
 n = int(input('Quantos termos você quer mostrar? '))
-n1 = 0
+n1 = 1
 n2 = 1
 print('~'*30)
 print('{} - {} - '.format(n1, n2), end='')

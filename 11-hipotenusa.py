@@ -21,7 +21,6 @@ while True:
 print('-'*50)
 print('{: ^50}'.format('FIM'))
 print('-'*50)
-
 '''
 from math import hypot
 a = hypot(b, c)

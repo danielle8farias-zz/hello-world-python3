@@ -2,7 +2,7 @@
 Leia o salário e o aumente em 15%.
 '''
 print('-'*50)
-print('{: ^50}'.format('SALÁRIO AUMENTO 5%'))
+print('{: ^50}'.format('SALÁRIO AUMENTO 15%'))
 print('-'*50)
 while True:
     salario = float(input('Escreva o salário: R$'))

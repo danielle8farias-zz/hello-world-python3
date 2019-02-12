@@ -1,15 +1,20 @@
 '''
 Faça a soma de dois números.
 '''
-print('-'*50)
-print('{: ^50}'.format('SOMA DOIS NÚMEROS'))
-print('-'*50)
+
+from mensagem import cabecalho
+from mensagem import rodape
+
+def soma(x,y):
+        z = x+y
+        print(x,"+",y,"=",z)
+
+
+cabecalho('soma de dois números')
+
 while True:
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
-    def soma(x,y):
-        z = x+y
-        print(x,"+",y,"=",z)
     soma(num1,num2)
     resposta = ' '
     while resposta not in 'SN':
@@ -17,6 +22,5 @@ while True:
     print()
     if resposta == 'N':
         break
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

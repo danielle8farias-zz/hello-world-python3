@@ -1,11 +1,13 @@
 '''
 Leia um float e retorne a parte inteira usando arredondamento se necessário.
 '''
-print('-'*50)
-print('{: ^50}'.format('PARTE INTEIRA COM ARREDONDAMENTO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('PARTE INTEIRA COM ARREDONDAMENTO PARA CIMA')
+
 while True:
-    num = float(input('Digite um número: '))
+    num = float(input('Digite um número com casa decimal: '))
     print()
     print('A parte inteira do número é {:.0f}'.format(num))
     print()
@@ -15,6 +17,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

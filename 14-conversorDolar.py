@@ -1,9 +1,11 @@
 '''
 Faça um conversos de Real em Dolar.
 '''
-print('-'*50)
-print('{: ^50}'.format('CONVERSOR REAL EM DOLAR'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('CONVERSOR REAL EM DOLAR')
+
 while True:
     real = float(input('Valor em Reais: R$'))
     dolar = real/3.86
@@ -16,6 +18,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

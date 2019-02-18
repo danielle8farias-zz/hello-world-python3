@@ -1,10 +1,12 @@
 '''
 Dados os catetos, calcule o valor da hipotenusa.
 '''
-print('-'*50)
-print('{: ^50}'.format('CÁLCULO DA HIPOTENUSA'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from math import sqrt
+
+cabecalho('CÁLCULO DA HIPOTENUSA')
+
 while True:
     b = float(input('Digite o primeiro cateto: '))
     c = float(input('Digite o segundo cateto: '))
@@ -18,9 +20,9 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()
+
 '''
 from math import hypot
 a = hypot(b, c)

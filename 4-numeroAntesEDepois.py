@@ -1,9 +1,11 @@
 '''
 Escolha um número e mostre seu anterior e sucessor.
 '''
-print('-'*50)
-print('{: ^50}'.format('NÚMERO ANTERIOR E SUCESSOR'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('NÚMERO ANTERIOR E SUCESSOR')
+
 while True:
     num = int(input('Escreva um número: '))
     ant = num - 1
@@ -16,6 +18,5 @@ while True:
     print()
     if resposta == 'N':
         break
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

@@ -1,9 +1,11 @@
 '''
 Transforma metros em centímetros e milímetros.
 '''
-print('-'*50)
-print('{: ^50}'.format('CONVERSOR DE METROS PARA CM E MM'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('CONVERSOR DE METROS PARA CM E MM')
+
 while True:
     metros = float(input('Dê um valor em metros: '))
     cent = metros*100
@@ -18,6 +20,5 @@ while True:
     print()
     if resposta == 'N':
         break
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

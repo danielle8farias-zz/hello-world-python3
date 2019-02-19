@@ -1,10 +1,12 @@
 '''
 Informe a raiz quadrada de um número inteiro.
 '''
-print('-'*50)
-print('{: ^50}'.format('RAÍZ QUADRADA'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from math import sqrt
+
+cabecalho('RAÍZ QUADRADA')
+
 while True:
     num = int(input('digite um número inteiro: '))
     raiz = sqrt(num)
@@ -17,6 +19,5 @@ while True:
     print()
     if resposta == 'N':
         break
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

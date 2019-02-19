@@ -2,10 +2,12 @@
 Mostrando um número aleatório entre 0 e 1.
 E outro número aleatório entre 1 e 10.
 '''
-print('-'*50)
-print('{: ^50}'.format('NÚMEROS ALEATÓRIOS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 import random
+
+cabecalho('NÚMEROS ALEATÓRIOS')
+
 while True:
     num = random.random()
     num2 = random.randint(1,10)
@@ -20,6 +22,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

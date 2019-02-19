@@ -1,9 +1,11 @@
 '''
 Digite um número e mostro o dobro, o triplo e a raiz quadrada.
 '''
-print('-'*50)
-print('{: ^50}'.format('DOBRO, TRIPLO E RAÍZ QUADRADA'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('DOBRO, TRIPLO E RAÍZ QUADRADA')
+
 while True:
     num = float(input('Digite um número: '))
     dobro = num*2
@@ -19,6 +21,5 @@ while True:
     print()
     if resposta == 'N':
         break
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

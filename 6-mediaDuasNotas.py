@@ -3,13 +3,15 @@ Digite duas notas e se a média for menor do que 5, informe que foi
 reprovaddo. Se a média for entre 5 e 7, informe que está de recuperação.
 Se maior do que 7, está aprovado.
 '''
-print('-'*50)
-print('{: ^50}'.format('MÉDIA ESCOLAR'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('MÉDIA ESCOLAR')
+
 while True:
-    nota1 = int(input("Digite a primeira nota: "))
-    nota2 = int(input("Digite a segunda nota: "))
-    media = (nota1+nota2)/2
+    nota1 = float(input("Digite a primeira nota: "))
+    nota2 = float(input("Digite a segunda nota: "))
+    media = (nota1 + nota2)/2
     print('A média da nota é {}'.format(media))
     if media < 5:
         print('Reprovado')
@@ -24,6 +26,5 @@ while True:
     print()
     if resposta == 'N':
         break
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

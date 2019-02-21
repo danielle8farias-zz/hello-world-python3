@@ -2,10 +2,12 @@
 Leia um número real qualquer e retorne apenas a parte inteira,
 sem arredondamento.
 '''
-print('-'*50)
-print('{: ^50}'.format('PARTE INTEIRA DE UM NÚMERO REAL'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from math import trunc
+
+cabecalho('PARTE INTEIRA DE UM NÚMERO REAL')
+
 while True:
     num = float(input('Digite um número real: '))
     print('A parte inteira do valor digitado foi {}.'.format(trunc(num)))
@@ -16,6 +18,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

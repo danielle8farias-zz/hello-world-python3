@@ -1,9 +1,11 @@
 '''
 Leia o salário e o aumente em 15%.
 '''
-print('-'*50)
-print('{: ^50}'.format('SALÁRIO AUMENTO 15%'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('SALÁRIO AUMENTO 15%')
+
 while True:
     salario = float(input('Escreva o salário: R$'))
     novo_salario = salario + salario*0.15
@@ -15,6 +17,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

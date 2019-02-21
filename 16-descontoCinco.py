@@ -1,9 +1,11 @@
 '''
 Leia o valor e desconte 5%.
 '''
-print('-'*50)
-print('{: ^50}'.format('DESCONTO 5%'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('DESCONTO 5%')
+
 while True:
     preco = float(input('Digite o preço: R$'))
     desconto = preco - (preco*0.05)
@@ -15,6 +17,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

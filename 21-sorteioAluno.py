@@ -1,10 +1,12 @@
 '''
 Faça um sorteio entre 4 alunos.
 '''
-print('-'*50)
-print('{: ^50}'.format('SORTEIO DE ALUNOS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from random import choice
+
+cabecalho('SORTEIO DE ALUNOS')
+
 while True:
     aluno1 = input('Digite o nome do primeiro aluno: ')
     aluno2 = input('Digite o nome do segundo aluno: ')
@@ -20,6 +22,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

@@ -1,18 +1,35 @@
 '''
 Informe um ângulo e calcule o valor do seno, cosseno e tangente.
 '''
-print('-'*50)
-print('{: ^50}'.format('SENO COSSENO TANGENTE'))
-print('-'*50)
-import math
+from mensagem import cabecalho
+from mensagem import rodape
+from math import radians
+
+cabecalho('SENO COSSENO TANGENTE')
+
+def seno(angulo):
+    from math import sin
+    seno = sin(radians(angulo))
+    return seno
+
+
+def cosseno(angulo):
+    from math import cos
+    cosseno = cos(radians(angulo))
+    return cosseno
+
+
+def tangente(angulo):
+    from math import tan
+    tangente = tan(radians(angulo))
+    return tangente
+    
+    
 while True:
     angulo = float(input('Digite um ângulo: '))
-    seno = math.sin(math.radians(angulo))
-    print('O seno é {:.2f}'.format(seno))
-    cosseno = math.cos(math.radians(angulo))
-    print('O cosseno é {:.2f}'.format(cosseno))
-    tangente = math.tan(math.radians(angulo))
-    print('A tangente é {:.2f}'.format(tangente))
+    print('O seno é {:.2f}'.format(seno(angulo)))
+    print('O cosseno é {:.2f}'.format(cosseno(angulo)))
+    print('A tangente é {:.2f}'.format(tangente(angulo)))
     print()
     resposta = ' '
     while resposta not in 'SN':
@@ -20,6 +37,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

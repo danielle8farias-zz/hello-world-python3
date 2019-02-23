@@ -1,10 +1,12 @@
 '''
 Faça um sorteio de apresentação de 4 alunos.
 '''
-print('-'*50)
-print('{: ^50}'.format('SORTEIO DE LISTA DE APRESENTAÇÃO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from random import shuffle
+
+cabecalho('SORTEIO DE LISTA DE APRESENTAÇÃO')
+
 while True:
     aluno1 = input('Primeiro aluno: ')
     aluno2 = input('Segundo aluno: ')
@@ -20,7 +22,6 @@ while True:
         resposta = input('Deseja continuar? [S/N] ').upper().strip()[0]
     if resposta == 'N':
         break
-print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+    print()
+
+rodape()

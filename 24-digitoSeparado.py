@@ -1,9 +1,11 @@
 '''
 Leia um número de 0 a 9999 e mostre cada um dos dígitos.
 '''
-print('-'*50)
-print('{: ^50}'.format('DÍGITOS DE UM NÚMERO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('DÍGITOS DE UM NÚMERO')
+
 num = int(input("Digite um número: "))
 if 0 < num <= 9999:
     mil = num //1000
@@ -31,3 +33,5 @@ if 0 < num <= 9999:
         print(unid,"unidades")
 else:
     print("Valor inválido! Escolha um número maior ou igual a 1 e menor que 10000.")
+
+rodape()

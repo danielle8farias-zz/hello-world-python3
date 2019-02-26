@@ -2,9 +2,11 @@
 Informe duas notas de um aluno. Se a média for maior ou igual a 6,
 a média é boa. Senão, a média é ruim.
 '''
-print('-'*50)
-print('{: ^50}'.format('MÉDIA ENTRE DUAS NOTAS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('MÉDIA ENTRE DUAS NOTAS')
+
 while True:
     nota1 = float(input('Digite a primeira nota: '))
     nota2 = float(input('Digite a segunda nota: '))
@@ -21,6 +23,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

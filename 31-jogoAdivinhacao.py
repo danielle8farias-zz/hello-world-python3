@@ -5,6 +5,11 @@ os mesmos, usuário ganha.
 '''
 from random import randint
 from time import sleep
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('jogo adivinhação')
+
 computador = randint(0, 5)
 print('-=-' * 13)
 print('Por favor escolha um número de 0 a 5')
@@ -16,3 +21,5 @@ if jogador == computador:
     print('PARABÉNS! Você conseguiu adivinhar!')
 else:
     print('Eu pensei no número {}.'.format(computador))
+
+rodape()

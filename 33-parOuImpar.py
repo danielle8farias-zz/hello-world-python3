@@ -1,9 +1,11 @@
 '''
 Verifique se o número é ímpar ou par.
 '''
-print('-'*50)
-print('{: ^50}'.format('VERIFICA SE É PAR OU ÍMPAR'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('VERIFICA SE É PAR OU ÍMPAR')
+
 while True:
     num = int(input("Digite um número: "))
     if num % 2 == 1:
@@ -17,6 +19,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

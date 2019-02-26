@@ -3,9 +3,11 @@ Leia a velocidade de um carro. Se ele ultrapassar 80km/h mostre
 a mensagem informando que foi multado.
 A multa deve custar R$7,00 por cada Km acima do limite.
 '''
-print('-'*50)
-print('{: ^50}'.format('VERIFICAÇÃO DE VELOCIDADE'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('VERIFICAÇÃO DE VELOCIDADE')
+
 while True:
     velocidade = float(input('Qual a velocidade do carro? '))
     if velocidade > 80:
@@ -21,6 +23,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

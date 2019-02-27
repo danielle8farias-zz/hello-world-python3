@@ -1,9 +1,11 @@
 '''
 Leia 3 números e mostre o maior e o menor entre eles.
 '''
-print('-'*50)
-print('{: ^50}'.format('MAIOR ENTRE TRÊS NÚMEROS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('MAIOR ENTRE TRÊS NÚMEROS')
+
 while True:
     num1 = int(input("Digite o 1º número: "))
     num2 = int(input("Digite o 2º número: "))
@@ -27,6 +29,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

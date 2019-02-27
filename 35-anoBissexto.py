@@ -1,9 +1,11 @@
 '''
 Leia um ano qualquer e verifique se é bissexto.
 '''
-print('-'*50)
-print('{: ^50}'.format('ANO BISSEXTO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('ANO BISSEXTO')
+
 while True:
     ano = int(input('Informe o ano: '))
     if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
@@ -17,6 +19,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

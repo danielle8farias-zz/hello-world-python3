@@ -1,9 +1,11 @@
 '''
 Faça um programa que compare dois números.
 '''
-print('-'*50)
-print('{: ^50}'.format('MAIOR ENTRE DOIS NÚMEROS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('MAIOR ENTRE DOIS NÚMEROS')
+
 while True:
     num1 = int (input("Digite o 1º número: "))
     num2 = int (input("Digite o 2º número: "))
@@ -20,6 +22,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

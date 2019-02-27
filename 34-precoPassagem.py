@@ -3,9 +3,11 @@ Pergunte a distância de uma viagem em Km e calcule o preço da passagem
 cobrando R$0,50 por Km para viagens de até 200Km e R$0,45 para viagens
 mais longas.
 '''
-print('-'*50)
-print('{: ^50}'.format('PREÇO DA PASSAGEM'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('PREÇO DA PASSAGEM')
+
 while True:
     distancia = float(input('Qual a distância da viagem?(Km) '))
     if distancia <= 200:
@@ -20,6 +22,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

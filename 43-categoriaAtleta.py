@@ -7,10 +7,12 @@ até 19 anos = júnior
 até 25 anos = sênior
 acima de 25 = master
 '''
-print('-'*50)
-print('{: ^50}'.format('CLASSIFICAÇÃO DE ATLETAS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from datetime import date
+
+cabecalho('CLASSIFICAÇÃO DE ATLETAS')
+
 atual = date.today().year
 while True:
     nasc = int(input('Digite a data de nascimento: '))
@@ -33,6 +35,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

@@ -1,9 +1,11 @@
 '''
 Leia o peso, a altura e calcule o IMC de acordo com o sexo.
 '''
-print('-'*50)
-print('{: ^50}'.format('CÁLCULO DE IMC'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('CÁLCULO DE IMC')
+
 while True:
     h = float(input("Digite sua altura: (m) "))
     sexo = ' '
@@ -36,6 +38,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

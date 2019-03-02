@@ -1,9 +1,11 @@
 '''
 Faça um conversor da base decimal para binária, octal e hexadecimal.
 '''
-print('-'*50)
-print('{: ^50}'.format('BASES BINÁRIA, OCTAL E HEXADECIMAL'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('BASES BINÁRIA, OCTAL E HEXADECIMAL')
+
 while True:
     num = int(input('Digite um número inteiro: '))
     print('''Escolha a base para conversão:
@@ -26,6 +28,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

@@ -3,9 +3,11 @@ Escreva um programa para aprovação de empréstimo bancário para compra de uma
 casa. Pergunte o valor da casa, o salário do comprador e em quantos anos ele
 vai pagar. A prestação será negada se exceder 30% do salário do comprador.
 '''
-print('-'*50)
-print('{: ^50}'.format('APROVAÇÃO DE EMPRÉSTIMO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('APROVAÇÃO DE EMPRÉSTIMO')
+
 while True:
     valor_casa = float(input('Valor da casa que deseja comprar: R$'))
     salario = float(input('Salário do comprador: R$'))
@@ -23,6 +25,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

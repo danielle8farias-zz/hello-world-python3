@@ -2,9 +2,11 @@
 Leia o salário de um funcionário. Se for superior a R$1.250,00 calcule
 o aumento de 10%. Senão, o aumento é de 15%.
 '''
-print('-'*50)
-print('{: ^50}'.format('AUMENTO SALARIAL 10 OU 15%'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('AUMENTO SALARIAL 10 OU 15%')
+
 while True:
     salario = float(input('Salário atual do funcionário: R$'))
     if salario <= 1250:
@@ -21,6 +23,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

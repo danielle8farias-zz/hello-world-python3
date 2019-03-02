@@ -2,9 +2,11 @@
 Leia o comprimento de 3 retas e veriique se é possível formar um
 triângulo. Também deve indicar de que tipo é o triângulo.
 '''
-print('-'*50)
-print('{: ^50}'.format('VERIFICA SE É TRIÂNGULO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('VERIFICA SE É TRIÂNGULO')
+
 while True:
     lado1 = float(input("Digite o 1º lado do triângulo: "))
     lado2 = float(input("Digite o 2º lado do triângulo: "))
@@ -25,6 +27,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

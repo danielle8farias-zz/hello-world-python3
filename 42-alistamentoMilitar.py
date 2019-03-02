@@ -2,10 +2,12 @@
 Informe o ano de nascimento e retorne se o usuário precisa se alistar e
 quanto tempo falta.
 '''
-print('-'*50)
-print('{: ^50}'.format('ALISTAMENTO MILITAR'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from datetime import date
+
+cabecalho('ALISTAMENTO MILITAR')
+
 atual = date.today().year
 while True:
     nasc = int(input('Seu ano de nascimento: '))
@@ -27,6 +29,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

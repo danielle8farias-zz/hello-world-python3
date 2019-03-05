@@ -6,9 +6,11 @@ considerando seu preço normal e a condição de pagamento.
 2x no cartão, preço normal
 3x ou mais, 20% de juros
 '''
-print('-'*50)
-print('{: ^50}'.format('LOJAS GUANABARA'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('LOJAS GUANABARA')
+
 while True:
     preco =  float(input('Preço das compras: R$'))
     print('''FORMAS DE PAGAMENTO
@@ -40,6 +42,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

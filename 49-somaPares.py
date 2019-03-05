@@ -1,9 +1,11 @@
 '''
 Leia 6 números inteiros e mostre a soma daqueles que são pares.
 '''
-print('-'*50)
-print('{: ^50}'.format('SOMA DE NÚMEROS PARES'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('SOMA DE NÚMEROS PARES')
+
 while True:
     soma = 0
     for i in range(1,7):
@@ -18,6 +20,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

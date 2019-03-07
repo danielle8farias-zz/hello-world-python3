@@ -1,9 +1,11 @@
 '''
 Leia o 1º termo de uma PA, sua razão e calcule os 10 primeiros termos.
 '''
-print('-'*50)
-print('{: ^50}'.format('DEZ PRIMEIROS TERMOS DE UMA PA'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('DEZ PRIMEIROS TERMOS DE UMA PA')
+
 while True:
     A1 =  int(input('Primeiro termo: '))
     r = int(input('Razão: '))
@@ -21,6 +23,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

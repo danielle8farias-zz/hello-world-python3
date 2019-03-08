@@ -1,9 +1,11 @@
 '''
 Leia um número inteiro e mostre a sequência de Fibonacci dos n elementos lidos.
 '''
-print('-'*50)
-print('{: ^50}'.format('SEQUÊNCIA FIBONACCI'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('SEQUÊNCIA FIBONACCI')
+
 n = int(input('Quantos termos você quer mostrar? '))
 n1 = 1
 n2 = 1
@@ -16,5 +18,6 @@ while cont <= n:
     n2 = fib
     cont += 1
     print('{} - '.format(fib), end='')
-print('FIM')
-print('~'*30)
+print()
+
+rodape()

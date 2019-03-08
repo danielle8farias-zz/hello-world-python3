@@ -5,9 +5,12 @@ Total de gasto da compra;
 Quantos produtos custam mais de R$ 1000.00;
 O nome do produto mais barato.
 '''
-print('-'*50)
-print('{: ^50}'.format('LOJA SUPER BARATÃO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+from mensagem import linha
+
+cabecalho('LOJA SUPER BARATÃO')
+
 total = cont = quant = menor = 0
 produto_barato = ' '
 while True:
@@ -26,8 +29,9 @@ while True:
     if pergunta == 'N':
         break
 print()
-print('{:-^50}'.format(' FIM DO PROGRAMA '))
-print()
+linha()
 print('Total da compra: R$ {:.2f}'.format(total))
 print('Temos {} produtos custando mais de R$ 1000.00'.format(cont))
 print('O produto mais barato foi {}; custando R$ {:.2f}'.format(produto_barato, menor))
+
+rodape()

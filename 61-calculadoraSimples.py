@@ -1,6 +1,12 @@
+from mensagem import cabecalho
+from mensagem import rodape
+from mensagem import linha
+
+cabecalho('calculadora simples')
+
 num1 = int(input('Digite o 1º número: '))
 num2 = int(input('Digite o 2º número: '))
-print('=-'*20)
+linha()
 print('''
 [1] somar
 [2] multiplicar
@@ -28,7 +34,7 @@ while opcao != 5:
         num2 = int(input('Digite o 2º número: '))
     else:
         print('Opção inválida. Tente novamente.')
-    print('=-'*20)
+    linha()
     print('''
     [1] somar
     [2] multiplicar
@@ -37,3 +43,5 @@ while opcao != 5:
     [5] sair
     ''')
     opcao = int(input('Escolha uma das opções: '))
+
+rodape()

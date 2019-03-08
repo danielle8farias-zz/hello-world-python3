@@ -1,9 +1,11 @@
 '''
 Leia um número e retorne seu fatorial.
 '''
-print('-'*50)
-print('{: ^50}'.format('FATORIAL!'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('FATORIAL!')
+
 def fat(n):
     f = 1
     while n > 0:
@@ -11,5 +13,16 @@ def fat(n):
         n -= 1
     return f
 
-n = int(input("Digite um número: "))
-print(f'O fatorial é {fat(n)}.')
+
+while True:
+    n = int(input("Digite um número: "))
+    print(f'O fatorial é {fat(n)}.')
+    print()
+    resp = ' '
+    while resp not in 'SN':
+        resp = input('Deseja continuar? [S/N] ').upper().strip()[0]
+    if resp == 'N':
+        break
+    print()
+
+rodape()

@@ -1,7 +1,9 @@
 '''Calcula o aumento de salário dado o valor e a porcentagem'''
-print('-'*50)
-print('{: ^50}'.format('AUMENTO DE SALÁRIO'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('AUMENTO DE SALÁRIO')
+
 while True:
     salario = float(input('Salário: R$ '))
     porcentagem = float(input('Porcentagem de aumento: '))
@@ -16,6 +18,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

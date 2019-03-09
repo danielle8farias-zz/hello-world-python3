@@ -3,9 +3,11 @@ Dados dois números inteiros positivos, determinar o máximo divisor comum
 entre eles usando o algoritmo de Euclides.
 Exemplo: mdc(21, 15) = 3
 '''
-print('-'*50)
-print('{: ^50}'.format('MDC DE DOIS NÚMEROS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('MDC DE DOIS NÚMEROS')
+
 while True:
     num1 = int(input('Digite o primeiro número: '))
     num2 = int(input('Digite o segundo número: '))
@@ -22,6 +24,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

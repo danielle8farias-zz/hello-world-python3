@@ -1,9 +1,11 @@
 '''
 Verificar se um número inteiro é primo.
 '''
-print('-'*50)
-print('{: ^50}'.format('É PRIMO?'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('É PRIMO?')
+
 while True:
     n = int(input("Digite um número inteiro: "))
     i = 0
@@ -23,6 +25,5 @@ while True:
     if resposta == 'N':
         break
     print()
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

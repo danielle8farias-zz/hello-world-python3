@@ -2,9 +2,11 @@
 Leia 5 valores e guarde em uma lista. Retorne o menor e maior valores e suas
 respectivas posições.
 '''
-print('-'*50)
-print('{:^50}'.format('MAIOR E MENOR DE UMA LISTA'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('MAIOR E MENOR DE UMA LISTA')
+
 valores = []
 maior = 0
 menor = 0
@@ -29,6 +31,5 @@ for i,v in enumerate(valores):
     if v == menor:
         print('{}... '.format(i), end='')
 print()
-print('-'*50)
-print('{:^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

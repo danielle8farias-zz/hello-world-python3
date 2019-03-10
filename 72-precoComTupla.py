@@ -2,9 +2,11 @@
 Crie um programa com apenas uma tupla, com nomes de produtos e seus respectivos
 preços.
 '''
-print('-'*50)
-print(f'{"TABELA DE PREÇOS":^50}')
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('TABELA DE PREÇOS')
+
 lista = ('lápis', 1.25,
         'borracha', 0.5,
         'caderno', 12.90,
@@ -17,6 +19,5 @@ for i in range(0, len(lista)):
         print(f'{lista[i]:.<30}', end='')
     else:
         print(f'R$ {lista[i]:>4.2f}')
-print('-'*50)
-print('{:^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

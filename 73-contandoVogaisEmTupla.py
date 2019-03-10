@@ -2,9 +2,11 @@
 Crie um programa que tenha em uma tupla, várias palavras (Não usar acentos).
 Retornar para cada palavra as vogais contidas.
 '''
-print('-'*50)
-print(f'{"CONTAGEM DE VOGAIS EM UMA TUPLA":^50}')
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('CONTAGEM DE VOGAIS EM UMA TUPLA')
+
 palavras = ('aprender', 'programar', 'linguagem','python','curso','gratis',
             'estudar', 'praticar','trabalhar','mercado','programador','futuro')
 for p in palavras:
@@ -12,6 +14,5 @@ for p in palavras:
     for letra in p:
         if letra in 'aeiou':
             print(letra, end=' ')
-print('-'*50)
-print('{:^50}'.format('FIM'))
-print('-'*50)
+print()
+rodape()

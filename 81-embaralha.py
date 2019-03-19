@@ -1,17 +1,18 @@
 '''
 Faça um programa que leia uma string e retorne as letras embaralhadas.
 '''
-print('-'*50)
-print(f'{"LETRAS EMBARALHADAS":^50}')
-print('-'*50)
-
+from mensagem import cabecalho
+from mensagem import rodape
 from random import shuffle
+
+cabecalho('LETRAS EMBARALHADAS')
 
 def embaralha(s):
     lista = list(s)
     shuffle(lista)
     nova = ''.join(lista)
     return nova
+
 
 while True:
     s = input('Digite uma palavra: ').upper().strip()
@@ -22,6 +23,4 @@ while True:
     if resposta == 'N':
         break
 
-print('-'*50)
-print(f'{"FIM":^50}')
-print('-'*50)
+rodape()

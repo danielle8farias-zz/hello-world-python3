@@ -2,9 +2,11 @@
 Crie uma lista com vários números. Separe duas listas, a de números pares e a de ímpares.
 Exiba as três listas ao final.
 '''
-print('-'*50)
-print('{: ^50}'.format('LISTA DE NºS PARES E ÍMPARES'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('LISTA DE NºS PARES E ÍMPARES')
+
 lista_par = []
 lista_impar = []
 while True:
@@ -22,6 +24,5 @@ while True:
 print()
 print(f'Números pares: {lista_par}')
 print(f'Números ímpares: {lista_impar}')
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

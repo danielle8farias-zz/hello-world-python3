@@ -3,9 +3,11 @@ Crie um programa onde o usuário digite uma expressão matemática que faça uso
 Seu programa deverá analisar se os números de parenteses abertos correspondem aos números de
 parenteses fechados.
 '''
-print('-'*50)
-print('{: ^50}'.format('VALIDADOR DE EXPRESSÕES MATEMÁTICAS'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
+
+cabecalho('VALIDADOR DE EXPRESSÕES MATEMÁTICAS')
+
 expre = input('Digite a expressão matemática: ')
 pilha = []
 for simbolo in expre:
@@ -21,6 +23,5 @@ if len(pilha) == 0:
     print('Expressão VÁLIDA!') #foi removido todos os pares
 else:
     print('Expressão inválida.')
-print('-'*50)
-print('{: ^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

@@ -2,10 +2,12 @@
 Faça um programa que dê palpites para o jogo da mega sena (sorteando 6 números de 1 a 60 não
 repeditos). Escolha quantos jogos o usuário deseja fazer e apresente-os em ordem crescente.
 '''
-print('-'*50)
-print('{:^50}'.format('JOGA NA MEGA SENA'))
-print('-'*50)
+from mensagem import cabecalho
+from mensagem import rodape
 from random import randint
+
+cabecalho('JOGA NA MEGA SENA')
+
 #sorteando os números de 1 a 60
 def num_aleatorio():
     lista_num_aleatorio = []
@@ -20,6 +22,5 @@ def num_aleatorio():
 num_jogos = int(input('Quantos números deseja sortear? '))
 for i in range(num_jogos):
     num_aleatorio()
-print('-'*50)
-print('{:^50}'.format('FIM'))
-print('-'*50)
+
+rodape()

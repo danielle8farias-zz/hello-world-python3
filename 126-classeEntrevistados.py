@@ -17,11 +17,22 @@ class Entrevista():
                 nome_ok = True
         return self.nome
 
+
     def pergunta_idade(self,atual):
-        self.nasc = int(input(f'{self.nome} em que ano você nasceu? '))
-        self.idade = atual - self.nasc
+        ano_ok = False
+        while ano_ok == False:
+            try:
+                self.nasc = int(input(f'{self.nome} em que ano você nasceu? '))
+                self.idade = atual - self.nasc
+                ano_ok = True
+            except:
+                continue
+            else:
+                if self.idade >= 130:
+                    ano_ok = False
         print(f'Você tem {self.idade} anos.')
     
+
     def __repr__(self):
         return f'Entrevista({self.nome}, {self.idade})'
 
@@ -41,8 +52,10 @@ while pode_parar == False:
         except ZeroDivisionError:
             print('Ocorreu um erro de divisão! Mas a lista foi salva.')
             lista_entrevistados.append(entrevistado)
-        except:
+        except Exception as erro:
             print('Ocorreu um erro! A lista NÃO foi salva.')
+            print(f'O tipo de erro foi: {type(erro)}')
+            print(f'Mensagem: {erro}')
         else:
             lista_entrevistados.append(entrevistado)
 

@@ -7,10 +7,14 @@ class Entrevista():
     idade = 0
 
     def pergunta_nome(self):
-        print()
-        print('Digite N para parar!')
-        print()
-        self.nome = input('Qual é seu nome? ')
+        nome_ok = False
+        while nome_ok == False:
+            print()
+            print('Digite N para parar!')
+            print()
+            self.nome = input('Qual é seu nome? ')
+            if self.nome:
+                nome_ok = True
         return self.nome
 
     def pergunta_idade(self,atual):
@@ -31,7 +35,15 @@ while pode_parar == False:
     if entrevistado.pergunta_nome() == 'N':
         pode_parar = True
     else:
-        entrevistado.pergunta_idade(atual)
-        lista_entrevistados.append(entrevistado)
+        try:
+            entrevistado.pergunta_idade(atual)
+            x = 1000/0 #exemplo de erro grosseiro que não deve impedir o código de rodar
+        except ZeroDivisionError:
+            print('Ocorreu um erro de divisão! Mas a lista foi salva.')
+            lista_entrevistados.append(entrevistado)
+        except:
+            print('Ocorreu um erro! A lista NÃO foi salva.')
+        else:
+            lista_entrevistados.append(entrevistado)
 
 print(lista_entrevistados)

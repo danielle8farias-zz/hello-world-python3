@@ -15,6 +15,7 @@ class Entrevista():
             self.nome = input('Qual é seu nome? ')
             if self.nome:
                 nome_ok = True
+        self.nome = self.nome.title()
         return self.nome
 
 
@@ -43,7 +44,7 @@ lista_entrevistados = []
 
 while pode_parar == False:
     entrevistado = Entrevista()
-    if entrevistado.pergunta_nome() == 'N':
+    if entrevistado.pergunta_nome().upper() == 'N':
         pode_parar = True
     else:
         try:

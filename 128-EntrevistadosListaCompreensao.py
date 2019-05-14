@@ -88,5 +88,11 @@ print(f'A média de idades dos adultos: {media_adulto}')
 lista_decada = [ (objeto.nasc//10*10) for objeto in lista_entrevistados ]
 print(f'Décadas: {lista_decada}')
 
+#set: coleção de objetos distintos sem ordenação
 set_decadas = set(lista_decada)
 print(f'Décadas sem repetição: {set_decadas}')
+
+#dicionário por compreensão
+#dicionário = { <expressão da chave>:<expressão para o valor> <loop> <expressão para o loop> }
+qtd_nasc = { decada:lista_decada.count(decada) for decada in set_decadas }
+print(f'Quantidade de nascimento por década: {qtd_nasc}')

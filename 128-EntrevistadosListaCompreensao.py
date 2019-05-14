@@ -50,7 +50,7 @@ while pode_parar == False:
     else:
         try:
             entrevistado.pergunta_idade(atual)
-            x = 1000/0 #exemplo de erro grosseiro que não deve impedir o código de rodar
+            # x = 1000/0 exemplo de erro grosseiro que não deve impedir o código de rodar
         except ZeroDivisionError:
             print('Ocorreu um erro de divisão! Mas a lista foi salva.')
             lista_entrevistados.append(entrevistado)
@@ -60,6 +60,8 @@ while pode_parar == False:
             print(f'Mensagem: {erro}')
         else:
             lista_entrevistados.append(entrevistado)
+
+print(lista_entrevistados)
 
 #lista por compreensão
 
@@ -86,3 +88,5 @@ print(f'A média de idades dos adultos: {media_adulto}')
 lista_decada = [ (objeto.nasc//10*10) for objeto in lista_entrevistados ]
 print(f'Décadas: {lista_decada}')
 
+set_decadas = set(lista_decada)
+print(f'Décadas sem repetição: {set_decadas}')

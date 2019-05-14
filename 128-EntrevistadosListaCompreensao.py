@@ -81,3 +81,8 @@ print(f'Maior idade: {maior_idade}')
 # lista = [<expressão para o valor> <loop> <expressão para o loop>]
 media_adulto = median([objeto.idade for objeto in lista_entrevistados if objeto.idade >= 18])
 print(f'A média de idades dos adultos: {media_adulto}')
+
+#mostrar a quantidade de nascimento por décadas
+lista_decada = [ (objeto.nasc//10*10) for objeto in lista_entrevistados ]
+print(f'Décadas: {lista_decada}')
+

@@ -1,5 +1,10 @@
 from datetime import date
 from statistics import median
+from mensagem import cabecalho
+from mensagem import rodape
+from mensagem import linha
+
+cabecalho('dados dos entrevistados')
 
 class Entrevista():
 
@@ -61,6 +66,7 @@ while pode_parar == False:
         else:
             lista_entrevistados.append(entrevistado)
 
+linha()
 print(lista_entrevistados)
 
 #lista por compreensão
@@ -96,3 +102,5 @@ print(f'Décadas sem repetição: {set_decadas}')
 #dicionário = { <expressão da chave>:<expressão para o valor> <loop> <expressão para o loop> }
 qtd_nasc = { decada:lista_decada.count(decada) for decada in set_decadas }
 print(f'Quantidade de nascimento por década: {qtd_nasc}')
+
+rodape()

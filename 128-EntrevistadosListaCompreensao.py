@@ -3,14 +3,17 @@ from statistics import median
 from mensagem import cabecalho
 from mensagem import rodape
 from mensagem import linha
+import json
 
 cabecalho('dados dos entrevistados')
 
 class Entrevista():
 
-    nome = ''
-    nasc = 0
-    idade = 0
+    def __init__(self, nome='', idade=0, nasc=0):
+        super(Entrevista, self).__init__()
+        self.nome = nome
+        self.idade = idade
+        self.nasc = nasc
 
     def pergunta_nome(self):
         nome_ok = False
@@ -48,6 +51,27 @@ atual = date.today().year
 pode_parar = False
 lista_entrevistados = []
 
+def pega_dados(obj):
+    instancia = Entrevista(
+        nome = obj['nome'],
+        idade = obj['idade'],
+        nasc = obj['nasc']
+    )
+    return instancia
+
+#lendo arquivo json
+try:
+    arquivo_json = open('dados.json','r')
+    dados_json = json.load(arquivo_json)
+    entrevistas = dados_json['Entrevista']
+
+    lista_entrevistados = [pega_dados(entrevista) for entrevista in entrevistas]
+except Exception as erro:
+    print('Ocorreu um erro ao carregar o arquivo')
+    print(f'O erro é: {erro}')
+
+print(lista_entrevistados)
+
 while pode_parar == False:
     entrevistado = Entrevista()
     if entrevistado.pergunta_nome().upper() == 'N':
@@ -67,7 +91,6 @@ while pode_parar == False:
             lista_entrevistados.append(entrevistado)
 
 linha()
-print(lista_entrevistados)
 
 #lista por compreensão
 

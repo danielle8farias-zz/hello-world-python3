@@ -70,7 +70,6 @@ except Exception as erro:
     print('Ocorreu um erro ao carregar o arquivo')
     print(f'O erro é: {erro}')
 
-print(lista_entrevistados)
 
 while pode_parar == False:
     entrevistado = Entrevista()
@@ -90,6 +89,26 @@ while pode_parar == False:
         else:
             lista_entrevistados.append(entrevistado)
 
+#Gravando arquivo json
+lista_salvar = [
+    dict(nome=obj.nome, nasc=obj.nasc, idade=obj.idade)
+    for obj in lista_entrevistados
+]
+
+dict_salvar = {"Entrevista": lista_salvar}
+#convertendo para o formato json
+dict_salvar = json.dumps(dict_salvar, indent=4, sort_keys=False)
+
+try:
+    arquivo_json = open('dados.json', 'w')
+    arquivo_json.write(dict_salvar)
+    arquivo_json.close()
+except Exception as erro:
+    print('Ocorreu um erro ao carregar o arquivo')
+    print(f'O erro é: {erro}')
+   
+
+print(lista_entrevistados)
 linha()
 
 #lista por compreensão

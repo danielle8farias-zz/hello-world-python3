@@ -13,7 +13,7 @@ def nome():
     nome = input('Qual o seu nome? ').upper().strip()
     print(f'Seja bem-vindo {nome}!')
 
-#chamando função principal
+#programa principal
 nome()
 
 #chamando a importação

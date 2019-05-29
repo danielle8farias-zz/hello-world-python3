@@ -6,16 +6,22 @@ Se maior do que 7, está aprovado.
 from mensagem import cabecalho
 from mensagem import rodape
 
-cabecalho('MÉDIA ESCOLAR')
+#função
+def media(nota1,nota2):
+    media = (nota1 + nota2)/2
+    return media
 
+
+#programa principal
+cabecalho('MÉDIA ESCOLAR')
 while True:
     nota1 = float(input("Digite a primeira nota: "))
     nota2 = float(input("Digite a segunda nota: "))
-    media = (nota1 + nota2)/2
-    print('A média da nota é {}'.format(media))
-    if media < 5:
+    media_info = media(nota1, nota2)
+    print(f'A média da nota é {media_info}')
+    if media_info < 5:
         print('Reprovado')
-    elif media > 5 and media < 7:
+    elif media_info > 5 and media_info < 7:
         print('Recuperação')
     else:
         print('Aprovado!')
@@ -26,5 +32,4 @@ while True:
     print()
     if resposta == 'N':
         break
-
 rodape()

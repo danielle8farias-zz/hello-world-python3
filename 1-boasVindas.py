@@ -5,16 +5,13 @@ Leia um nome e mostre uma mensagem de boas-vindas
 from mensagem import cabecalho
 from mensagem import rodape
 
-#chamando a importação
-cabecalho('mensagem de boas vindas')
-
 #função
 def nome():
     nome = input('Qual o seu nome? ').upper().strip()
-    print(f'Seja bem-vindo {nome}!')
+    return nome
 
 #programa principal
-nome()
-
-#chamando a importação
+cabecalho('mensagem de boas vindas')
+nome_info = nome()
+print(f'Seja bem-vindo {nome_info}!')
 rodape()

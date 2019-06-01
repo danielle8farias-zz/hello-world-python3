@@ -5,11 +5,10 @@ from mensagem import cabecalho
 from mensagem import rodape
 
 cabecalho('PARTE INTEIRA COM ARREDONDAMENTO PARA CIMA')
-
 while True:
     num = float(input('Digite um número com casa decimal: '))
-    print()
-    print('A parte inteira do número é {:.0f}'.format(num))
+    #python faz o arredondamento automaticamente
+    print(f'A parte inteira do número é {num:.0f}')
     print()
     resposta = ' '
     while resposta not in 'SN':
@@ -17,5 +16,4 @@ while True:
     if resposta == 'N':
         break
     print()
-
 rodape()

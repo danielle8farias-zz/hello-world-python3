@@ -6,7 +6,6 @@ from mensagem import cabecalho
 from mensagem import rodape
 
 cabecalho('TABUADA')
-
 print('Para encerrar digite um número negativo')
 num = int(input('Digite um número para ver sua tabuada: '))
 while num >= 0:
@@ -15,5 +14,4 @@ while num >= 0:
         multiplicacao = num * i
         print('{} * {:2} = {}'.format(num, i, multiplicacao))
     num = int(input('Digite um número para ver sua tabuada: '))
-
 rodape()

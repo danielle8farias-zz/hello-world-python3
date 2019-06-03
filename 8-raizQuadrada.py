@@ -5,13 +5,17 @@ from mensagem import cabecalho
 from mensagem import rodape
 from math import sqrt
 
-cabecalho('RAÍZ QUADRADA')
+#função
+def raiz_quadrada(num):
+    raiz = sqrt(num)
+    return raiz
 
+#programa principal
+cabecalho('RAÍZ QUADRADA')
 while True:
     num = int(input('digite um número inteiro: '))
-    raiz = sqrt(num)
-    print()
-    print('A raiz de {} = {}'.format(num, raiz))
+    raiz = raiz_quadrada(num)
+    print(f'A raiz de {num} = {raiz}')
     print()
     resposta = ' '
     while resposta not in 'SN':
@@ -19,5 +23,4 @@ while True:
     print()
     if resposta == 'N':
         break
-
 rodape()

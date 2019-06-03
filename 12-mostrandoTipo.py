@@ -5,7 +5,6 @@ from mensagem import cabecalho
 from mensagem import rodape
 
 cabecalho('TIPO DE DADO')
-
 while True:
     a = input('Digite algo: ')
     print('O tipo primitivo desse valor é', type(a))
@@ -23,5 +22,4 @@ while True:
     if resposta == 'N':
         break
     print()
-
 rodape()

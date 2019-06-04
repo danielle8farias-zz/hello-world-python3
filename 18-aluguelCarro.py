@@ -6,7 +6,6 @@ from mensagem import cabecalho
 from mensagem import rodape
 
 cabecalho('PREÇO ALUGUEL DE CARRO')
-
 while True:
     dias = int(input('Dias alugados: '))
     km = float(input('Quilometros rodados: '))
@@ -19,5 +18,4 @@ while True:
     if resposta == 'N':
         break
     print()
-
 rodape()

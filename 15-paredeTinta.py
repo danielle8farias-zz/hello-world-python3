@@ -5,15 +5,25 @@ de tinta necessária para pintá-la, sabendo que cada litro pinta 2m².
 from mensagem import cabecalho
 from mensagem import rodape
 
-cabecalho('CÁLCULO DA QUANTIDADE DE TINTA')
+#funções
+def area(largura,altura):
+    area = largura*altura
+    return area
 
+
+def quant_tinta(valor_area):
+    quant_tinta = valor_area/2
+    return quant_tinta
+
+#programa principal
+cabecalho('CÁLCULO DA QUANTIDADE DE TINTA')
 while True:
     largura = float(input('Informe a largura da parede: '))
     altura = float(input('Informe a altura da parede: '))
-    area = largura*altura
-    print('A área da parede é {}m².'.format(area))
-    tinta = area/2
-    print('A quantidade de tinta necessária é {:.2f} litros.'.format(tinta))
+    valor_area = area(largura,altura)
+    print(f'A área da parede é {valor_area}m².')
+    tinta = quant_tinta(valor_area)    
+    print(f'A quantidade de tinta necessária é {tinta:.2f} litros.')
     print()
     resposta = ' '
     while resposta not in 'SN':
@@ -21,5 +31,4 @@ while True:
     if resposta == 'N':
         break
     print()
-
 rodape()

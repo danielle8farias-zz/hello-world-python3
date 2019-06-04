@@ -22,4 +22,5 @@ while True:
     if resposta == 'N':
         #quebrando o laço
         break
+    print()
 rodape()

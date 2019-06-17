@@ -13,6 +13,7 @@ def f_preco(distancia):
         preco = distancia * 0.5
     else:
         preco = distancia * 0.45
+    #:.2f limita o número de duas casas decimais
     print(f'Preço da passagem R${preco:.2f}')
 
 #programa principal

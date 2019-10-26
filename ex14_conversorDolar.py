@@ -1,5 +1,5 @@
 '''
-Faça um conversos de Real em Dolar.
+Faça um conversor de Real em Dolar.
 '''
 #importando parte do código
 from mensagem import cabecalho

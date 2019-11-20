@@ -1,6 +1,6 @@
 '''
 Leia o nome e o preço de vários produtos. O programa deve perguntar se o
-usuário desea continuar a cada inserção. Ao final, mostre:
+usuário deseja continuar a cada inserção. Ao final, mostre:
 Total de gasto da compra;
 Quantos produtos custam mais de R$ 1000.00;
 O nome do produto mais barato.

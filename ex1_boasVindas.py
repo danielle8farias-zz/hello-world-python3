@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3.7
 '''
 Leia um nome e mostre uma mensagem de boas-vindas
 '''

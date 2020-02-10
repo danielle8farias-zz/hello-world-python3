@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Digite duas notas e se a média for menor do que 5, informe que foi
 reprovaddo. Se a média for entre 5 e 7, informe que está de recuperação.

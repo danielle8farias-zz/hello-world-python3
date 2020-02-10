@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Digite um número e mostro o dobro, o triplo e a raiz quadrada.
 '''

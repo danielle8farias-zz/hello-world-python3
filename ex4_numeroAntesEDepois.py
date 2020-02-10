@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Escolha um número e mostre seu anterior e sucessor.
 '''

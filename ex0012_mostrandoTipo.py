@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Digite algo e mostre a tipagem da mesma.
 '''

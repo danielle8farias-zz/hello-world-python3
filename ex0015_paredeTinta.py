@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Leia a altura e largura da parede em metros e calcule a área e a quantidade
 de tinta necessária para pintá-la, sabendo que cada litro pinta 2m².
@@ -20,8 +21,8 @@ def quant_tinta(valor_area):
 cabecalho('CÁLCULO DA QUANTIDADE DE TINTA')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
-    largura = float(input('Informe a largura da parede: '))
-    altura = float(input('Informe a altura da parede: '))
+    largura = float(input('Informe a largura da parede(m): '))
+    altura = float(input('Informe a altura da parede(m): '))
     valor_area = area(largura,altura)
     #:.2f limita o número de duas casas decimais
     print(f'A área da parede é {valor_area:.2f}m².')

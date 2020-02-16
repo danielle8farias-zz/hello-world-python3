@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Faça um programa para uma loja de tintas
 

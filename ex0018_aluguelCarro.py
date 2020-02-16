@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Calcule o preço de um aluguel de um carro, sabendo que custa R$60,00
 por dia e R$0,15 por quilômetro rodado.

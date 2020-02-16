@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Leia o salário e o aumente em 15%.
 '''

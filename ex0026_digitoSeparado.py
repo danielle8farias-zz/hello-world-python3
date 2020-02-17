@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Leia um número de 0 a 9999 e mostre cada um dos dígitos.
 '''

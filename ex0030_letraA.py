@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.7
 '''
 Em uma string verifique o número de vezes que aparece a letra A
 e qual a posição da primeira letra A e da última.

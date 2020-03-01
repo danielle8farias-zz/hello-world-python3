@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.8
 '''
 Digite um número e mostro o dobro, o triplo e a raiz quadrada.
 '''

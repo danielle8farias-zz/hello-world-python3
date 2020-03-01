@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.8
 '''
 Pedir ao usuário para digitar a data completa do nascimento.
 '''

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.8
 '''
 Escolha um número e mostre seu anterior e sucessor.
 '''

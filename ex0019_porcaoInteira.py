@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.8
 '''
 Leia um número real qualquer e retorne apenas a parte inteira,
 sem arredondamento.

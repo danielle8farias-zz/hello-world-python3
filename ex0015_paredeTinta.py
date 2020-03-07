@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.8
 '''
 Leia a altura e largura da parede em metros e calcule a área e a quantidade
 de tinta necessária para pintá-la, sabendo que cada litro pinta 2m².

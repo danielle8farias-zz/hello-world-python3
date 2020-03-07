@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.8
 '''
 Leia um float e retorne a parte inteira usando arredondamento se necessário.
 '''

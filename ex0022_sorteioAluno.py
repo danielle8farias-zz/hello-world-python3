@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Faça um sorteio entre 4 alunos.
 '''

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Informe a raiz quadrada de um número inteiro.
 '''

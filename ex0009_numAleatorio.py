@@ -4,18 +4,17 @@ Dê ao usuario um número aleatório entre 0 e 1.
 E outro número aleatório entre 1 e 10.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
-import random
+from mensagem import cabecalho, rodape
+from random import randint, random
 
 #função que retorna um número aleatório entre 0 e 1
 def num_aleatorio1():
-    num = random.random()
+    num = random()
     return num
 
 #função que retorna um número aleatório entre 1 e 10
 def num_aleatorio2():
-    num = random.randint(1,10)
+    num = randint(1,10)
     return num
 
 #programa principal

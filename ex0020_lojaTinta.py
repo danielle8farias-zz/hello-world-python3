@@ -17,9 +17,7 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é,
 considere latas cheias.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
-from mensagem import linha
+from mensagem import cabecalho, rodape, linha
 from math import ceil
 
 #programa principal

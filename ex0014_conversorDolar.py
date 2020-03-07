@@ -3,8 +3,7 @@
 Faça um conversor de Real em Dolar.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que converte o Real em Dolar
 def dollar(real):

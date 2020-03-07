@@ -3,8 +3,7 @@
 Escolha um número e mostre seu anterior e sucessor.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que retorna o número antecessor e sucessor
 def ant_suc(num):

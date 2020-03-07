@@ -3,8 +3,7 @@
 Transforma metros em centímetros e milímetros.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que converte metros em centimetros e milímetros
 def transforme(metros):

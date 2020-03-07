@@ -3,8 +3,7 @@ Faça a tabuada de multiplicação de vários números, um de cada vez.
 O programa para quando é dado um número negativo.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #programa principal
 cabecalho('TABUADA')

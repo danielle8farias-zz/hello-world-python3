@@ -5,8 +5,7 @@ reprovaddo. Se a média for entre 5 e 7, informe que está de recuperação.
 Se maior do que 7, está aprovado.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula a média entre duas notas
 def media(nota1,nota2):

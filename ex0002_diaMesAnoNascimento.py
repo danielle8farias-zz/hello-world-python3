@@ -3,8 +3,7 @@
 Pedir ao usuário para digitar a data completa do nascimento.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 from datetime import date
 
 #função que captura o dia informado pelo usuário

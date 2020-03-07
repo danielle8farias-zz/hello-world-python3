@@ -3,8 +3,7 @@
 Leia um float e retorne a parte inteira usando arredondamento se necessário.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #programa principal
 cabecalho('PARTE INTEIRA COM ARREDONDAMENTO PARA CIMA')

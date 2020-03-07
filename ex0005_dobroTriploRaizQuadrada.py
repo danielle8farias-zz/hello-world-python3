@@ -3,8 +3,7 @@
 Digite um número e mostro o dobro, o triplo e a raiz quadrada.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula o dobro do número informado
 def dobro(num):

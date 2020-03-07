@@ -3,8 +3,7 @@
 Leia um número de 0 a 9999 e mostre cada um dos dígitos.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que separa os algarismos
 def digito(num):

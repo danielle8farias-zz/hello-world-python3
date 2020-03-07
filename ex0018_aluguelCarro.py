@@ -4,8 +4,7 @@ Calcule o preço de um aluguel de um carro, sabendo que custa R$60,00
 por dia e R$0,15 por quilômetro rodado.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula o aluguel do carro
 def f_preco(dias,km):

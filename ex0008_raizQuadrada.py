@@ -3,8 +3,7 @@
 Informe a raiz quadrada de um número inteiro.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 from math import sqrt
 
 #função que calcula a raiz quadrada

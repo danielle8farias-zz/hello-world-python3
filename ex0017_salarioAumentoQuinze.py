@@ -3,8 +3,7 @@
 Leia o salário e o aumente em 15%.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula o novo salário com aumento de 15%
 def novo_salario(salario):

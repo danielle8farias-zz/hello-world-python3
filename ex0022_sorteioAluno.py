@@ -3,8 +3,7 @@
 Faça um sorteio entre 4 alunos.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 from random import choice
 
 #programa principal

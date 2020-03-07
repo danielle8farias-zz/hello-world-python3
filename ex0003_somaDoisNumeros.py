@@ -3,8 +3,7 @@
 Faça a soma de dois números.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função para somar dois números
 def soma(x,y):

@@ -3,8 +3,7 @@
 Digite algo e mostre a tipagem da mesma.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #programa principal
 cabecalho('TIPO DE DADO')

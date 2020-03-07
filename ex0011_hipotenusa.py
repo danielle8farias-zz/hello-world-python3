@@ -3,8 +3,7 @@
 Dados os catetos, calcule o valor da hipotenusa.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 from math import sqrt
 
 #função que calcula a hipotenusa

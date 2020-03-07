@@ -3,8 +3,7 @@
 Leia uma string e procure pela palavra Silva nela.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #programa principal
 cabecalho('tem silva?')

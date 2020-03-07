@@ -4,8 +4,7 @@ Leia a altura e largura da parede em metros e calcule a área e a quantidade
 de tinta necessária para pintá-la, sabendo que cada litro pinta 2m².
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula a área
 def area(largura,altura):

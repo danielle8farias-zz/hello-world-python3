@@ -3,8 +3,7 @@
 Leia o valor e desconte 5%.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula o desconto de 5%
 def desconto(preco):

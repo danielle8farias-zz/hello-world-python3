@@ -1,9 +1,9 @@
+#!/usr/bin/env python3.8
 '''
 Faça um sorteio de apresentação de 4 alunos.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 from random import shuffle
 
 #programa principal

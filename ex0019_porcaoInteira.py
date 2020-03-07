@@ -4,8 +4,7 @@ Leia um número real qualquer e retorne apenas a parte inteira,
 sem arredondamento.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 from math import trunc
 
 #programa principal

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Dados os catetos, calcule o valor da hipotenusa.
 '''

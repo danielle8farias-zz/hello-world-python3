@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Dê ao usuario um número aleatório entre 0 e 1.
 E outro número aleatório entre 1 e 10.

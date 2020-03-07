@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Informe um ângulo e calcule o valor do seno, cosseno e tangente.
 '''

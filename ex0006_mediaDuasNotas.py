@@ -4,6 +4,10 @@ Digite duas notas e se a média for menor do que 5, informe que foi
 reprovaddo. Se a média for entre 5 e 7, informe que está de recuperação.
 Se maior do que 7, está aprovado.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

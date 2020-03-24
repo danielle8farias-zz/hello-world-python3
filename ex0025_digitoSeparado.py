@@ -2,6 +2,10 @@
 '''
 Leia um número de 0 a 9999 e mostre cada um dos dígitos.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

@@ -2,6 +2,10 @@
 '''
 Leia uma string e procure pela palavra Silva nela.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

@@ -5,6 +5,10 @@ O nome com todas as letras minúsculas.
 Quantas letras têm o nome (sem considerar os espaços).
 Quantas letras têm o primeiro nome.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho
 from mensagem import rodape

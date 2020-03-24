@@ -16,6 +16,10 @@ misturando latas e galões de forma que o preço seja menor
 Acrescente 10% de folga e sempre arredonde os valores para cima, isto é,
 considere latas cheias.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape, linha
 from math import ceil

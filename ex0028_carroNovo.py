@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Pede a idade do carro. Se menor ou igual a 3 anos, o carro é novo.
 Senão o carro é velho.

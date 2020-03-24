@@ -32,4 +32,3 @@ while True:
         #quebrando o 1º laço
         break
 rodape()
-

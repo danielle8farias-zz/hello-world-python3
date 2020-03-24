@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Informe duas notas de um aluno. Se a média for maior ou igual a 6,
 a média é boa. Senão, a média é ruim.

@@ -1,8 +1,9 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.8
 '''
 Em uma string verifique o número de vezes que aparece a letra A
 e qual a posição da primeira letra A e da última.
 '''
+
 #adicionando minha pasta de módulos
 import sys
 sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')

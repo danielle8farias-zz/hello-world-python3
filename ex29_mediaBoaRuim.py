@@ -2,6 +2,10 @@
 Informe duas notas de um aluno. Se a média for maior ou igual a 6,
 a média é boa. Senão, a média é ruim.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho
 from mensagem import rodape

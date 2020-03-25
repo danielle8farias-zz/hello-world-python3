@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Leia o nome completo e retorne apenas o primeiro e o último nome.
 '''

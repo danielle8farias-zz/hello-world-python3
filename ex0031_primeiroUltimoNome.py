@@ -7,8 +7,7 @@ Leia o nome completo e retorne apenas o primeiro e o último nome.
 import sys
 sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #programa principal
 cabecalho('Retornando o primeiro e último nome')

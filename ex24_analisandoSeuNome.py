@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 '''
 Leia o nome completo de uma pessoa e  mostre:
 O nome com todas as letras maiúsculas.

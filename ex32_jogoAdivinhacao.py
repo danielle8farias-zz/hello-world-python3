@@ -6,9 +6,7 @@ os mesmos, usuário ganha.
 #importando parte do código
 from random import randint
 from time import sleep
-from mensagem import cabecalho
-from mensagem import rodape
-from mensagem import linha
+from mensagem import cabecalho, rodape, linha
 
 #programa principal
 cabecalho('jogo adivinhação')

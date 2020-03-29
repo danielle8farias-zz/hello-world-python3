@@ -4,8 +4,7 @@ a mensagem informando que foi multado.
 A multa deve custar R$7,00 por cada Km acima do limite.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que verifica se há multa e faz o cálculo
 def f_multa(velocidade):

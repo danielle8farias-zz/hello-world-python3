@@ -5,6 +5,9 @@ Usuário digita um número, computador escolhe um número e se os números forem
 os mesmos, usuário ganha.
 '''
 
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from random import randint
 from time import sleep

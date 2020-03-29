@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 '''
 Leia a velocidade de um carro. Se ele ultrapassar 80km/h mostre
 a mensagem informando que foi multado.

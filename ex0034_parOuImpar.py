@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 '''
 Verifique se o número é ímpar ou par.
 '''

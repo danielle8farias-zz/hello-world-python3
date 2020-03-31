@@ -5,6 +5,10 @@ Pergunte a distância de uma viagem em Km e calcule o preço da passagem
 cobrando R$0,50 por Km para viagens de até 200Km e R$0,45 para viagens
 mais longas.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

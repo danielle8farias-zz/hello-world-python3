@@ -4,8 +4,7 @@
 Verifique se o número é ímpar ou par.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula se o número é par ou ímpar
 def par_impar(num):

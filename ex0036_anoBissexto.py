@@ -4,8 +4,7 @@
 Leia um ano qualquer e verifique se é bissexto.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula se o ano é bissexto
 def ano_bissexto(ano):

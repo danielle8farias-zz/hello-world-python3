@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 '''
 Leia um ano qualquer e verifique se é bissexto.
 '''

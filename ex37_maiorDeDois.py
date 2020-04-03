@@ -2,8 +2,7 @@
 Faça um programa que compare dois números.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que verifica o maior número
 def f_maior(num1,num2):

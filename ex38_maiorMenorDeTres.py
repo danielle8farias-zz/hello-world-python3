@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 '''
 Leia 3 números e mostre o maior e o menor entre eles.
 '''

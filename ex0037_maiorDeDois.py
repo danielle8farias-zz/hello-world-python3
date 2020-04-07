@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 '''
 Faça um programa que compare dois números.
 '''

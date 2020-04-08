@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.8
+
 '''
 Faça um programa para uma loja de tintas
 
@@ -19,31 +20,50 @@ considere latas cheias.
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape, linha
 from math import ceil
+
+
+def rendimento(area):
+    return area/6
+
+def folga(a,b):
+    return a*b
+
+def medida(a,b):
+    return ceil(a//b)
+
+def sobra(a,b):
+    return a%b
+
+def preco(a,b):
+    return a*b
+
 
 #programa principal
 cabecalho('loja de tintas')
 area = float(input('Tamanho da área (m²): '))
 #redimento em litros
-rendimento = area/6
+rendimento = rendimento(area)
 #{:.2f} para duas casas decimais
 print(f'Serão necessários {rendimento:.2f} litros de tinta.')
 print()
 linha()
+
 print('-- Para latas de 18 litros cada:')
 # 0.9 para deixar a folga de 10% em cada lata
 # total de litros na lata real 16.2
-folga = 18 * 0.9
-print(f'Cada lata cabe = {folga} litros. Com folga de 10%.')
+folga_lata = folga(18,0.9)
+print(f'Cada lata cabe = {folga_lata} litros. Com folga de 10%.')
 # divisão inteira pois não existe 1/2 lata
-lata = ceil(rendimento//folga)
-sobra_lata = rendimento%folga
-preco_lata = lata * 80
+lata = medida(rendimento,folga_lata)
+sobra_lata = sobra(rendimento,folga_lata)
+preco_lata = preco(lata,80)
 print()
-if rendimento <= folga:
+
+if rendimento <= folga_lata:
     print('Total de latas: 1')
     print('Valor: R$ 80,00')
     print('Não há sobras.')
@@ -52,17 +72,19 @@ else:
     print(f'Valor: R$ {preco_lata:.2f}')
     print(f'Houve uma sobra de: {sobra_lata:.2f} litros')
 print()
+
 print('-- Para galões de 4 litros cada:')
 # 0.9 para deixar a folga de 10% em cada lata
 # total de litros no galão real 3.6
-folga = 4 * 0.9
-print(f'Cada galão cabe = {folga} litros. Com folga de 10%.')
+folga_galao = folga(4,0.9)
+print(f'Cada galão cabe = {folga_galao} litros. Com folga de 10%.')
 # divisão inteira pois não existe 1/2 galao
-galao = ceil(rendimento//folga)
-sobra_galao = rendimento%folga
-preco_galao = galao * 25
+galao = medida(rendimento,folga_galao)
+sobra_galao = sobra(rendimento,folga_galao)
+preco_galao = preco(galao,25)
 print()
-if rendimento <= folga:
+
+if rendimento <= folga_galao:
     print('Total de galões: 1')
     print('Valor: R$ 25,00')
     print('Não há sobras.')

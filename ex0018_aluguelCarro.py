@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.8
+
 '''
 Calcule o preço de um aluguel de um carro, sabendo que custa R$60,00
 por dia e R$0,15 por quilômetro rodado.
@@ -6,7 +7,7 @@ por dia e R$0,15 por quilômetro rodado.
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.8
+
 '''
 Pede a idade do carro. Se menor ou igual a 3 anos, o carro é novo.
 Senão o carro é velho.
@@ -6,10 +7,9 @@ Senão o carro é velho.
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #programa principal
 cabecalho('carro novo ou antigo?')

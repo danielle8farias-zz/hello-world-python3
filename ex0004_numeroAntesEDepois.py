@@ -1,11 +1,12 @@
 #!/usr/bin/env python3.8
+
 '''
 Escolha um número e mostre seu anterior e sucessor.
 '''
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 
@@ -21,6 +22,7 @@ cabecalho('NÚMERO ANTERIOR E SUCESSOR')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
     num = int(input('Escreva um número: '))
+    # duas variáveis recebendo o retorno da função
     ant, suc = ant_suc(num)
     print()
     print(f'O antecessor é {ant} e o sucessor {suc}.')

@@ -1,18 +1,19 @@
 #!/usr/bin/env python3.8
+
 '''
 Faça a soma de dois números.
 '''
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 
 #função para somar dois números
 def soma(x,y):
         z = x+y
-        print(x,"+",y,"=",z)
+        return z
 
 #programa principal
 cabecalho('soma de dois números')
@@ -20,7 +21,8 @@ cabecalho('soma de dois números')
 while True:
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
-    soma(num1,num2)
+    resultado = soma(num1,num2)
+    print(f'{num1} + {num2} = {resultado}')
     print()
     resposta = ' '
     #2º laço enquanto a resposta não for S ou N

@@ -1,11 +1,12 @@
 #!/usr/bin/env python3.8
+
 '''
 Leia um float e retorne a parte inteira usando arredondamento se necessário.
 '''
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

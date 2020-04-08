@@ -1,11 +1,12 @@
 #!/usr/bin/env python3.8
+
 '''
 Transforma metros em centímetros e milímetros.
 '''
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 
@@ -21,6 +22,7 @@ cabecalho('CONVERSOR DE METROS PARA CM E MM')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
     metros = float(input('Dê um valor em metros: '))
+    # duas variáveis recebendo os valores de retorno da função
     centimetro, milimetro = transforme(metros)
     print()
     print(f'{metros} m corresponde a {centimetro} cm')

@@ -6,7 +6,7 @@ Digite um número e mostro o dobro, o triplo e a raiz quadrada.
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

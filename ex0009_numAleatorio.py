@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.8
+
 '''
 Dê ao usuario um número aleatório entre 0 e 1.
 E outro número aleatório entre 1 e 10.
@@ -6,27 +7,25 @@ E outro número aleatório entre 1 e 10.
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 from random import randint, random
 
-#função que retorna um número aleatório entre 0 e 1
-def num_aleatorio1():
-    num = random()
-    return num
-
-#função que retorna um número aleatório entre 1 e 10
-def num_aleatorio2():
-    num = randint(1,10)
-    return num
+def num_aleatorio():
+    #função que retorna um número aleatório entre 0 e 1
+    num1 = random()
+    #função que retorna um número aleatório entre 1 e 10
+    num2 = randint(1,10)
+    # dois retornos
+    return num1, num2
 
 #programa principal
 cabecalho('NÚMEROS ALEATÓRIOS')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
-    num1 = num_aleatorio1()
-    num2 = num_aleatorio2()
+    # duas variáveis recebem os retornos da função
+    num1, num2 = num_aleatorio()
     print(f'Primeiro número aleatório entre 0 e 1: {num1}')
     print(f'Segundo número aleatório entre 1 e 10: {num2}')
     print()

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.8
+
 '''
 Leia o nome completo de uma pessoa e  mostre:
 O nome com todas as letras maiúsculas.
@@ -9,10 +10,9 @@ Quantas letras têm o primeiro nome.
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/Exercicios-Python-3/meus_modulos')
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #programa principal
 cabecalho('analisando seu nome')

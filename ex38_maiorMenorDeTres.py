@@ -3,9 +3,9 @@
 '''
 Leia 3 números e mostre o maior e o menor entre eles.
 '''
+
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que verifica o maior número
 def f_maior(num1, num2, num3):

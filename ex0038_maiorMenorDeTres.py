@@ -12,21 +12,50 @@ from mensagem import cabecalho, rodape
 
 #função que verifica o maior número
 def f_maior(num1, num2, num3):
-    if num1 >= num2 >= num3:
-        print(f'O maior número é {num1} e o menor é {num3}')
-    elif num1 >= num3 >= num2:
-        print(f'O maior número é {num1} e o menor é {num2}')
-    elif num2 >= num1 >= num3:
-        print(f'O maior número é {num2} e o menor é {num3}')
-    elif num2 >= num3 >= num1:
-        print(f'O maior número é {num2} e o menor é {num1}')
-    elif num3 >= num1 >= num2:
-        print(f'O maior número é {num3} e o menor é {num2}')
-    else:
-        print(f'O maior número é {num3} e o menor é {num1}')
+    if (num1 > num2) and (num1 > num3):
+        # end faz com que o print não pule para a linha seguinte
+        print(f'O maior número é {num1} ',end='')
+        if num2 > num3:
+            print(f'e o menor é {num3}')
+        else:
+            print(f'e o menor é {num2}')
+    elif (num2 > num1) and (num2 > num3):
+        print(f'O maior número é {num2} ',end='')
+        if num1 > num3:
+            print(f'e o menor é {num3}')
+        else:
+            print(f'e o menor é {num1}')
+    elif (num3 > num1) and (num3 > num2):
+        print(f'O maior número é {num3} ',end='')
+        if num1 > num2:
+            print(f'e o menor é {num2}')
+        else:
+            print(f'e o menor é {num1}')
+    elif num1 == num2 == num3:
+        print('Os valores são iguais!')
+    elif (num1 == num2) or (num1 == num3) :
+        print(f'O maior número é {num1} ',end='')
+        if num2 > num3:
+            print(f'e o menor é {num3}')
+        else:
+            print(f'e o menor é {num2}')
+    elif (num2 == num1) or (num2 == num3) :
+        print(f'O maior número é {num2} ',end='')
+        if num1 > num3:
+            print(f'e o menor é {num3}')
+        else:
+            print(f'e o menor é {num1}')
+    elif (num3 == num1) or (num3 == num2) :
+        print(f'O maior número é {num3} ',end='')
+        if num1 > num2:
+            print(f'e o menor é {num2}')
+        else:
+            print(f'e o menor é {num1}')
+
 
 #programa principal
 cabecalho('MAIOR ENTRE TRÊS NÚMEROS')
+
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
     num1 = int(input("Digite o 1º número inteiro: "))
@@ -45,4 +74,19 @@ while True:
     if resposta == 'N':
         #quebrando o 1º laço
         break
+
 rodape()
+
+'''
+teste
+f_maior(8, 5, 2)
+f_maior(8, 2, 5)
+f_maior(5, 8, 2)
+f_maior(5, 2, 8)
+f_maior(2, 5, 8)
+f_maior(2, 8, 5)
+f_maior(8, 8, 5)
+f_maior(8, 5, 8)
+f_maior(5, 8, 8)
+f_maior(8, 8, 8)
+'''

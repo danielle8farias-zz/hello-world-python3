@@ -10,8 +10,7 @@ sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 
-#função que verifica o maior número
-def f_maior(num1, num2, num3):
+def num_diferentes(num1,num2,num3):
     if (num1 > num2) and (num1 > num3):
         # end faz com que o print não pule para a linha seguinte
         print(f'O maior número é {num1} ',end='')
@@ -25,15 +24,15 @@ def f_maior(num1, num2, num3):
             print(f'e o menor é {num3}')
         else:
             print(f'e o menor é {num1}')
-    elif (num3 > num1) and (num3 > num2):
+    else: # (num3 > num1) and (num3 > num2):
         print(f'O maior número é {num3} ',end='')
         if num1 > num2:
             print(f'e o menor é {num2}')
         else:
             print(f'e o menor é {num1}')
-    elif num1 == num2 == num3:
-        print('Os valores são iguais!')
-    elif (num1 == num2) or (num1 == num3) :
+
+def num_dois_iguais(num1,num2,num3):
+    if (num1 == num2) or (num1 == num3) :
         print(f'O maior número é {num1} ',end='')
         if num2 > num3:
             print(f'e o menor é {num3}')
@@ -45,12 +44,21 @@ def f_maior(num1, num2, num3):
             print(f'e o menor é {num3}')
         else:
             print(f'e o menor é {num1}')
-    elif (num3 == num1) or (num3 == num2) :
+    else: # (num3 == num1) or (num3 == num2) :
         print(f'O maior número é {num3} ',end='')
         if num1 > num2:
             print(f'e o menor é {num2}')
         else:
             print(f'e o menor é {num1}')
+
+#função que verifica o maior número
+def f_maior(num1, num2, num3):
+    if (num1 != num2) and (num1 != num3) and (num2 != num3):
+        num_diferentes(num1,num2,num3)
+    elif (num1 == num2) and ( num1 == num3) and (num2 == num3):
+        print('Os valores são iguais!')
+    else:
+        num_dois_iguais(num1,num2,num3)
 
 
 #programa principal
@@ -78,15 +86,15 @@ while True:
 rodape()
 
 '''
-teste
-f_maior(8, 5, 2)
-f_maior(8, 2, 5)
-f_maior(5, 8, 2)
-f_maior(5, 2, 8)
-f_maior(2, 5, 8)
-f_maior(2, 8, 5)
-f_maior(8, 8, 5)
-f_maior(8, 5, 8)
-f_maior(5, 8, 8)
-f_maior(8, 8, 8)
+# teste
+f_maior(1, 2, 3)
+f_maior(11, 13, 12)
+f_maior(22, 21, 23)
+f_maior(32, 33, 31)
+f_maior(43, 42, 41)
+f_maior(53, 51, 52)
+f_maior(63, 63, 62)
+f_maior(73, 72, 73)
+f_maior(82, 83, 83)
+f_maior(93, 93, 93)
 '''

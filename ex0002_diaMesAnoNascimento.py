@@ -25,7 +25,7 @@ def dia():
 #função que captura o mes informado pelo usuário
 def mes():
     while True:
-        mes = int(input('Digite o mês do seu nascimento: '))
+        mes = int(input('Digite o número do mês do seu nascimento: '))
         #limitando o mês de 1 a 12
         if mes > 0 and mes < 13:
             return mes

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.8
 
 '''
-Digite um número e mostro o dobro, o triplo e a raiz quadrada.
+Digite um número e mostre o dobro, o triplo e a raiz quadrada.
 '''
 
 #adicionando minha pasta de módulos

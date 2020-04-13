@@ -2,6 +2,10 @@
 Leia o comprimento de 3 retas e verifique se é possível formar um
 triângulo. Também deve indicar de que tipo é o triângulo.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

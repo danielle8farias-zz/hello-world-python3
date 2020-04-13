@@ -3,8 +3,7 @@ Leia o comprimento de 3 retas e verifique se é possível formar um
 triângulo. Também deve indicar de que tipo é o triângulo.
 '''
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que verifica e identifica o triângulo
 def verifica_triangulo(lado1, lado2, lado3):

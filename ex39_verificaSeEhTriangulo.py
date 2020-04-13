@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 '''
 Leia o comprimento de 3 retas e verifique se é possível formar um
 triângulo. Também deve indicar de que tipo é o triângulo.

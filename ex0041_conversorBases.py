@@ -1,9 +1,14 @@
+#!/usr/bin/env python3.8
+
 '''
 Faça um conversor da base decimal para binária, octal e hexadecimal.
 '''
+
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que escolhe a opção
 def f_escolha(opcao):

@@ -6,6 +6,9 @@ casa. Pergunte o valor da casa, o salário do comprador e em quantos anos ele
 vai pagar. A prestação será negada se exceder 30% do salário do comprador.
 '''
 
+#adicionando minha pasta de módulos
+import sys
+sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
 #importando parte do código
 from mensagem import cabecalho, rodape
 

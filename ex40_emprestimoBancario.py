@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 '''
 Escreva um programa para aprovação de empréstimo bancário para compra de uma
 casa. Pergunte o valor da casa, o salário do comprador e em quantos anos ele

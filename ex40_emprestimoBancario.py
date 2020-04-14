@@ -5,9 +5,9 @@ Escreva um programa para aprovação de empréstimo bancário para compra de uma
 casa. Pergunte o valor da casa, o salário do comprador e em quantos anos ele
 vai pagar. A prestação será negada se exceder 30% do salário do comprador.
 '''
+
 #importando parte do código
-from mensagem import cabecalho
-from mensagem import rodape
+from mensagem import cabecalho, rodape
 
 #função que calcula a prestação mensal e se o empréstimo foi aprovado
 def prestacao(valor_casa, anos, salario):

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3.8
 
 '''
-Leia um nome e mostre uma mensagem de boas-vindas
+Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
 '''
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
-#importando parte do código
+sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+#importando módulo de cabeçalho e rodapé
 from mensagem import cabecalho, rodape
 
 #programa principal
@@ -19,6 +19,7 @@ while True:
     nome = input('Qual o seu nome? ').upper().strip()
     print(f'Seja bem-vindo {nome}!')
     print()
+    #inicializa a variável vazia para entrar no 2º laço
     resposta = ' '
     #2º laço enquanto a resposta não for S ou N
     while resposta not in 'SN':

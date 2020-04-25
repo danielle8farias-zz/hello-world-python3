@@ -14,6 +14,7 @@ from mensagem import cabecalho, rodape
 cabecalho('mensagem de boas vindas')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
+    #input() captura o que for digitado
     #upper: joga a string para maiúsculo
     #strip: remove os espaços no começo e no fim
     nome = input('Qual o seu nome? ').upper().strip()

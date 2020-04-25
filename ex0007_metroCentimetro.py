@@ -6,8 +6,8 @@ Transforma metros em centímetros e milímetros.
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
-#importando parte do código
+sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+#importando módulo de cabeçalho e rodapé
 from mensagem import cabecalho, rodape
 
 #função que converte metros em centimetros e milímetros

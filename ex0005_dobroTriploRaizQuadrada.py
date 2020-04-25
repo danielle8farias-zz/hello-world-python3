@@ -1,13 +1,13 @@
 #!/usr/bin/env python3.8
 
 '''
-Digite um número e mostre o dobro, o triplo e a raiz quadrada.
+Usuário digita um número e programa retorna o dobro, o triplo e a raiz quadrada desse.
 '''
 
 #adicionando minha pasta de módulos
 import sys
-sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
-#importando parte do código
+sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+#importando módulo de cabeçalho e rodapé
 from mensagem import cabecalho, rodape
 
 #função que calcula o dobro do número informado
@@ -29,7 +29,10 @@ def raiz(num):
 cabecalho('DOBRO, TRIPLO E RAÍZ QUADRADA')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
+    #input() captura o que for digitado no teclado
+    #float() faz a conversão da string para tipo flutuante
     num = float(input('Digite um número: '))
+    #variável recebe o retorno da função chamada
     dobro_info = dobro(num)
     print(f'O dobro é: {dobro_info}')
     triplo_info = triplo(num)
@@ -37,6 +40,7 @@ while True:
     raiz_info = raiz(num)
     print(f'A raiz quadrada é: {raiz_info}')
     print()
+    #inicializa a variável vazia para entrar no 2º laço
     resposta = ' '
     #2º laço enquanto a resposta não for S ou N
     while resposta not in 'SN':

@@ -15,6 +15,7 @@ from datetime import date
 #função que captura o dia informado pelo usuário
 def dia():
     while True:
+        #input() captura o que for digitado
         # int() convertendo a string recebida para tipo inteiro
         dia = int(input('Digite o dia do seu nascimento: '))
         #limitando o dia de 1 a 31

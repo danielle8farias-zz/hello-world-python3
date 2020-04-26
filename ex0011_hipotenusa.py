@@ -26,9 +26,9 @@ def hipotenusa(b,c):
 cabecalho('CÁLCULO DA HIPOTENUSA')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
-    #input recebe como string dado digitado
-    #float() faz a converção
-    #atrbuindo valor a variável b
+    #input() recebe como string dado digitado
+    #float() convertendo string para tipo flutuante
+    #atribuindo valor a variável b
     b = float(input('Digite o primeiro cateto: '))
     c = float(input('Digite o segundo cateto: '))
     h = hipotenusa(b,c)

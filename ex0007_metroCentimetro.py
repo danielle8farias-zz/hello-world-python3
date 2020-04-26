@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.8
 
 '''
-Transforma metros em centímetros e milímetros.
+Usuário informa um valor em metros e programa retorna esse em centímetros e milímetros.
 '''
 
 #adicionando minha pasta de módulos
@@ -21,13 +21,16 @@ def transforme(metros):
 cabecalho('CONVERSOR DE METROS PARA CM E MM')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
+    #input() captura o que for digitado no teclado
+    #float() faz a conversão da string para tipo flutuante
     metros = float(input('Dê um valor em metros: '))
-    # duas variáveis recebendo os valores de retorno da função
+    # duas variáveis recebendo o retorno duplo da função
     centimetro, milimetro = transforme(metros)
     print()
     print(f'{metros} m corresponde a {centimetro} cm')
     print(f'{metros} m corresponde a {milimetro} mm')
     print()
+    #inicializa a variável vazia para entrar no 2º laço
     resposta = ' '
     #2º laço enquanto a resposta não for S ou N
     while resposta not in 'SN':

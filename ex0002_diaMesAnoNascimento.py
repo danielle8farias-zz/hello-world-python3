@@ -4,8 +4,9 @@
 Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
 '''
 
-#adicionando minha pasta de módulos
+#importando o módulo de informações sobre o sistema
 import sys
+#adicionando ao final da lista de módulos o caminho para os meus módulos
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 #importando módulo de cabeçalho e rodapé
 from mensagem import cabecalho, rodape
@@ -15,14 +16,17 @@ from datetime import date
 #função que captura o dia informado pelo usuário
 def dia():
     while True:
-        #input() captura o que for digitado
-        # int() convertendo a string recebida para tipo inteiro
+        #input() captura como string o que for digitado
+        #int() convertendo a string recebida para tipo inteiro
+        #atribuindo valor a variável dia
         dia = int(input('Digite o dia do seu nascimento: '))
         #limitando o dia de 1 a 31
         if dia > 0 and dia < 32:
             return dia
+            #quebra o laço
             break
         else:
+            #função print() retorna uma string
             print('Digite uma data válida!')
 
 #função que captura o mes informado pelo usuário
@@ -51,6 +55,7 @@ def ano():
             print('Digite uma data válida!')
 
 #programa principal
+#chamada da função cabeçalho
 cabecalho('data completa do nascimento')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
@@ -58,7 +63,9 @@ while True:
     dia_info = dia()
     mes_info = mes()
     ano_info = ano()
+    #função print() retorna uma string formatada na tela
     print(f'Você nasceu no dia {dia_info} de {mes_info} de {ano_info}.')
+    # função print() vazia não retorna nada; apenas pula uma linha
     print()
     #inicializa a variável vazia para entrar no 2º laço
     resposta = ' '
@@ -68,8 +75,10 @@ while True:
         #strip: remove os espaços no começo e no fim
         #[0] captura apenas o primeiro caractere
         resposta = input('Deseja continuar? [S/N]? ').upper().strip()[0]
+    #verificando se variável reposta é igual a string N    
     if resposta == 'N':
         #quebrando o 1º laço
         break
     print()
+#chamada da função rodapé    
 rodape()

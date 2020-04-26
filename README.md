@@ -1,7 +1,4 @@
 # Exercícios de Python
 
-- [Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-)
-
-- [Python para Zumbis](https://www.youtube.com/playlist?list=PLUukMN0DTKCtbzhbYe2jdF4cr8MOWClXc)
-
+- [ex0001: Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.](ex0001_boasVindas.py)
 

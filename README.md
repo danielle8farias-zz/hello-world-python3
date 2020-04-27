@@ -10,4 +10,7 @@
 - [ex0008: Usuário informa um número inteiro e programa retorna a raiz quadrada desse.](ex0008_raizQuadrada.py)
 - [ex0009: Programa retorna na tela dois números aleatórios. O primeiro, entre 0 e 1. O segundo, entre 1 e 10.](ex0009_numAleatorio.py)
 - [ex0010: Usuário digita um número com casa decimal e programa retorna o inteiro com arredondamento para cima.](ex0010_numInteiro.py)
-
+- [ex0011: Usuário digita valores para dois catetos de um triângulo e programa retorna a hipotenusa.](ex0011_hipotenusa.py)
+- [ex0012: Usuário digita algo e programa retorna: o seu tipo primitivo; se o que foi digitado foi apenas a tecla espaço; se há número no que foi digitado; se o que foi digitado é composto de letras; se o que foi digitado possui letras e números; se o que foi digitado está em letras maiúsculas ou minúsculas; e se a primeira letra é maiúscula.](ex0012_mostrandoTipo.py)
+- [ex0013: Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.](ex0013_tabuadaMultiplicacao.py)
+ 

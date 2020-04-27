@@ -20,6 +20,20 @@ def media(nota1,nota2):
     media = (nota1 + nota2)/2
     return media
 
+#função que verifica o estado do aluno; não recebe parâmetro
+def estado_aluno():
+    #verifica se media é menor do que 5
+    if media_info < 5:
+        print('Reprovado')
+    #verifica se media está entre [5 e 7)
+    #cinco fechado (inclui o cinco) e sete aberto (não inclui o sete)
+    #faz a verificação se a expressão lógica acima for falsa
+    elif media_info > 5 and media_info < 7:
+        print('Recuperação')
+    else:
+        print('Aprovado!')
+    
+
 #programa principal
 #chamada da função cabeçalho
 cabecalho('MÉDIA ESCOLAR')
@@ -33,17 +47,9 @@ while True:
     media_info = media(nota1, nota2)
     #função print() retorna uma string formatada na tela
     print(f'A média da nota é {media_info}')
-    #verifica se media é menor do que 5
-    if media_info < 5:
-        print('Reprovado')
-    #verifica se media está entre [5 e 7)
-    #cinco fechado (inclui o cinco) e sete aberto (não inclui o sete)
-    #faz a verificação se a expressão lógica acima for falsa
-    elif media_info > 5 and media_info < 7:
-        print('Recuperação')
-    else:
-        print('Aprovado!')
-    #função print() vazia não retorna nada, apenas pula uma linha    
+    #chamanda da função
+    estado_aluno()
+    #função print() vazia não retorna nada, apenas pula uma linha
     print()
     #inicializa a variável vazia para entrar no 2º laço
     resposta = ' '

@@ -13,46 +13,66 @@ from mensagem import cabecalho, rodape
 #importando módulo de data
 from datetime import date
 
-#função que captura o dia informado pelo usuário
-def dia():
-    while True:
-        #input() captura como string o que for digitado
-        #int() convertendo a string recebida para tipo inteiro
-        #atribuindo valor a variável dia
-        dia = int(input('Digite o dia do seu nascimento: '))
-        #limitando o dia de 1 a 31
-        if dia > 0 and dia < 32:
-            return dia
-            #quebra o laço
-            break
-        else:
-            #função print() retorna uma string
-            print('Digite uma data válida!')
+#criando a classe
+class Nascimento:
+    #construtor
+    def __init__(self, dia, mes, ano):
+        #self referencia a si mesma
+        self.dia = dia
+        self.mes = mes
+        self.ano = ano
 
-#função que captura o mes informado pelo usuário
-def mes():
-    while True:
-        mes = int(input('Digite o número do mês do seu nascimento: '))
-        #limitando o mês de 1 a 12
-        if mes > 0 and mes < 13:
-            return mes
-            break
-        else:
-            print('Digite uma data válida!')
+    #método da classe sem a referência a si mesma
+    @classmethod
+    #método da classe captura o dia informado pelo usuário
+    def dia(cls):
+        '''
+        captura e faz a validação do dia informado
+        '''
+        while True:
+            #input() captura como string o que for digitado
+            #int() convertendo a string recebida para tipo inteiro
+            #atribuindo valor a variável dia
+            dia = int(input('Digite o dia do seu nascimento: '))
+            #limitando o dia de 1 a 31
+            if dia > 0 and dia < 32:
+                return dia
+                #quebra o laço
+                break
+            else:
+                #função print() retorna uma string
+                print('Digite uma data válida!')
 
-#função que captura o ano informado pelo usuário
-def ano():
-    while True:
-        #date.today().year pega o ano indicado pelo sistema operacional
-        #retirando 5 anos do ano atual
-        ano_atual = date.today().year - 5
-        ano = int(input('Digite o ano do seu nascimento: '))
-        #limitando o ano de 1901 até o ano atual
-        if ano > 1900 and ano < ano_atual:
-            return ano
-            break
-        else:
-            print('Digite uma data válida!')
+    @classmethod
+    def mes(cls):
+        '''
+        captura a faz a validação do mês informado
+        '''
+        while True:
+            mes = int(input('Digite o número do mês do seu nascimento: '))
+            #limitando o mês de 1 a 12
+            if mes > 0 and mes < 13:
+                return mes
+                break
+            else:
+                print('Digite uma data válida!')
+
+    @classmethod
+    def ano(cls):
+        '''
+        captura a faz a validação do ano informado
+        '''
+        while True:
+            #date.today().year pega o ano indicado pelo sistema operacional
+            #retirando 5 anos do ano atual
+            ano_atual = date.today().year - 5
+            ano = int(input('Digite o ano do seu nascimento: '))
+            #limitando o ano de 1901 até o ano atual
+            if ano > 1900 and ano < ano_atual:
+                return ano
+                break
+            else:
+                print('Digite uma data válida!')
 
 #programa principal
 #chamada da função cabeçalho
@@ -60,11 +80,11 @@ cabecalho('data completa do nascimento')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
     #chamando as funções e atribuindo os seus retornos à variáveis
-    dia_info = dia()
-    mes_info = mes()
-    ano_info = ano()
+    dia = Nascimento.dia()
+    mes = Nascimento.mes()
+    ano = Nascimento.ano()
     #função print() retorna uma string formatada na tela
-    print(f'Você nasceu no dia {dia_info} de {mes_info} de {ano_info}.')
+    print(f'Você nasceu no dia {dia} de {mes} de {ano}.')
     # função print() vazia não retorna nada; apenas pula uma linha
     print()
     #inicializa a variável vazia para entrar no 2º laço

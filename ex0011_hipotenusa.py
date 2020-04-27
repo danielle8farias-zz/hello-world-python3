@@ -31,6 +31,7 @@ while True:
     #atribuindo valor a variável b
     b = float(input('Digite o primeiro cateto: '))
     c = float(input('Digite o segundo cateto: '))
+    #atrbuindo a variável o retorno da função
     h = hipotenusa(b,c)
     #:.2f limita o número de duas casas decimais
     #função print retorna uma string formatada na tela
@@ -46,15 +47,9 @@ while True:
         #[0] captura apenas o primeiro caractere
         resposta = input('Deseja continuar? [S/N] ').upper().strip()[0]
     print()
-    #verificando se variável reposta é igual a string N    
+    #verificando se variável reposta é igual a string N
     if resposta == 'N':
         #quebrando o 1º laço
         break
 #chamada da função rodapé
 rodape()
-
-'''
-Também pode ser feito assim:
-from math import hypot
-a = hypot(b, c)
-'''

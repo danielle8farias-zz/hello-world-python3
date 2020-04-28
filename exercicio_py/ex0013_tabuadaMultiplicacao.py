@@ -31,7 +31,7 @@ while num >= 0:
         multiplicacao = num * i
         #função print retorna uma string formatada na tela
         #:2 variável i deve ocupar o espaço de dois caracteres
-        print(f'{num} * {i:2} = {multiplicacao}')
+        print(f'{num} x {i:2} = {multiplicacao}')
     #função print vazia não retorna nada; pula uma linha    
     print()
     print('Para encerrar digite um número negativo')

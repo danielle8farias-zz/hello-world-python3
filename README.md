@@ -32,11 +32,12 @@
 
 - [ex0016:](exercicio_py/ex0016_descontoCinco.py) Usuário digita um valor que representa o preço e programa retorna o novo valor com desconto de 5%.
 
-- [ex0017: Usuário informa um valor que representa o salário e programa retorna um novo valor acrescido de 15% de aumento.](ex0017_salarioAumentoQuinze.py)
+- [ex0017:](exercicio_py/ex0017_salarioAumentoQuinze.py) Usuário informa um valor que representa o salário e programa retorna um novo valor acrescido de 15% de aumento.
 
-- [ex0018: Usuário fornece dias e os quilômetros rodados com um carro alugado e o programa retorna o valor a ser pago, sabendo-se que o aluguel custa R$60,00/dia e R$0,15/Km rodado.](ex0018_aluguelCarro.py)
+- [ex0018:](exercicio_py/ex0018_aluguelCarro.py) Usuário fornece dias e os quilômetros rodados com um carro alugado e o programa retorna o valor a ser pago, sabendo-se que o aluguel custa R$60,00/dia e R$0,15/Km rodado.
 
-- [ex0019: Usuário fornece um número real (do conjunto dos reais) e o programa retorna a parte inteira sem arredondamento.](ex0019_porcaoInteira.py)
+- [ex0019:](exercicio_py/ex0019_porcaoInteira.py) Usuário fornece um número real (do conjunto dos reais) e o programa retorna a parte inteira sem arredondamento.
 
-- [ex0020: Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.](ex0020_senCossTang.py)
+- [ex0020:](exercicio_py/ex0020_senCossTang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
 
+- [ex0021:](exercicio_py/ex0021_somaArray.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.

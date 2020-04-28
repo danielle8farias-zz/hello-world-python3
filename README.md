@@ -20,17 +20,17 @@
 
 - [ex0010:](exercicio_py/ex0010_numInteiro.py) Usuário digita um número com casa decimal e programa retorna o inteiro com arredondamento para cima.
 
-- [ex0011: Usuário digita valores para dois catetos de um triângulo e programa retorna a hipotenusa.](ex0011_hipotenusa.py)
+- [ex0011:](exercicio_py/ex0011_hipotenusa.py) Usuário digita valores para dois catetos de um triângulo e programa retorna a hipotenusa.
 
-- [ex0012: Usuário digita algo e programa retorna: o seu tipo primitivo; se o que foi digitado foi apenas a tecla espaço; se há número no que foi digitado; se o que foi digitado é composto de letras; se o que foi digitado possui letras e números; se o que foi digitado está em letras maiúsculas ou minúsculas; e se a primeira letra é maiúscula.](ex0012_mostrandoTipo.py)
+- [ex0012:](exercicio_py/ex0012_mostrandoTipo.py) Usuário digita algo e programa retorna: o seu tipo primitivo; se o que foi digitado foi apenas a tecla espaço; se há número no que foi digitado; se o que foi digitado é composto de letras; se o que foi digitado possui letras e números; se o que foi digitado está em letras maiúsculas ou minúsculas; e se a primeira letra é maiúscula.
 
-- [ex0013: Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.](ex0013_tabuadaMultiplicacao.py)
+- [ex0013:](exercicio_py/ex0013_tabuadaMultiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.
 
-- [ex0014: Usuário informa um valor em Reais e programa retorna a conversão desse em dólares.](ex0014_conversorDolar.py)
+- [ex0014:](exercicio_py/ex0014_conversorDolar.py) Usuário informa um valor em Reais e programa retorna a conversão desse em dólares.
 
-- [ex0015: Usuário fornece dois valores, altura e largura de uma parede, e programa retorna: a área da parede; a quantidade de tinta necessária para pintar a parede, sabendo-se que cada litro pinta 2m².](ex0015_paredeTinta.py)
+- [ex0015:](exercicio_py/ex0015_paredeTinta.py) Usuário fornece dois valores, altura e largura de uma parede, e programa retorna: a área da parede; a quantidade de tinta necessária para pintar a parede, sabendo-se que cada litro pinta 2m².
 
-- [ex0016: Usuário digita um valor que representa o preço e programa retorna o novo valor com desconto de 5%.](ex0016_descontoCinco.py)
+- [ex0016:](exercicio_py/ex0016_descontoCinco.py) Usuário digita um valor que representa o preço e programa retorna o novo valor com desconto de 5%.
 
 - [ex0017: Usuário informa um valor que representa o salário e programa retorna um novo valor acrescido de 15% de aumento.](ex0017_salarioAumentoQuinze.py)
 

@@ -21,8 +21,9 @@ cabecalho('analisando seu nome')
 while True:
     #input() recebe como string dado digitado
     #strip: remove os espaços no começo e no fim
+    #atribuindo valor a variável nome
     nome = input('Digite seu nome completo: ').strip()
-    #função print retorna uma string formatada na tela    
+    #função print retorna uma string formatada na tela
     #upper: transforma a string para maiúsculo
     print(f'Seu nome em letras maiúsculas é: {nome.upper()}')
     #lower: transforma a string para minúsculo

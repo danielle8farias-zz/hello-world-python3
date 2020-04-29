@@ -43,3 +43,6 @@
 - [ex0021:](exercicio_py/ex0021_somaArray.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
 
 - [ex0022:](exercicio_py/ex0022_sorteioAluno.py) Usuário informa quantos alunos deseja cadastrar; o programa cria uma lista com a quantidade de alunos, em seguida pede o nome para cada um deles e por fim, retorna o nome de um aluno de maneria aleatória.
+
+- [ex0023:](exercicio_py/ex0023_analisandoNome.py) Usuário informa nome completo de uma pessoa (nome e sobrenome) e programa retorna: o nome com todas as letras maiúsculas; depois com todas as letras minúsculas; quantas letras têm o nome completo, sem considerar os espaços; e quantas letras têm o primeiro nome.
+

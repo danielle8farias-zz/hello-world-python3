@@ -1,6 +1,10 @@
 #!/usr/bin/env python3.8
 
 '''
+
+
+
+
 Leia o nome completo de uma pessoa e  mostre:
 O nome com todas as letras maiúsculas.
 O nome com todas as letras minúsculas.
@@ -8,10 +12,11 @@ Quantas letras têm o nome (sem considerar os espaços).
 Quantas letras têm o primeiro nome.
 '''
 
-#adicionando minha pasta de módulos
+#importando o módulo de informações sobre o sistema
 import sys
-sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
-#importando parte do código
+#adicionando ao final da lista de módulos o caminho para os meus módulos
+sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+#importando módulo de cabeçalho e rodapé
 from mensagem import cabecalho, rodape
 
 #programa principal

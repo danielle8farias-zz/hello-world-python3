@@ -41,3 +41,5 @@
 - [ex0020:](exercicio_py/ex0020_senCossTang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
 
 - [ex0021:](exercicio_py/ex0021_somaArray.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
+
+- [ex0022:](exercicio_py/ex0022_sorteioAluno.py) Usuário informa quantos alunos deseja cadastrar; o programa cria uma lista com a quantidade de alunos, em seguida pede o nome para cada um deles e por fim, retorna o nome de um aluno de maneria aleatória.

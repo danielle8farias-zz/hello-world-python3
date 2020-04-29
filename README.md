@@ -46,3 +46,6 @@
 
 - [ex0023:](exercicio_py/ex0023_analisandoNome.py) Usuário informa nome completo de uma pessoa (nome e sobrenome) e programa retorna: o nome com todas as letras maiúsculas; depois com todas as letras minúsculas; quantas letras têm o nome completo, sem considerar os espaços; e quantas letras têm o primeiro nome.
 
+- [ex0024:](exercicio_py/ex0024_trocaVogal.py) Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por *(asterísco).
+
+- [ex0025:](exercicio_py/ex0025_primo.py) Usuário digita um número natural inteiro e programa verifica se esse é número primo.

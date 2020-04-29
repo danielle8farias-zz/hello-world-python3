@@ -33,7 +33,7 @@ while True:
     #find retorna a posição do caractere indicado
     #queremos que retorne até o espaço entre o primeiro nome e o próximo
     print(f'Seu primeiro nome tem {nome.find(" ")} letras')
-    #função print vazia não retorna nada; pula uma linha    
+    #função print vazia não retorna nada; pula uma linha
     print()
     #inicializa a variável vazia para entrar no 2º laço
     resposta = ' '

@@ -41,6 +41,7 @@ while True:
     numero = float(input('Digite um numero: '))
     #:.2f limita o número de duas casas decimais
     #função print retorna uma string formatada na tela
+    #chamando função seno()
     print(f'O seno é {seno(numero):.2f}')
     print(f'O cosseno é {cosseno(numero):.2f}')
     print(f'A tangente é {tangente(numero):.2f}')

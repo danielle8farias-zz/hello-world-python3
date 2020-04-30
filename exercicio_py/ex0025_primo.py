@@ -13,7 +13,6 @@ from mensagem import cabecalho, rodape
 
 #chamada da função cabeçalho
 cabecalho('verifica se é primo')
-
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
     #int() convertendo string para tipo inteiro
@@ -36,6 +35,7 @@ while True:
     #verificando se o c é igual a 2
     #isso indica que o número dado possui exatamente dois divisores; o que o classifica como primo            
     if c == 2:
+    #função print retorna uma string na tela        
         print('É PRIMO!')
     else:
         print("não é primo")

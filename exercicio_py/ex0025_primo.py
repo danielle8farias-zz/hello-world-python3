@@ -35,7 +35,7 @@ while True:
     #verificando se o c é igual a 2
     #isso indica que o número dado possui exatamente dois divisores; o que o classifica como primo            
     if c == 2:
-    #função print retorna uma string na tela        
+    #função print retorna uma string na tela
         print('É PRIMO!')
     else:
         print("não é primo")

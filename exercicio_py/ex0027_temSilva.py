@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.8
 
 '''
-Leia uma string e procure pela palavra Silva nela.
+Usuário informa um nome completo e o programa retorna se tem a palavra SILVA nele.
 '''
 
 #adicionando minha pasta de módulos

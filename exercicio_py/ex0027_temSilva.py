@@ -15,6 +15,7 @@ from mensagem import cabecalho, rodape
 cabecalho('tem silva?')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
+    #input() recebe como string dado digitado
     #atribuindo valor a variável nome
     #strip: remove os espaços no começo e no fim
     #lower: joga a string para maiúsculo

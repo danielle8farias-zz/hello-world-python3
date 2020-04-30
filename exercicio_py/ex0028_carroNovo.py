@@ -5,16 +5,18 @@ Usuário informa a idade de um carro.
 Se menor ou igual a 3 anos, o carro é novo, senão o carro é velho.
 '''
 
-#adicionando minha pasta de módulos
+#importando o módulo de informações sobre o sistema
 import sys
-sys.path.append('/home/danielle8farias/exercicios-python-3/meus_modulos')
-#importando parte do código
+#adicionando ao final da lista de módulos o caminho para os meus módulos
+sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+#importando módulo de cabeçalho e rodapé
 from mensagem import cabecalho, rodape
 
-#programa principal
+#chamada da função cabeçalho
 cabecalho('carro novo ou antigo?')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
+    #input() recebe como string dado digitado
     tempo = int(input('Quantos anos tem seu carro? '))
     if tempo <= 3:
         print('Carro novo')

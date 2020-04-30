@@ -49,3 +49,9 @@
 - [ex0024:](exercicio_py/ex0024_trocaVogal.py) Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por *(asterísco).
 
 - [ex0025:](exercicio_py/ex0025_primo.py) Usuário digita um número natural inteiro e programa verifica se esse é número primo.
+
+- [ex0026:](exercicio_py/ex0026_digitoSeparado.py) Usuário informa um número inteiro entre 0 e 9999 e programa retorna a posição decimal de cada algarismo; unidade, dezena, centena, etc.
+
+- [ex0027:](exercicio_py/ex0027_temSilva.py) Usuário informa um nome completo e o programa retorna se tem a palavra SILVA nele.
+
+- ex0028: 

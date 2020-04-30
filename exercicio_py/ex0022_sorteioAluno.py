@@ -57,6 +57,8 @@ while True:
     resposta = ' '
     #2º laço enquanto a resposta não for S ou N
     while resposta not in 'SN':
+        #upper: joga a string para maiúsculo
+        #strip: remove os espaços no começo e no fim
         #[0] captura apenas o primeiro caractere
         resposta = input('Deseja continuar? [S/N] ').upper().strip()[0]
     print()

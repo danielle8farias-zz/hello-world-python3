@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.8
 
 '''
-Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por *(asterísco).
+Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por *(asterisco).
 '''
 
 #importando o módulo de informações sobre o sistema
@@ -42,6 +42,7 @@ while True:
     resposta = ' '
     #2º laço enquanto a resposta não for S ou N
     while resposta not in 'SN':
+        #upper: joga a string para maiúsculo
         #[0] captura apenas o primeiro caractere
         resposta = input('Deseja continuar? [S/N] ').upper().strip()[0]
     print()

@@ -24,8 +24,8 @@ cabecalho('SORTEIO DE ALUNOS')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
     #int() convertendo string para tipo inteiro
-    #atribuindo valor a variável num_alunos
     #input() recebe como string dado digitado
+    #atribuindo valor a variável num_alunos
     num_alunos = int(input('Quantos alunos deseja cadastrar? '))
     #inicializando a variável contadora
     i = 1

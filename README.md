@@ -60,3 +60,5 @@
 
 - [ex0030:](exercicio_py/ex0030_letraA.py) Usuário informa uma string e programa verifica o número de vezes que a letra A aparece e qual a posição da primeira letra e última letras A.
 
+- [ex0031:](exercicio_py/ex31_primeiroUltimoNome.py) Usuário informa nome completo e programa retorne apenas o primeiro e o último nome.
+

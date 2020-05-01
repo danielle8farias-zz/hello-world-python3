@@ -54,4 +54,9 @@
 
 - [ex0027:](exercicio_py/ex0027_temSilva.py) Usuário informa um nome completo e o programa retorna se tem a palavra SILVA nele.
 
-- ex0028: 
+- [ex0028:](exercicio_py/ex0028_carroNovo.py) Usuário informa a idade de um carro. Se menor ou igual a 3 anos, o carro é novo, senão o carro é velho.
+
+- [ex0029:](exercicio_py/ex0029_mediaBoaRuim.py) Usuário informa duas notas de um aluno. Se a média for maior ou igual a 6, a média é boa, senão é ruim.
+
+- [ex0030:](exercicio_py/ex0030_letraA.py) Usuário informa uma string e programa verifica o número de vezes que a letra A aparece e qual a posição da primeira letra e última letras A.
+

@@ -67,3 +67,4 @@ os mesmos, usuário ganha.
 
 - [ex0033:](exercicio_py/ex0033_velocidadeMultaCarro.py) Usuário informa um valor para a velocidade de um carro. Se a velocidade ultrapassar 80km/h informando que ele foi multado. A multa deve custar R$7,00 por cada Km acima do limite. O programa retorna o valor da multa, se houver.
 
+- [ex0034:](exercicio_py/ex0034_parOuImpar.py) Usuário informa um número inteiro e programa retorna se esse número é ímpar ou par.

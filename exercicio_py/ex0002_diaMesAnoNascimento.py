@@ -15,6 +15,13 @@ from datetime import date
 
 #criando a classe
 class Nascimento:
+    #construtor
+    def __init__(self, dia, mes, ano):
+        #self referencia a si mesma
+        self.dia = dia
+        self.mes = mes
+        self.ano = ano
+
     #método da classe sem a referência a si mesma
     @classmethod
     #método da classe captura o dia informado pelo usuário

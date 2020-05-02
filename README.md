@@ -62,3 +62,6 @@
 
 - [ex0031:](exercicio_py/ex31_primeiroUltimoNome.py) Usuário informa nome completo e programa retorne apenas o primeiro e o último nome.
 
+- [ex0032:](exercicio_py/ex0032_jogoAdivinhacao.py) Faça um jogo de adivinhação de números, entre os números 0 a 5. Usuário digita um número, computador escolhe um número e se os números forem
+os mesmos, usuário ganha.
+

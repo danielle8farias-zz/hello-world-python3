@@ -65,3 +65,5 @@
 - [ex0032:](exercicio_py/ex0032_jogoAdivinhacao.py) Faça um jogo de adivinhação de números, entre os números 0 a 5. Usuário digita um número, computador escolhe um número e se os números forem
 os mesmos, usuário ganha.
 
+- [ex0033:](exercicio_py/ex0033_velocidadeMultaCarro.py) Usuário informa um valor para a velocidade de um carro. Se a velocidade ultrapassar 80km/h informando que ele foi multado. A multa deve custar R$7,00 por cada Km acima do limite. O programa retorna o valor da multa, se houver.
+

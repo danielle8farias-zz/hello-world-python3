@@ -74,3 +74,5 @@ os mesmos, usuário ganha.
 - [ex0036:](exercicio_py/ex0036_anoBissexto.py) Usuário informa um ano que deseja verificar e programa retorna se esse é bissexto.
 
 - [ex0037:](exercicio_py/ex0037_maiorDeDois.py) Usuário informa dois números inteiros e programa retorna o maior número ou se são iguais.
+
+- [ex0038:](exercicio_py/ex0038_maiorMenorDeTres.py) Usuário informa 3 números inteiros e programa retorna o maior e o menor deles.

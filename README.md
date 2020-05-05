@@ -79,3 +79,4 @@ os mesmos, usuário ganha.
 
 - [ex0039:](exercicio_py/ex0039_verificaSeEhTriangulo.py) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
 
+- [ex0040:](exercicio_py/ex0040_emprestimoBancario.py) Usuário informa o valor de uma casa que deseja comprar, seu salário e em quantos anos deseja pagar. O programa retorna se empréstimo foi aprovado e o valor da prestação mensal. O empréstimo será negado se a prestação exceder 30% do salário.

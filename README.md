@@ -77,4 +77,5 @@ os mesmos, usuário ganha.
 
 - [ex0038:](exercicio_py/ex0038_maiorMenorDeTres.py) Usuário informa 3 números inteiros e programa retorna o maior e o menor deles.
 
-- [ex0039:]() Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
+- [ex0039:](exercicio_py/ex0039_verificaSeEhTriangulo.py) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
+

@@ -17,7 +17,7 @@ def ano_bissexto(ano):
     #e se o ano não é divisível por 100
     #ou se o ano é divisível por 400
     if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-        #função print retorna uma string formatada na tela        
+        #função print retorna uma string formatada na tela
         print(f'O ano {ano} é bissexto.')
     else:
         print(f'O ano {ano} NÃO é bissexto.')
@@ -33,7 +33,7 @@ while True:
     ano = int(input('Informe o ano: '))
     #chamada da função
     ano_bissexto(ano)
-    #função print vazia não retorna nada; pula uma linha    
+    #função print vazia não retorna nada; pula uma linha
     print()
     #inicializa a variável vazia para entrar no 2º laço
     resposta = ' '

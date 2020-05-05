@@ -72,3 +72,5 @@ os mesmos, usuário ganha.
 - [ex0035:](exercicio_py/ex0035_precoPassagem.py) Usuário informa o valor de uma distância(Km) que será percorrida em uma viagem. O cálculo do preço da preço da passagem obedece os seguintes critérios: para viagens de até 200Km, o valor é de R$0,50/Km; acima disso o valor é R$0,45/Km. O programa retorna o valor da passagem.
 
 - [ex0036:](exercicio_py/ex0036_anoBissexto.py) Usuário informa um ano que deseja verificar e programa retorna se esse é bissexto.
+
+- 

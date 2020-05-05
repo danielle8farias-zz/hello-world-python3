@@ -81,7 +81,6 @@ def f_maior(num1, num2, num3):
         #chamada da função para dois números iguais
         num_dois_iguais(num1,num2,num3)
 
-
 #programa principal
 #chamada da função cabeçalho
 cabecalho('MAIOR ENTRE TRÊS NÚMEROS')

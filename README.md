@@ -82,3 +82,5 @@ os mesmos, usuário ganha.
 - [ex0040:](exercicio_py/ex0040_emprestimoBancario.py) Usuário informa o valor de uma casa que deseja comprar, seu salário e em quantos anos deseja pagar. O programa retorna se empréstimo foi aprovado e o valor da prestação mensal. O empréstimo será negado se a prestação exceder 30% do salário.
 
 - [ex0041:](exercicio_py/ex0041_conversorBases.py) Usuário informa um número inteiro e escolhe uma opção de conversão desse número. O programa retorna a conversão escolhida desse número para base binária, octal ou hexadecimal.
+
+- [ex0042:](exercicio_py/ex42_aumentoSalarioDezOuQuinze.py) Usuário informa um valor de salário do funcionário e programa retorna o novo valor do salário com aumento. Se o salário for superior a R$1.250,00 o aumento deve ser de 10%, senão o aumento é de 15%.

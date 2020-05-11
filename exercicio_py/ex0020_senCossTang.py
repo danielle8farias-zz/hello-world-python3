@@ -38,7 +38,7 @@ while True:
     #input() recebe como string dado digitado
     #float() convertendo string para tipo flutuante
     #atribuindo valor a variável numero
-    numero = float(input('Digite um numero: '))
+    numero = float(input('Digite um ângulo: '))
     #:.2f limita o número de duas casas decimais
     #função print retorna uma string formatada na tela
     #chamando função seno()

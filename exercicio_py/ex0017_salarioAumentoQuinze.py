@@ -33,7 +33,7 @@ while True:
     print(f'O novo salário com aumento de 15% é {valor_salario:.2f}')
     #função print vazia não retorna nada; pula uma linha
     print()
-    #inicializa a variável vazia para entrar no 2º laço
+    #inicializa a variável com espaço para entrar no 2º laço
     resposta = ' '
     #2º laço enquanto a resposta não for S ou N
     while resposta not in 'SN':

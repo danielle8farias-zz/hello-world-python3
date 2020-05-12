@@ -85,4 +85,5 @@ os mesmos, usuário ganha.
 
 - [ex0042:](exercicio_py/ex42_aumentoSalarioDezOuQuinze.py) Usuário informa um valor de salário do funcionário e programa retorna o novo valor do salário com aumento. Se o salário for superior a R$1.250,00 o aumento deve ser de 10%, senão o aumento é de 15%.
 
-- [ex0043:]() Usuário informa um ano de nascimento e programa verifica se o usuário precisa se alistar e quanto tempo falta.
+- [ex0043:](exercicio_py/ex0043_alistamentoMilitar.py) Usuário informa um ano de nascimento e programa verifica se o usuário precisa se alistar e quanto tempo falta.
+

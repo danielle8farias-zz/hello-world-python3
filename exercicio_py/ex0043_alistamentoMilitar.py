@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.8
 
 '''
-Usuário informa um ano de nascimento e programa verifica se o suário precisa se alistar
+Usuário informa um ano de nascimento e programa verifica se o usuário precisa se alistar
 e quanto tempo falta.
 '''
 

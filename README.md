@@ -87,3 +87,6 @@ os mesmos, usuário ganha.
 
 - [ex0043:](exercicio_py/ex0043_alistamentoMilitar.py) Usuário informa um ano de nascimento e programa verifica se o usuário precisa se alistar e quanto tempo falta.
 
+- [ex0044:](exercicio_py/ex0044_classePessoa.py) Classe pessoa recebe nome, idade e outras funções. Demonstração de orientação a objetos.
+
+- 

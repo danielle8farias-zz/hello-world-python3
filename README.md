@@ -89,4 +89,4 @@ os mesmos, usuário ganha.
 
 - [ex0044:](exercicio_py/ex0044_classePessoa.py) Classe pessoa recebe nome, idade e executa ações. Demonstração de orientação a objetos.
 
-- [ex0045:](exercicio_py/ex0045_classeComputador.py) Classe computador recebe nome da marca e da placa de vídeo, o valor de memória ram e HD. Executa ações. Demonstração de orientação a objetos
+- [ex0045:](exercicio_py/ex0045_classeComputador.py) Classe computador recebe nome da marca e da placa de vídeo, o valor de memória ram e HD. Executa ações. Demonstração de orientação a objetos.

@@ -41,9 +41,9 @@ def ler_resposta(msg):
     '''
     while True:
         try:
-            #[0] captura apenas o primeiro caractere
+            #[0] captura apenas o primeiro caractere da string
             #strip() remove os espaços no começo e no fim
-            #upper() transforma em maiúscula
+            #upper() transforma string em maiúscula
             #input() captura o que é digitado
             #atribuindo valor à variável 'resposta'
             resposta = input(msg).upper().strip()[0]

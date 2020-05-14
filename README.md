@@ -1,6 +1,8 @@
 # Exercícios de Python
 
-- [ex0001:](exercicio_py/ex0001_boasVindas.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
+- [ex0001:](exercicio_py/ex0001.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
+
+
 
 - [ex0002:](exercicio_py/ex0002_diaMesAnoNascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
 

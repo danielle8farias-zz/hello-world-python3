@@ -54,15 +54,10 @@ def ler_resposta(msg):
                 raise Exception('S para sim ou N para não')
         #chama a exceção criada
         #variável 'e' retorna a mensagem da exceção
-        except Exception as e:
+        except Exception as erro:
             #print(f'') retorna uma string formatada na tela
-            print(f'Resposta inválida: {e}')
+            print(f'Resposta inválida: {erro}')
             #volta para o início do laço
-            continue
-        #em caso de resposta vazia; 
-        #   caso não haja string para pegar a posição inicial
-        except IndexError:
-            print(f'Resposta inválida.')
             continue
         #se o 'try' for válido
         else:

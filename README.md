@@ -2,11 +2,11 @@
 
 - [ex0001:](exercicio_py/ex0001_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
 
+- [ex0002:](exercicio_py/ex0002_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
 
 
 
 
-- [ex0002:](exercicio_py/ex0002_diaMesAnoNascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
 
 - [ex0003:](exercicio_py/ex0003_somaDoisNumeros.py) Usuário digita dois números e programa retorna a soma entre eles.
 

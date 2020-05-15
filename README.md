@@ -1,6 +1,6 @@
 # Exercícios de Python
 
-- [ex0001:](exercicio_py/ex0001.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
+- [ex0001:](exercicio_py/ex0001_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
 
 
 

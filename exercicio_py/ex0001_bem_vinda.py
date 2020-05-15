@@ -27,7 +27,7 @@ def ler_nome(msg):
                 #criando exceção
                 raise Exception('Digite apenas letras.')
         #chama a exceção criada
-        #variável 'e' retorna a mensagem da exceção
+        #variável 'erro' retorna a mensagem da exceção
         except Exception as erro:
             #print(f'') retorna uma string formatada na tela
             print(f'Valor inválido: {erro}')
@@ -49,6 +49,7 @@ while True:
     #verificando se a string não é vazia
     if nome != None:
         print(f'Bem-vinda, {nome}!')
+    #chamada da função que lê a resposta
     resposta = ler_resposta('Deseja continuar? [S/N]')
     # função print() vazia não retorna nada; apenas pula uma linha    
     print()

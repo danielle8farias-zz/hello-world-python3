@@ -31,9 +31,9 @@ def ler_mes(data_mes):
         except Exception as erro:
             #print(f'') retorna uma string formatada na tela
             print(f'Valor inválido: {erro}')
-            #volta para o início do laço            
+            #volta para o início do laço
             continue
-        #se o 'try' for válido        
+        #se o 'try' for válido
         else:
             #retorna valor de mes
             return mes

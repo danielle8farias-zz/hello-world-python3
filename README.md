@@ -4,11 +4,17 @@
 
 - [ex0002:](exercicio_py/ex0002_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
 
+- [ex0003:](exercicio_py/ex0003_soma_dois.py) Usuário digita dois números e programa retorna a soma entre eles.
 
 
 
 
-- [ex0003:](exercicio_py/ex0003_somaDoisNumeros.py) Usuário digita dois números e programa retorna a soma entre eles.
+
+
+
+
+
+
 
 - [ex0004:](exercicio_py/ex0004_numeroAntesEDepois.py) Usuário informa um número e programa retorna o anterior e sucessor desse.
 

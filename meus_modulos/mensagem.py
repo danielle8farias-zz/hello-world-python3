@@ -52,6 +52,11 @@ def ler_resposta(msg):
             if resposta not in 'SN':
                 #criando exceção
                 raise Exception('S para sim ou N para não')
+        #em caso de resposta vazia; 
+        #   caso não haja string para pegar a posição inicial
+        except IndexError as erro1:
+            print(f'Resposta inválida.')
+            continue
         #chama a exceção criada
         #variável 'e' retorna a mensagem da exceção
         except Exception as erro:

@@ -8,6 +8,7 @@
 
 - [ex0004:](exercicio_py/ex0004_media_nota.py) Usuário informa quantas notas deseja cadastrar e informa o valor dessas notas. Programa calcula e retorna a média das notas. Se a média for maior ou igual a 6, a média é boa, senão é ruim.
 
+- [ex0005:](exercicio_py/ex0005_raiz_quadrada.py) Usuário informa um número real ou inteiro e programa retorna a raiz quadrada.
 
 
 

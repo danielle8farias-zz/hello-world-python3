@@ -26,6 +26,9 @@ def ler_mes(data_mes):
             if mes > 12 or mes < 1:
                 #criando exceção
                 raise Exception('Meses de 1 a 12.')
+        except ValueError as erro:
+            print('Digite um tipo válido.')
+            continue
         #chama a exceção criada
         #variável 'erro' retorna a mensagem da exceção        
         except Exception as erro:
@@ -76,6 +79,9 @@ def ler_dia_fev(data_dia):
             #verificando se dia é entre 1 e 28
             if dia > 28 or dia < 1:
                 raise Exception('Dias de 1 a 28.')
+        except ValueError as erro:
+            print('Digite um tipo válido.')
+            continue
         except Exception as erro:
             print(f'Valor inválido: {erro}')
             continue
@@ -91,6 +97,9 @@ def ler_dia_31(data_dia):
             #verificando se dia é entre 1 e 31
             if dia > 31 or dia < 1:
                 raise Exception('Dias de 1 a 31.')
+        except ValueError as erro:
+            print('Digite um tipo válido.')
+            continue
         except Exception as erro:
             print(f'Valor inválido: {erro}')
             continue
@@ -106,6 +115,9 @@ def ler_dia_30(data_dia):
             #verificando se dia é entre 1 e 30
             if dia > 30 or dia < 1:
                 raise Exception('Dias de 1 a 30.')
+        except ValueError as erro:
+            print('Digite um tipo válido.')
+            continue
         except Exception as erro:
             print(f'Valor inválido: {erro}')
             continue
@@ -124,6 +136,9 @@ def ler_ano(data_ano):
             #limitando o ano de 1900 até o ano atual
             if ano < 1900 or ano > ano_atual:
                 raise Exception(f'ano de 1900 a {ano_atual}.')
+        except ValueError as erro:
+            print('Digite um tipo válido.')
+            continue
         except Exception as erro:
             print(f'Valor inválido: {erro}')
             continue

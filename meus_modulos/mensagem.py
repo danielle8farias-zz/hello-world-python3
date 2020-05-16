@@ -54,7 +54,7 @@ def ler_resposta(msg):
                 raise Exception('S para sim ou N para não')
         #em caso de resposta vazia; 
         #   caso não haja string para pegar a posição inicial
-        except IndexError as erro1:
+        except IndexError as erro:
             print(f'Resposta inválida.')
             continue
         #chama a exceção criada

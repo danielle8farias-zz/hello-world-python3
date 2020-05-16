@@ -27,7 +27,7 @@ class Pessoa:
         var = 'string qualquer'
         print(var)
 
-    #método da classe
+    #método de instância
     def outro_metodo(self):
         print(f'Retornando a variável do construtor em outro método: {self.nome}')
 
@@ -77,6 +77,12 @@ class Pessoa:
 
     def ano_nascimento(self):
         return self.ano_atual - self.idade
+
+    #método de classe
+    @classmethod
+    def por_ano_nasc(cls, nome, ano_nasc):
+        idade = cls.ano_atual - ano_nasc
+        return cls(nome, idade)
 
 
 #programa principal
@@ -136,3 +142,8 @@ print()
 
 print(f'{p3.nome} nasceu em {p3.ano_nascimento()}.')
 print(f'{p4.nome} nasceu em {p4.ano_nascimento()}.')
+print()
+
+#instanciando objeto pelo método de classe
+p5 = Pessoa.por_ano_nasc('Enrico', 2000)
+print(f'{p5.nome} tem {p5.idade} anos.')

@@ -17,6 +17,7 @@
 - [ex0008:](exercicio_py/ex0008_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.
 
 
+- [ex0020:](exercicio_py/ex0020_senCossTang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
 
 
 
@@ -36,7 +37,6 @@
 
 - [ex0019:](exercicio_py/ex0019_porcaoInteira.py) Usuário fornece um número real (do conjunto dos reais) e o programa retorna a parte inteira sem arredondamento.
 
-- [ex0020:](exercicio_py/ex0020_senCossTang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
 
 - [ex0021:](exercicio_py/ex0021_somaArray.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
 

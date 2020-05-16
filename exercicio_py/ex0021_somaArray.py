@@ -11,11 +11,11 @@ import sys
 #adicionando ao final da lista de módulos o caminho para os meus módulos
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 #importando módulo de cabeçalho e rodapé
-from mensagem import cabecalho, rodape
+from mensagem import ler_cabecalho, rodape
 
 #programa principal
 #chamada da função cabeçalho
-cabecalho('soma array')
+ler_cabecalho('soma array')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
     #função print retorna uma string na tela

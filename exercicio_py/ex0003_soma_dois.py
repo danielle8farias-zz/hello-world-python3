@@ -15,6 +15,7 @@ from numeros import ler_num_float
 
 #função que realiza a operação soma de dois parâmetros
 def somar(n1, n2):
+    #retorno da função
     return n1 + n2
 
 

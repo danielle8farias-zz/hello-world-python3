@@ -17,11 +17,6 @@
 
 
 
-- [ex0005:](exercicio_py/ex0005_dobroTriploRaizQuadrada.py) Usuário digita um número e programa retorna o dobro, o triplo e a raiz quadrada desse.
-
-- [ex0006:](exercicio_py/ex0006_mediaDuasNotas.py) Usuário informa dois valores para as notas e programa calcula e retorna a média. Se a média for menor do que 5, retorna que o aluno foi reprovado. Se a média for entre 5 e 7, retorna que está de recuperação. Se maior do que 7, está aprovado.
-
-- [ex0007:](exercicio_py/ex0007_metroCentimetro.py) Usuário informa um valor em metros e programa retorna esse em centímetros e milímetros.
 
 - [ex0008:](exercicio_py/ex0008_raizQuadrada.py) Usuário informa um número inteiro e programa retorna a raiz quadrada desse.
 

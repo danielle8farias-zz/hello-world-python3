@@ -13,7 +13,8 @@ from mensagem import ler_cabecalho, rodape, linha, ler_resposta
 #importando módulo de data
 from datetime import date
 
-#função que captura o mês informado pelo usuário
+#função que captura o mês informado pelo usuário 
+#   e verifica a validade dos valores
 def ler_mes(data_mes):
     #laço
     while True:
@@ -30,7 +31,7 @@ def ler_mes(data_mes):
             print('Digite um tipo válido.')
             continue
         #chama a exceção criada
-        #variável 'erro' retorna a mensagem da exceção        
+        #variável 'erro' retorna a mensagem da exceção
         except Exception as erro:
             #print(f'') retorna uma string formatada na tela
             print(f'Valor inválido: {erro}')
@@ -72,6 +73,7 @@ def nome_mes(mes):
 
 
 #função que captura o dia informado pelo usuário do mês fevereiro
+#   e verifica a validade dos valores
 def ler_dia_fev(data_dia):
     while True:
         try:
@@ -90,6 +92,7 @@ def ler_dia_fev(data_dia):
 
 
 #função que captura o dia informado pelo usuário do mês 31
+#   e verifica a validade dos valores
 def ler_dia_31(data_dia):
     while True:
         try:
@@ -108,6 +111,7 @@ def ler_dia_31(data_dia):
 
 
 #função que captura o dia informado pelo usuário do mês 30
+#   e verifica a validade dos valores
 def ler_dia_30(data_dia):
     while True:
         try:
@@ -126,6 +130,7 @@ def ler_dia_30(data_dia):
 
 
 #função que captura o ano informado pelo usuário
+#   e verifica a validade dos valores
 def ler_ano(data_ano):
     #date.today().year pega o ano indicado pelo sistema operacional
     #retirando 5 anos do ano atual

@@ -18,7 +18,7 @@ class Computador:
         self.hd = hd
         self.estado = estado
 
-    #método da classe
+    #método de instância
     def ligar(self):
         #verificando se computador está desligado
         if not self.estado:

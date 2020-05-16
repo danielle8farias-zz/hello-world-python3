@@ -67,6 +67,7 @@ def lancar_notas(n):
 ler_cabecalho('média das notas')
 while True:
     #chamada da função que lê um número inteiro
+    #atribui a variável 'total_notas' o retorno da função
     total_notas = ler_num_int('Quantas notas deseja informar? ')
     #criando lista
     lista_notas = []

@@ -4,6 +4,9 @@
 from datetime import date
 
 class Humano:
+    '''
+    Um humano que fala
+    '''
     #método da classe
     def falar(self):
         print('Pessoa está falando...')
@@ -11,6 +14,9 @@ class Humano:
 
 #criando classe
 class Pessoa:
+    '''
+    Pessoa com nome e idade que tem ações
+    '''
     #date.today().year pega o ano do sistema operacional
     #variável da classe pode ser usada por todos os métodos
     ano_atual = date.today().year
@@ -29,9 +35,15 @@ class Pessoa:
 
     #método de instância
     def outro_metodo(self):
+        '''
+        Apenas testa um método qualquer
+        '''
         print(f'Retornando a variável do construtor em outro método: {self.nome}')
 
     def comer(self, alimento):
+        '''
+        Executa ação de comer algo
+        '''
         #verifica se está comendo
         if self.comendo:
             print(f'{self.nome} já está comendo.')
@@ -46,6 +58,9 @@ class Pessoa:
         self.comendo = True
 
     def parar_comer(self):
+        '''
+        Executa ação de parar de comer
+        '''
         #verifica se não está comendo
         if not self.comendo:
             print(f'{self.nome} não está comendo.')
@@ -55,6 +70,9 @@ class Pessoa:
         self.comendo = False
 
     def falar(self, assunto):
+        '''
+        Executa a ação de falar sobre um determinado assunto
+        '''
         if self.comendo:
             print(f'{self.nome} não pode falar de boca cheia.')
             return
@@ -67,6 +85,9 @@ class Pessoa:
         self.falando = True
 
     def parar_falar(self):
+        '''
+        Executa a ação de parar de falar
+        '''
         #verificando se a pessoa está calada
         if not self.falando:
             print(f'{self.nome} não está falando.')
@@ -76,11 +97,17 @@ class Pessoa:
         self.falando = False
 
     def ano_nascimento(self):
+        '''
+        Ano em que a pessoa nasceu.
+        '''
         return self.ano_atual - self.idade
 
     #método de classe
     @classmethod
     def por_ano_nasc(cls, nome, ano_nasc):
+        '''
+        Cria pessoa por nome e ano de nascimento retornando nome e idade
+        '''
         idade = cls.ano_atual - ano_nasc
         return cls(nome, idade)
 

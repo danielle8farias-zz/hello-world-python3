@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.8
 
 '''
-Usuário digita valores para dois catetos de um triângulo e programa retorna a hipotenusa.
+Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido.
 '''
 
 #importando o módulo de informações sobre o sistema

@@ -10,24 +10,15 @@
 
 - [ex0005:](exercicio_py/ex0005_raiz_quadrada.py) Usuário informa um número real ou inteiro e programa retorna a raiz quadrada.
 
+- [ex0006:](exercicio_py/ex0006_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido.
+
+- [ex0007:](exercicio_py/ex0007_mostrando_tipo.py) Usuário digita algo e programa retorna: o seu tipo primitivo; se o que foi digitado foi apenas a tecla espaço; se há número no que foi digitado; se o que foi digitado é composto de letras; se o que foi digitado possui letras e números; se o que foi digitado está em letras maiúsculas ou minúsculas; e se a primeira letra é maiúscula.
 
 
 
 
 
 
-
-
-
-- [ex0008:](exercicio_py/ex0008_raizQuadrada.py) Usuário informa um número inteiro e programa retorna a raiz quadrada desse.
-
-- [ex0009:](exercicio_py/ex0009_numAleatorio.py) Programa retorna na tela dois números aleatórios. O primeiro, entre 0 e 1. O segundo, entre 1 e 10.
-
-- [ex0010:](exercicio_py/ex0010_numInteiro.py) Usuário digita um número com casa decimal e programa retorna o inteiro com arredondamento para cima.
-
-- [ex0011:](exercicio_py/ex0011_hipotenusa.py) Usuário digita valores para dois catetos de um triângulo e programa retorna a hipotenusa.
-
-- [ex0012:](exercicio_py/ex0012_mostrandoTipo.py) Usuário digita algo e programa retorna: o seu tipo primitivo; se o que foi digitado foi apenas a tecla espaço; se há número no que foi digitado; se o que foi digitado é composto de letras; se o que foi digitado possui letras e números; se o que foi digitado está em letras maiúsculas ou minúsculas; e se a primeira letra é maiúscula.
 
 - [ex0013:](exercicio_py/ex0013_tabuadaMultiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.
 

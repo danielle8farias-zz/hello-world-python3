@@ -9,7 +9,7 @@ import sys
 #adicionando ao final da lista de módulos o caminho para os meus módulos
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 #importando módulo de cabeçalho e rodapé
-from mensagem import cabecalho, rodape
+from mensagem import ler_cabecalho, rodape
 #importando módulos de radianos, seno, cosseno e tangente
 from math import radians, sin, cos, tan
 

@@ -33,7 +33,7 @@ while True:
     #variável recebe retorno da função
     raiz_quadrada = calcular_raiz_quadrada(num)
     print(f'A raiz de {num} = {raiz_quadrada}')
-    # função print() vazia não retorna nada; apenas pula uma linha    
+    # função print() vazia não retorna nada; apenas pula uma linha
     print()
     #chamada da função que lê a resposta
     resposta = ler_resposta('Deseja continuar? [S/N]')

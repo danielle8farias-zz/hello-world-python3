@@ -41,7 +41,7 @@ def lancar_notas(n):
             #float() convertendo a string recebida para tipo flutuante
             #atribuindo valor à variável 'nota'
             nota = float(input(n))
-            #varificando se a nota está fora do intervalo entre 0 e 10
+            #verificando se a nota está fora do intervalo entre 0 e 10
             if nota < 0 or nota > 10:
                 #criando exceção
                 raise Exception('Valores entre 0 e 10.')

@@ -14,13 +14,15 @@
 
 - [ex0007:](exercicio_py/ex0007_mostrando_tipo.py) Usuário digita algo e programa retorna: o seu tipo primitivo; se o que foi digitado foi apenas a tecla espaço; se há número no que foi digitado; se o que foi digitado é composto de letras; se o que foi digitado possui letras e números; se o que foi digitado está em letras maiúsculas ou minúsculas; e se a primeira letra é maiúscula.
 
+- [ex0008:](exercicio_py/ex0008_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.
 
 
 
 
 
 
-- [ex0013:](exercicio_py/ex0013_tabuadaMultiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.
+
+
 
 - [ex0014:](exercicio_py/ex0014_conversorDolar.py) Usuário informa um valor em Reais e programa retorna a conversão desse em dólares.
 

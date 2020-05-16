@@ -65,6 +65,7 @@ while True:
     # função print() vazia não retorna nada; apenas pula uma linha
     print()
     #validar resposta
+    #atribui a variável 'escolha' o retorno da função
     escolha = ler_escolha('O que deseja calcular? ')
     print()
     if escolha == 1:

@@ -16,8 +16,7 @@
 
 - [ex0008:](exercicio_py/ex0008_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.
 
-
-- [ex0020:](exercicio_py/ex0020_senCossTang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
+- [ex0009:](exercicio_py/ex0009_sen_coss_tang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
 
 
 

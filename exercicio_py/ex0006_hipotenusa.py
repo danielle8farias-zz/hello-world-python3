@@ -62,7 +62,7 @@ while True:
     print('Digite:')
     print('1 para Hipotenusa')
     print('2 para Cateto')
-    # função print() vazia não retorna nada; apenas pula uma linha
+    #função print() vazia não retorna nada; apenas pula uma linha
     print()
     #validar resposta
     #atribui a variável 'escolha' o retorno da função

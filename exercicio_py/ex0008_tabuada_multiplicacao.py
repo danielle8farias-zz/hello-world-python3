@@ -8,7 +8,7 @@ Usuário fornece um número inteiro e programa retorna a tabuada de multiplicaç
 import sys
 #adicionando ao final da lista de módulos o caminho para os meus módulos
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
-#importando módulo de cabeçalho e rodapé
+#importando módulos de auxílio
 from mensagem import ler_cabecalho, rodape, linha, ler_resposta
 #importando módulos de números
 from numeros import ler_num_int

@@ -15,7 +15,7 @@ e se a primeira letra é maiúscula.
 import sys
 #adicionando ao final da lista de módulos o caminho para os meus módulos
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
-#importando módulo de cabeçalho e rodapé
+#importando módulos de auxílio
 from mensagem import ler_cabecalho, rodape, ler_resposta, linha
 
 #programa principal

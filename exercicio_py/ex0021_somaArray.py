@@ -13,12 +13,15 @@ sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 #importando módulo de cabeçalho e rodapé
 from mensagem import ler_cabecalho, rodape
 
+
+
+
 #programa principal
 #chamada da função cabeçalho
 ler_cabecalho('soma array')
 #1º laço fazendo o programa rodar até que o usuário decida parar
 while True:
-    #função print retorna uma string na tela
+    #print() retorna uma string na tela
     print('Escolhendo o tamanho do vetor:')
     #input() recebe como string dado digitado
     #int() convertendo string para tipo inteiro

@@ -18,6 +18,12 @@
 
 - [ex0009:](exercicio_py/ex0009_sen_coss_tang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
 
+- [ex0010:](exercicio_py/ex0010_soma_array.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
+
+
+
+
+
 
 
 
@@ -26,18 +32,8 @@
 
 - [ex0014:](exercicio_py/ex0014_conversorDolar.py) Usuário informa um valor em Reais e programa retorna a conversão desse em dólares.
 
-- [ex0015:](exercicio_py/ex0015_paredeTinta.py) Usuário fornece dois valores, altura e largura de uma parede, e programa retorna: a área da parede; a quantidade de tinta necessária para pintar a parede, sabendo-se que cada litro pinta 2m².
-
-- [ex0016:](exercicio_py/ex0016_descontoCinco.py) Usuário digita um valor que representa o preço e programa retorna o novo valor com desconto de 5%.
-
-- [ex0017:](exercicio_py/ex0017_salarioAumentoQuinze.py) Usuário informa um valor que representa o salário e programa retorna um novo valor acrescido de 15% de aumento.
-
-- [ex0018:](exercicio_py/ex0018_aluguelCarro.py) Usuário fornece dias e os quilômetros rodados com um carro alugado e o programa retorna o valor a ser pago, sabendo-se que o aluguel custa R$60,00/dia e R$0,15/Km rodado.
-
-- [ex0019:](exercicio_py/ex0019_porcaoInteira.py) Usuário fornece um número real (do conjunto dos reais) e o programa retorna a parte inteira sem arredondamento.
 
 
-- [ex0021:](exercicio_py/ex0021_somaArray.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
 
 - [ex0022:](exercicio_py/ex0022_sorteioAluno.py) Usuário informa quantos alunos deseja cadastrar; o programa cria uma lista com a quantidade de alunos, em seguida pede o nome para cada um deles e por fim, retorna o nome de um aluno de maneria aleatória.
 

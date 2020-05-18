@@ -26,7 +26,7 @@ while True:
     for i in range (0,11):
         #atribuindo a variável 'multiplicação' o resultado da operação
         multiplicacao = num * i
-        #função print retorna uma string formatada na tela
+        #print(f'') retorna uma string formatada na tela
         #:2 variável i deve ocupar o espaço de dois caracteres
         print(f'{num} x {i:2} = {multiplicacao}')
     print()

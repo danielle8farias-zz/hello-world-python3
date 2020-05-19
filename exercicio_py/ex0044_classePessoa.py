@@ -103,6 +103,7 @@ class Pessoa:
         return self.ano_atual - self.idade
 
     #método de classe
+    #não precisa da instância, mas precisa da classe em si
     @classmethod
     def por_ano_nasc(cls, nome, ano_nasc):
         '''

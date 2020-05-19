@@ -35,10 +35,29 @@ class Empregado:
         #'self.aumento' ou 'Empregado.aumento'
         self.pagamento = int(self.pagamento * self.valor_aumento)
 
+    #não precisa da instância, mas precisa da classe em si
     @classmethod
     def definir_aumento(cls, novo_aumento):
         #usa-se 'cls' ao invés de 'self', pois é um método de classe
         cls.valor_aumento = novo_aumento
+
+    @classmethod
+    def criar_pessoa(cls,pessoa_str):
+        #slit() retira o que estiver entre parênteses e
+        #   retorna os valor separados em uma lista
+        #atribuindo para cada variável, cada item da lista de acordo com a posição
+        nome, sobrenome, pagamento = pessoa_str.split('-')
+        #criando e retornando novo empregado
+        return cls(nome, sobrenome, pagamento)
+
+    #método estático
+    @staticmethod
+    #usa-se 'day' do módulo 'datetime'
+    def dia_util(day):
+        #verificando se o dia da semana é sábado(5) ou domingo(6)
+        if day.weekday() == 5 or day.weekday() == 6:
+            return False
+        return True
 
 
 print(f'Número de empregados inicial: {Empregado.num_empregados}')
@@ -111,5 +130,49 @@ print('Mapeando atributos do objeto para dicionário:')
 print(pessoa3.__dict__)
 print()
 
-print(f'Número final de empregados: {pessoa2.num_empregados}')
+print(f'Número de empregados: {pessoa2.num_empregados}')
+linha()
+
+#criando objetos separados por hífen
+
+pessoa_str4 = 'Victor-José-6000'
+pessoa_str5 = 'Elana-Tanan-4000'
+pessoa_str6 = 'Henrique-Costa-1200'
+
+pessoa4 = Empregado.criar_pessoa(pessoa_str4)
+pessoa5 = Empregado.criar_pessoa(pessoa_str5)
+pessoa6 = Empregado.criar_pessoa(pessoa_str6)
+
+print(f'Nome do funcionário: {pessoa4.nome}')
+print(f'Sobrenome: {pessoa4.sobrenome}')
+print(f'email: {pessoa4.email}')
+print(f'Nome completo: {pessoa4.nome_completo()}')
+print(f'Salário atual: R${pessoa4.pagamento}')
+print()
+
+print(f'Nome do funcionário: {pessoa5.nome}')
+print(f'Sobrenome: {pessoa5.sobrenome}')
+print(f'email: {pessoa5.email}')
+print(f'Nome completo: {pessoa5.nome_completo()}')
+print(f'Salário atual: R${pessoa5.pagamento}')
+print()
+
+print(f'Nome do funcionário: {pessoa6.nome}')
+print(f'Sobrenome: {pessoa6.sobrenome}')
+print(f'email: {pessoa6.email}')
+print(f'Nome completo: {pessoa6.nome_completo()}')
+print(f'Salário atual: R${pessoa6.pagamento}')
+print()
+
+#importanto módulo de data
+from datetime import date
+#função date(ano, mês, dia)
+hoje = date(2020, 5, 18)
+dia_trabalho = Empregado.dia_util(hoje)
+
+if dia_trabalho:
+    print('Dia de trabalho.')
+else:
+    print('Final de semana!')
+
 print()

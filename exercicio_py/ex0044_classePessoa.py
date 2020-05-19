@@ -21,6 +21,7 @@ class Pessoa:
     #variável da classe pode ser usada por todos os métodos
     ano_atual = date.today().year
 
+    #'self' é uma referência para o próprio objeto
     #construtor
     def __init__(self, nome, idade, comendo=False, falando=False):
         #self.variável = parâmetro

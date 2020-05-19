@@ -1,4 +1,33 @@
-# Exercícios de Python
+# Conceitos
+
+
+## print
+- [cn0000:](conceitos_py/cn0000_print.py) Mostra uma palavra ou frase na tela.
+
+## variável
+- [cn0001:](conceitos_py/cn0001_variavel.py) Cria uma variável que recebe uma string e retorna a mesma na tela.
+
+## input
+- [cn0002:](conceitos_py/cn0002_input.py) Recebe uma string do usuário e retorna a mesma na tela.
+
+## print formatado
+- [cn0003:](conceitos_py/cn0003_print_formatado.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
+
+## concatenar strings
+- [cn0004:](conceitos_py/cn0004_concat_string.py) Lê duas strings e retorna ao usuário as duas juntas.
+
+## int
+- [cn0005:](conceitos_py/cn0005_int.py) Usuário digita dois números e programa retorna a soma entre eles.
+
+## float
+- [cn0006:](conceitos_py/cn0006_float.py) Usuário informa um número real programa retorna a raiz quadrada.
+
+## ver tipo
+- [cn0007:](conceitos_py/cn0007_tipo.py) Retorna os tipos string, inteiro, float e booleano.
+
+---
+
+# Exercícios
 
 - [ex0001:](exercicio_py/ex0001_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
 

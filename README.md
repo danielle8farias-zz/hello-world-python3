@@ -23,3 +23,5 @@
 - [ex0010:](exercicio_py/ex0010_multiplicacao.py) Usuário informa dois números (inteiros ou float) e programa retorna a multiplicação entre eles.
 
 - [ex0011:](exercicio_py/ex0011_potenciacao.py) Usuário informa dois números inteiros, sendo um a base e o outro o expoente. O programa retorna o cálculo da exponenciação.
+
+- [ex0012:](exercicio_py/ex0012_radiciacao.py) Usuário informa dois numeros inteiros, um para o radicando e outro para o índice da raiz.

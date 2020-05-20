@@ -27,3 +27,4 @@
 - [ex0012:](exercicio_py/ex0012_radiciacao.py) Usuário informa dois numeros inteiros, um para o radicando e outro para o índice da raiz.
 
 - [ex0013:](exercicio_py/ex0013_criar_linhas.py) Criando linhas com o sinal de menos -, igual = e ponto.
+

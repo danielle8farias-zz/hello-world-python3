@@ -1,114 +1,20 @@
-# Conceitos
+# Exercícios solucionados com Python
 
+- [ex0000:](exercicio_py/ex0000_print.py) Mostra uma palavra ou frase na tela.
 
-## print
-- [cn0000:](conceitos_py/cn0000_print.py) Mostra uma palavra ou frase na tela.
+- [ex0001:](exercicio_py/ex0001_variavel.py) Cria uma variável que recebe uma string e retorna a mesma na tela.
 
-## variável
-- [cn0001:](conceitos_py/cn0001_variavel.py) Cria uma variável que recebe uma string e retorna a mesma na tela.
+- [ex0002:](exercicio_py/ex0002_input.py) Recebe uma string do usuário e retorna a mesma na tela.
 
-## input
-- [cn0002:](conceitos_py/cn0002_input.py) Recebe uma string do usuário e retorna a mesma na tela.
+- [ex0003:](exercicio_py/ex0003_print_formatado.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
 
-## print formatado
-- [cn0003:](conceitos_py/cn0003_print_formatado.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
+- [ex0004:](exercicio_py/ex0004_concat_string.py) Lê duas strings e retorna ao usuário as duas juntas.
 
-## concatenar strings
-- [cn0004:](conceitos_py/cn0004_concat_string.py) Lê duas strings e retorna ao usuário as duas juntas.
+- [ex0005:](exercicio_py/ex0005_int_soma.py) Usuário digita dois números inteiros e programa retorna a soma entre eles.
 
-## int
-- [cn0005:](conceitos_py/cn0005_int.py) Usuário digita dois números e programa retorna a soma entre eles.
+- [ex0006:](exercicio_py/ex0006_float_subtracao.py) Usuário informa um número real e programa retorna a subtração entre eles.
 
-## float
-- [cn0006:](conceitos_py/cn0006_float.py) Usuário informa um número real programa retorna a raiz quadrada.
+- [ex0007:](exercicio_py/ex0007_tipo.py) Usuário informa dados de string, inteiro, float e booleado. Programa retorna seus tipos primitivos.
 
-## ver tipo
-- [cn0007:](conceitos_py/cn0007_tipo.py) Retorna os tipos string, inteiro, float e booleano.
+- [ex0008:](exercicio_py/ex0008_isalgumacoisa.py) Usuário digita dado e programa retorna se esse dado pode ser convertido para inteiro, se possui apenas letras, se possui letras e números, se possui somente espaços, se está em letras maiúsculas, se está em letras minúsculas, se possui a primeira letra maiúscula. 
 
----
-
-# Exercícios
-
-- [ex0001:](exercicio_py/ex0001_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
-
-- [ex0002:](exercicio_py/ex0002_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
-
-- [ex0003:](exercicio_py/ex0003_soma_dois.py) Usuário digita dois números e programa retorna a soma entre eles.
-
-- [ex0004:](exercicio_py/ex0004_media_nota.py) Usuário informa quantas notas deseja cadastrar e informa o valor dessas notas. Programa calcula e retorna a média das notas. Se a média for maior ou igual a 6, a média é boa, senão é ruim.
-
-- [ex0005:](exercicio_py/ex0005_raiz_quadrada.py) Usuário informa um número real ou inteiro e programa retorna a raiz quadrada.
-
-- [ex0006:](exercicio_py/ex0006_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido.
-
-- [ex0007:](exercicio_py/ex0007_mostrando_tipo.py) Usuário digita algo e programa retorna: o seu tipo primitivo; se o que foi digitado foi apenas a tecla espaço; se há número no que foi digitado; se o que foi digitado é composto de letras; se o que foi digitado possui letras e números; se o que foi digitado está em letras maiúsculas ou minúsculas; e se a primeira letra é maiúscula.
-
-- [ex0008:](exercicio_py/ex0008_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse.
-
-- [ex0009:](exercicio_py/ex0009_sen_coss_tang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
-
-- [ex0010:](exercicio_py/ex0010_soma_array.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
-
-
-
-
-
-
-
-
-
-
-
-- [ex0014:](exercicio_py/ex0014_conversorDolar.py) Usuário informa um valor em Reais e programa retorna a conversão desse em dólares.
-
-
-
-
-- [ex0022:](exercicio_py/ex0022_sorteioAluno.py) Usuário informa quantos alunos deseja cadastrar; o programa cria uma lista com a quantidade de alunos, em seguida pede o nome para cada um deles e por fim, retorna o nome de um aluno de maneria aleatória.
-
-- [ex0023:](exercicio_py/ex0023_analisandoNome.py) Usuário informa nome completo de uma pessoa (nome e sobrenome) e programa retorna: o nome com todas as letras maiúsculas; depois com todas as letras minúsculas; quantas letras têm o nome completo, sem considerar os espaços; e quantas letras têm o primeiro nome.
-
-- [ex0024:](exercicio_py/ex0024_trocaVogal.py) Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por *(asterísco).
-
-- [ex0025:](exercicio_py/ex0025_primo.py) Usuário digita um número natural inteiro e programa verifica se esse é número primo.
-
-- [ex0026:](exercicio_py/ex0026_digitoSeparado.py) Usuário informa um número inteiro entre 0 e 9999 e programa retorna a posição decimal de cada algarismo; unidade, dezena, centena, etc.
-
-- [ex0027:](exercicio_py/ex0027_temSilva.py) Usuário informa um nome completo e o programa retorna se tem a palavra SILVA nele.
-
-- [ex0028:](exercicio_py/ex0028_carroNovo.py) Usuário informa a idade de um carro. Se menor ou igual a 3 anos, o carro é novo, senão o carro é velho.
-
-- [ex0029:](exercicio_py/ex0029_mediaBoaRuim.py) Usuário informa duas notas de um aluno. Se a média for maior ou igual a 6, a média é boa, senão é ruim.
-
-- [ex0030:](exercicio_py/ex0030_letraA.py) Usuário informa uma string e programa verifica o número de vezes que a letra A aparece e qual a posição da primeira letra e última letras A.
-
-- [ex0031:](exercicio_py/ex31_primeiroUltimoNome.py) Usuário informa nome completo e programa retorne apenas o primeiro e o último nome.
-
-- [ex0032:](exercicio_py/ex0032_jogoAdivinhacao.py) Faça um jogo de adivinhação de números, entre os números 0 a 5. Usuário digita um número, computador escolhe um número e se os números forem
-os mesmos, usuário ganha.
-
-- [ex0033:](exercicio_py/ex0033_velocidadeMultaCarro.py) Usuário informa um valor para a velocidade de um carro. Se a velocidade ultrapassar 80km/h informando que ele foi multado. A multa deve custar R$7,00 por cada Km acima do limite. O programa retorna o valor da multa, se houver.
-
-- [ex0034:](exercicio_py/ex0034_parOuImpar.py) Usuário informa um número inteiro e programa retorna se esse número é ímpar ou par.
-
-- [ex0035:](exercicio_py/ex0035_precoPassagem.py) Usuário informa o valor de uma distância(Km) que será percorrida em uma viagem. O cálculo do preço da preço da passagem obedece os seguintes critérios: para viagens de até 200Km, o valor é de R$0,50/Km; acima disso o valor é R$0,45/Km. O programa retorna o valor da passagem.
-
-- [ex0036:](exercicio_py/ex0036_anoBissexto.py) Usuário informa um ano que deseja verificar e programa retorna se esse é bissexto.
-
-- [ex0037:](exercicio_py/ex0037_maiorDeDois.py) Usuário informa dois números inteiros e programa retorna o maior número ou se são iguais.
-
-- [ex0038:](exercicio_py/ex0038_maiorMenorDeTres.py) Usuário informa 3 números inteiros e programa retorna o maior e o menor deles.
-
-- [ex0039:](exercicio_py/ex0039_verificaSeEhTriangulo.py) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
-
-- [ex0040:](exercicio_py/ex0040_emprestimoBancario.py) Usuário informa o valor de uma casa que deseja comprar, seu salário e em quantos anos deseja pagar. O programa retorna se empréstimo foi aprovado e o valor da prestação mensal. O empréstimo será negado se a prestação exceder 30% do salário.
-
-- [ex0041:](exercicio_py/ex0041_conversorBases.py) Usuário informa um número inteiro e escolhe uma opção de conversão desse número. O programa retorna a conversão escolhida desse número para base binária, octal ou hexadecimal.
-
-- [ex0042:](exercicio_py/ex42_aumentoSalarioDezOuQuinze.py) Usuário informa um valor de salário do funcionário e programa retorna o novo valor do salário com aumento. Se o salário for superior a R$1.250,00 o aumento deve ser de 10%, senão o aumento é de 15%.
-
-- [ex0043:](exercicio_py/ex0043_alistamentoMilitar.py) Usuário informa um ano de nascimento e programa verifica se o usuário precisa se alistar e quanto tempo falta.
-
-- [ex0044:](exercicio_py/ex0044_classePessoa.py) Classe pessoa recebe nome, idade e executa ações. Demonstração de orientação a objetos.
-
-- [ex0045:](exercicio_py/ex0045_classeComputador.py) Classe computador recebe nome da marca e da placa de vídeo, o valor de memória ram e HD. Executa ações. Demonstração de orientação a objetos.

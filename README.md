@@ -18,3 +18,5 @@
 
 - [ex0008:](exercicio_py/ex0008_isalgumacoisa.py) Usuário digita dado e programa retorna se esse dado pode ser convertido para inteiro, se possui apenas letras, se possui letras e números, se possui somente espaços, se está em letras maiúsculas, se está em letras minúsculas, se possui a primeira letra maiúscula. 
 
+- [ex0009:](exercicio_py/ex0009_divisao.py) Usuário informa dois números inteiros e programa retorna a divisão entre eles, a divisão inteira e o resto da divisão.
+

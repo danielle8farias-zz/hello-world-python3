@@ -20,3 +20,6 @@
 
 - [ex0009:](exercicio_py/ex0009_divisao.py) Usuário informa dois números inteiros e programa retorna a divisão entre eles, a divisão inteira e o resto da divisão.
 
+- [ex0010:](exercicio_py/ex0010_multiplicacao.py) Usuário informa dois números (inteiros ou float) e programa retorna a multiplicação entre eles.
+
+- [ex0011:](exercicio_py/ex0011_potenciacao.py) Usuário informa dois números inteiros, sendo um a base e o outro o expoente. O programa retorna o cálculo da exponenciação.

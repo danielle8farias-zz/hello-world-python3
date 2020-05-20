@@ -28,3 +28,6 @@
 
 - [ex0013:](exercicio_py/ex0013_criar_linhas.py) Criando linhas com o sinal de menos -, igual = e ponto.
 
+- [ex0014:](exercicio_py/ex0014_caractere_minimo.py) Usuário informa uma frase e programa retorna a mesma com pelo menos 20 caracteres.
+
+- 

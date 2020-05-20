@@ -30,4 +30,6 @@
 
 - [ex0014:](exercicio_py/ex0014_caractere_minimo.py) Usuário informa uma frase e programa retorna a mesma com pelo menos 20 caracteres.
 
+- [ex0015:](exercicio_py/ex0015_alinhamento_direita_esquerda.py) Usuário digita duas palavras e programa retorna uma delas alinhada a esquerda e outra à direita.
+
 - 

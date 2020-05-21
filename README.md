@@ -37,3 +37,5 @@
 - [ex0017](exercicio_py/ex0017_prints_sem_quebra.py) Exibir dois prints separados sem quebra de linha.
 
 - [ex0018:](exercicio_py/ex0018_prints_com_quebra.py) Exibir um único print em linhas separadas.
+
+- [ex0019:](exercicio_py/ex0019_tabuada_multi.py) Usuário digita um número e programa retorna a tabuada de multiplicação desse número.

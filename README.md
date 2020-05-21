@@ -32,4 +32,5 @@
 
 - [ex0015:](exercicio_py/ex0015_alinhamento_direita_esquerda.py) Usuário digita duas palavras e programa retorna uma delas alinhada a esquerda e outra à direita.
 
-- 
+- [ex0016:](exercicio_py/ex0016_caractere_centralizado.py) Usuário digita uma palavra e programa retorna a mesma centralizada em 20 espaços.
+

@@ -34,3 +34,6 @@
 
 - [ex0016:](exercicio_py/ex0016_caractere_centralizado.py) Usuário digita uma palavra e programa retorna a mesma centralizada em 20 espaços.
 
+- [ex0017](exercicio_py/ex0017_prints_sem_quebra.py) Exibir dois prints separados sem quebra de linha.
+
+- [ex0018:](exercicio_py/ex0018_prints_com_quebra.py) Exibir um único print em linhas separadas.

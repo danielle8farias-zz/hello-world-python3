@@ -51,3 +51,5 @@
 - [ex0024:](exercicio_py/ex0024_lista.py) Usuário informa nome de 5 cores. O programa armazena numa lista e retorna em ordem alfabética.
 
 - [ex0025:](exercicio_py/ex0025_fatia_string.py) Fatiando string.
+
+- [ex0026:](exercicio_py/ex0026_conta_caractere_escolhido.py) Usuário digita palavra ou frase, escolhe uma letra que deseja procurar e programa retorna a quantidade delas.

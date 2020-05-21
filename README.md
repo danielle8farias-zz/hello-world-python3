@@ -49,3 +49,5 @@
 - [ex0023:](exercicio_py/ex0023_primeiro_ultimo_caractere_string.py) Usuário digita uma palavra ou frase e programa retorna o primeiro e o último caractere da string.
 
 - [ex0024:](exercicio_py/ex0024_lista.py) Usuário informa nome de 5 cores. O programa armazena numa lista e retorna em ordem alfabética.
+
+- [ex0025:](exercicio_py/ex0025_fatia_string.py) Fatiando string.

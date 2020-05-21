@@ -39,3 +39,7 @@
 - [ex0018:](exercicio_py/ex0018_prints_com_quebra.py) Exibir um único print em linhas separadas.
 
 - [ex0019:](exercicio_py/ex0019_tabuada_multi.py) Usuário digita um número e programa retorna a tabuada de multiplicação desse número.
+
+- [ex0020:](exercicio_py/ex0020_casas_float.py) Exibe apenas duas casas de ponto flutuante.
+
+- [ex0021:](exercicio_py/ex0021_area_tinta.py) Usuário informa a altura e largura de uma parede que será pintada. Programa retorna a área e a quantidade de tinta necessária para pintar essa área, sabendo que o rendimento da tinta é de 2m² por litro.

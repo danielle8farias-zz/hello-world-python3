@@ -45,3 +45,5 @@
 - [ex0021:](exercicio_py/ex0021_area_tinta.py) Usuário informa a altura e largura de uma parede que será pintada. Programa retorna a área e a quantidade de tinta necessária para pintar essa área, sabendo que o rendimento da tinta é de 2m² por litro.
 
 - [ex0022:](exercicio_py/ex0022_arredondamento.py) Arredondamento de um número real.
+
+- [ex0023:](exercicio_py/ex0023_primeiro_ultimo_caractere_string.py) Usuário digita uma palavra ou frase e programa retorna o primeiro e o último caractere da string.

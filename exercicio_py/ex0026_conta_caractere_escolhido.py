@@ -3,8 +3,9 @@ Usuário digita palavra ou frase, escolhe uma letra que deseja procurar e
 programa retorna a quantidade delas.
 '''
 
-msg = input('Digite uma palavra ou frase: ')
-escolha = input('Que letra deseja contar? ')
+#lower() converte string para minúsculo
+msg = input('Digite uma palavra ou frase: ').lower()
+escolha = input('Que letra deseja contar? ').lower()
 #count() conta quantas vezes aparece o caractere
 num = msg.count(escolha)
 print(f'Tem a letra {escolha}: {num} vezes.')

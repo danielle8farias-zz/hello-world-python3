@@ -15,5 +15,8 @@ print(msg[:21])
 print(msg[::2])
 #separa a string em uma lista; o separador são os espaços por padrão
 #   split() = split(' ')
-print(msg.split())
+nova_msg = msg.split()
+print(nova_msg)
+#imprime o segundo item da lista
+print(nova_msg[1])
 print()

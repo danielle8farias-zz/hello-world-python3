@@ -17,6 +17,8 @@ print(msg[::2])
 #   split() = split(' ')
 nova_msg = msg.split()
 print(nova_msg)
-#imprime o segundo item da lista
+#imprime o 2º item da lista
 print(nova_msg[1])
+#do 2º item da lista, mostra o 3º caractere
+print(nova_msg[1][2])
 print()

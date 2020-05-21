@@ -1,6 +1,6 @@
 # Exercícios solucionados com Python
 
-- [ex0000:](exercicio_py/ex0000_print.py) Mostra uma palavra ou frase na tela.
+- [ex0000:](exercicio_py/ex0000_print.py) Mostra uma palavra e uma frase na tela.
 
 - [ex0001:](exercicio_py/ex0001_variavel.py) Cria uma variável que recebe uma string e retorna a mesma na tela.
 
@@ -56,3 +56,4 @@
 
 - [ex0027:](exercicio_py/ex0027_in_string.py) Verifica se uma palavra(string) se encontra em uma frase(string).
 
+- [ex0028:](exercicio_py/ex0028_unir_strings.py) Unindo strings de uma lista para formar uma única string.

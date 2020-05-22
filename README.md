@@ -61,3 +61,5 @@
 - [ex0029:](exercicio_py/ex0029_quant_caractere_string.py) Usuário informa um nome completo (nome e sobrenome) e programa retorna quantos letras o nome completo possui (excluindo os espaços) e quantas letras o primeiro nome possui.
 
 - [ex0030:](exercicio_py/ex0030_find_a.py) Usuário digita uma string e programa retorna quantas letras 'a' possui; a posição da primeira e da última letra 'a'.
+
+- [ex0031:](exercicio_py/ex0031_if_else.py) Usuário informa o salário de um funcionário e programa retorna o novo valor do salário com aumento. Se o salário for superior a R$1.250,00 o aumento deve ser de 10%, senão o aumento é de 15%.

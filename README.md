@@ -57,3 +57,7 @@
 - [ex0027:](exercicio_py/ex0027_in_string.py) Verifica se uma palavra(string) se encontra em uma frase(string).
 
 - [ex0028:](exercicio_py/ex0028_unir_strings.py) Unindo strings de uma lista para formar uma única string.
+
+- [ex0029:](exercicio_py/ex0029_quant_caractere_string.py) Usuário informa um nome completo (nome e sobrenome) e programa retorna quantos letras o nome completo possui (excluindo os espaços) e quantas letras o primeiro nome possui.
+
+- [ex0030:](exercicio_py/ex0030_find_a.py) Usuário digita uma string e programa retorna quantas letras 'a' possui; a posição da primeira e da última letra 'a'.

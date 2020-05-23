@@ -68,3 +68,4 @@
 
 - [ex0033:](exercicio_py/ex0033_laco_for.py) Contador de 0 a 10.
 
+- [ex0034:](exercicio_py/ex0034_contador.py) Usuário informa valores de um contador. Início, fim e o passo.

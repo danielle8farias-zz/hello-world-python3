@@ -65,3 +65,6 @@
 - [ex0031:](exercicio_py/ex0031_if_else.py) Usuário informa o salário de um funcionário e programa retorna o novo valor do salário com aumento. Se o salário for superior a R$1.250,00 o aumento deve ser de 10%, senão o aumento é de 15%.
 
 - [ex0032:](exercicio_py/ex0032_elif.py) Usuário informa a idade e programa retorna se o voto é obrigatório.
+
+- [ex0033:](exercicio_py/ex0033_laco_for.py) Contador de 0 a 10.
+

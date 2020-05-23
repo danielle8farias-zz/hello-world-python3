@@ -63,3 +63,5 @@
 - [ex0030:](exercicio_py/ex0030_find_a.py) Usuário digita uma string e programa retorna quantas letras 'a' possui; a posição da primeira e da última letra 'a'.
 
 - [ex0031:](exercicio_py/ex0031_if_else.py) Usuário informa o salário de um funcionário e programa retorna o novo valor do salário com aumento. Se o salário for superior a R$1.250,00 o aumento deve ser de 10%, senão o aumento é de 15%.
+
+- [ex0032:](exercicio_py/ex0032_elif.py) Usuário informa a idade e programa retorna se o voto é obrigatório.

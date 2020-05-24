@@ -2,9 +2,13 @@
 Usuário informa valores de um contador. Início, fim e o passo.
 '''
 
+from time import sleep
+
 inicio = int(input('A partir de que número deseja contar? '))
 passo = int(input('De quanto em quanto? '))
 fim = int(input('Até que valor? '))
 
 for i in range(inicio, fim+1, passo):
     print(i)
+    #interrompe a execução por 1 segundo
+    sleep(1)

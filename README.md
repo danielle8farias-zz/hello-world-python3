@@ -96,3 +96,7 @@ e pedir para que o usuário digite novamente.
 - [ex0046:](exercicio_py/ex0046_fatorial_while.py) Usuário informa um número inteiro e programa retorna o seu fatorial; usando o laço while.
 
 - [ex0047:](exercicio_py/ex0047_fatorial_for.py) Usuário informa um número inteiro e programa retorna o seu fatorial; usando o laço for.
+
+- [ex0048:](exercicio_py/ex0048_PA_while.py) Usuário informa o 1º termo de uma PA e sua razão. O programa retorna os 10 primeiros termos dessa PA. Usando while.
+
+- 

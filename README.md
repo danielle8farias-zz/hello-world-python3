@@ -66,7 +66,7 @@
 
 - [ex0032:](exercicio_py/ex0032_elif.py) Usuário informa a idade e programa retorna se o voto é obrigatório.
 
-- [ex0033:](exercicio_py/ex0033_laco_for.py) Contador de 0 a 10.
+- [ex0033:](exercicio_py/ex0033_laco_for.py) Contador de 0 a 10; com for.
 
 - [ex0034:](exercicio_py/ex0034_contador_par.py) Conta números pares de 1 a 50.
 
@@ -75,3 +75,4 @@
 - [ex0036:](exercicio_py/ex0036_PA.py) Usuário informa o 1º termo de uma PA e sua razão. O programa retorna os 10 primeiros termos dessa PA.
 
 - [ex0037:](exercicio_py/ex0037_palindromo.py) Usuário informa uma palavra ou frase e programa retorna se é palíndromo.
+

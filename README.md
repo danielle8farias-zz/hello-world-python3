@@ -95,3 +95,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0046:](exercicio_py/ex0046_fatorial_while.py) Usuário informa um número inteiro e programa retorna o seu fatorial; usando o laço while.
 
+- [ex0047:](exercicio_py/ex0047_fatorial_for.py) Usuário informa um número inteiro e programa retorna o seu fatorial; usando o laço for.

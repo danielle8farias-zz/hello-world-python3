@@ -76,3 +76,4 @@
 
 - [ex0037:](exercicio_py/ex0037_palindromo.py) Usuário informa uma palavra ou frase e programa retorna se é palíndromo.
 
+- [ex0038:](exercicio_py/ex0038_laco_while.py) Contador de 0 a 10; com while.

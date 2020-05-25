@@ -72,7 +72,7 @@
 
 - [ex0035:](exercicio_py/ex0035_tabuada_multi.py) Usuário digita um número e programa retorna a tabuada de multiplicação desse número, usando o laço for.
 
-- [ex0036:](exercicio_py/ex0036_PA.py) Usuário informa o 1º termo de uma PA e sua razão. O programa retorna os 10 primeiros termos dessa PA.
+- [ex0036:](exercicio_py/ex0036_PA_for.py) Usuário informa o 1º termo de uma PA e sua razão. O programa retorna os 10 primeiros termos dessa PA. Usando for.
 
 - [ex0037:](exercicio_py/ex0037_palindromo.py) Usuário informa uma palavra ou frase e programa retorna se é palíndromo.
 

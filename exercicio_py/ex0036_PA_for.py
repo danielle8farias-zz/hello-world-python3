@@ -1,6 +1,6 @@
 '''
 Usuário informa o 1º termo de uma PA e sua razão. 
-O programa retorna os 10 primeiros termos dessa PA.
+O programa retorna os 10 primeiros termos dessa PA. Usando for.
 '''
 
 A1 =  int(input('Primeiro termo: '))

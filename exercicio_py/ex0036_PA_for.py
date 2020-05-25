@@ -6,7 +6,7 @@ O programa retorna os 10 primeiros termos dessa PA. Usando for.
 A1 =  int(input('Primeiro termo: '))
 r = int(input('Razão: '))
 
-#fóruma da Progressão aritmética
+#fórmula da Progressão aritmética
 #   calculando o último termo
 An = A1 + (10-1)*r
 #laço que vai de A1 até An+r de r em r

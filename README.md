@@ -92,3 +92,6 @@ e pedir para que o usuário digite novamente.
 - [ex0044:](exercicio_py/ex0044_calculadora_simples.py) Calculadora simples, com operação de soma, subtração, multiplicação e divisão de 2 números.
 
 - [ex0045:](exercicio_py/ex0045_fatorial_modulo.py) Usuário informa um número inteiro e programa retorna o seu fatorial; usando o módulo.
+
+- [ex0046:](exercicio_py/ex0046_fatorial_while.py) Usuário informa um número inteiro e programa retorna o seu fatorial; usando o laço while.
+

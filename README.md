@@ -82,3 +82,5 @@
 
 - [ex0040:](exercicio_py/ex0040_valida_vogal.py) Usuário informa uma vogal. Caso seja digitado consoantes, programa deve informar erro 
 e pedir para que o usuário digite novamente.
+
+- [ex0041:](exercicio_py/ex0041_compara_valores.py) Usuário informa vários números inteiros. O programa deve retornar a média desses números, qual o menor deles e o maior. O programa deve perguntar se o usuário quer continuar ou não a digitar mais valores.

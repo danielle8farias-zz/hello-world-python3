@@ -77,3 +77,7 @@
 - [ex0037:](exercicio_py/ex0037_palindromo.py) Usuário informa uma palavra ou frase e programa retorna se é palíndromo.
 
 - [ex0038:](exercicio_py/ex0038_laco_while.py) Contador de 0 a 10; com while.
+
+- [ex0039:](exercicio_py/ex0039_condicao_pagamento.py) Usuário digita um valor em dinheiro e programa retorna as condições de pagamento: para pagamento à vista em dinheiro há um desconto de 10%;
+para pagamento à vista no cartão ou cheque há um desconto de 5%; para pagamento de 2x no cartão, o preço é normal; para pagamento de 3x ou mais, há 20% de juros.
+

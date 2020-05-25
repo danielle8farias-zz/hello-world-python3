@@ -78,6 +78,7 @@
 
 - [ex0038:](exercicio_py/ex0038_laco_while.py) Contador de 0 a 10; com while.
 
-- [ex0039:](exercicio_py/ex0039_condicao_pagamento.py) Usuário digita um valor em dinheiro e programa retorna as condições de pagamento: para pagamento à vista em dinheiro há um desconto de 10%;
-para pagamento à vista no cartão ou cheque há um desconto de 5%; para pagamento de 2x no cartão, o preço é normal; para pagamento de 3x ou mais, há 20% de juros.
+- [ex0039:](exercicio_py/ex0039_condicao_pagamento.py) Usuário digita um valor em dinheiro e programa retorna as condições de pagamento: para pagamento à vista em dinheiro há um desconto de 10%; para pagamento à vista no cartão ou cheque há um desconto de 5%; para pagamento de 2x no cartão, o preço é normal; para pagamento de 3x ou mais, há 20% de juros.
 
+- [ex0040:](exercicio_py/ex0040_valida_vogal.py) Usuário informa uma vogal. Caso seja digitado consoantes, programa deve informar erro 
+e pedir para que o usuário digite novamente.

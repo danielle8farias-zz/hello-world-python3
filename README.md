@@ -86,3 +86,5 @@ e pedir para que o usuário digite novamente.
 - [ex0041:](exercicio_py/ex0041_compara_valores.py) Usuário informa vários números inteiros. O programa deve retornar a média desses números, qual o menor deles e o maior. O programa deve perguntar se o usuário quer continuar ou não a digitar mais valores.
 
 - [ex0042:](exercicio_py/ex0042_jogo_adivinhacao_num.py) Jogo de adivinhação de números. Computador escolhe um número aleatório entre 0 e 10. O usuário deve tentar adivinhar esse número escolhido pelo computador para ganhar. Caso o usuário na acerte na tentativa, o programa deve retornar uma dica: se o número informado pelo usuário é menor ou maior do que aquele que foi escolhido pelo computador. No final, deve-se mostrar quantos palpites foram dados até o usuário acertar.
+
+- [ex0043:](exercicio_py/ex0043_embaralha_string.py) Usuário informa uma string e computador retorna as letras embaralhadas.

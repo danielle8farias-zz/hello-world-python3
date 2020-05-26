@@ -108,3 +108,5 @@ e pedir para que o usuário digite novamente.
 - [ex0052:](exercicio_py/ex0052_tabuada_multi_while.py) Usuário digita um número e programa retorna a tabuada de multiplicação desse número, usando o laço for. Antes de encerrar programa deve perguntar ao usuário se deseja continuar. Se a resposta for 'sim' o programa continua e pede outro número para efetuar a tabuada. Se a resposta for 'não' o programa é encerrado.
 
 - [ex0053:](exercicio_py/ex0053_jogo_par_impar.py) Usuário escolhe um número inteiro entre 0 e 10. Programa também escolherá um número nesse intervalo. Usuário informa se acha que a soma desses dois valores será par ou ímpar. O programa é interrompido quando o usuário perder, mostrando ao final o total de vitórias.
+
+- [ex0054:](exercicio_py/ex0054_caixa_eletronico.py) Simulador de caixa eletrônico. Usuário informa o valor que deseja sacar. O programa retorna quantas cédulas de cada valor serão entregues. O caixa possui cédulas de 50, 20, 10 e 1.

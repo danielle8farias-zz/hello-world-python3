@@ -99,4 +99,6 @@ e pedir para que o usuário digite novamente.
 
 - [ex0048:](exercicio_py/ex0048_PA_while.py) Usuário informa o 1º termo de uma PA e sua razão. O programa retorna os 10 primeiros termos dessa PA. Usando while.
 
-- 
+- [ex0049:](exercicio_py/ex0049_PA_10_em_10.py) Usuário informa o 1º termo de uma PA e a sua razão. O programa calcula e retorna os 10 primeiros termos. Em seguida, pergunta se o usuário quer mostrar mais termos. Quando escolhido 0 termos o programa encerra.
+
+- ex0050: 

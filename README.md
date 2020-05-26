@@ -103,4 +103,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0050:](exercicio_py/ex0050_fibonacci.py) Usuário informa um número inteiro e programa retorna a sequência de Fibonacci dos n elementos lidos.
 
-- ex0051: 
+- [ex0051:](exercicio_py/ex0051_break.py) Usuário digita vários números e o programa retorna quantos foram digitados. A condição de parada é quando for informado o número 999 (desconsiderar este da contagem).

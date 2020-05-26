@@ -70,7 +70,7 @@
 
 - [ex0034:](exercicio_py/ex0034_contador_par.py) Conta números pares de 1 a 50.
 
-- [ex0035:](exercicio_py/ex0035_tabuada_multi.py) Usuário digita um número e programa retorna a tabuada de multiplicação desse número, usando o laço for.
+- [ex0035:](exercicio_py/ex0035_tabuada_multi_for.py) Usuário digita um número e programa retorna a tabuada de multiplicação desse número, usando o laço for.
 
 - [ex0036:](exercicio_py/ex0036_PA_for.py) Usuário informa o 1º termo de uma PA e sua razão. O programa retorna os 10 primeiros termos dessa PA. Usando for.
 

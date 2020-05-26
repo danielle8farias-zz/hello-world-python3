@@ -101,4 +101,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0049:](exercicio_py/ex0049_PA_10_em_10.py) Usuário informa o 1º termo de uma PA e a sua razão. O programa calcula e retorna os 10 primeiros termos. Em seguida, pergunta se o usuário quer mostrar mais termos. Quando escolhido 0 termos o programa encerra.
 
-- ex0050: 
+- [ex0050:](exercicio_py/ex0050_fibonacci.py) Usuário informa um número inteiro e programa retorna a sequência de Fibonacci dos n elementos lidos.

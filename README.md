@@ -104,3 +104,5 @@ e pedir para que o usuário digite novamente.
 - [ex0050:](exercicio_py/ex0050_fibonacci.py) Usuário informa um número inteiro e programa retorna a sequência de Fibonacci dos n elementos lidos.
 
 - [ex0051:](exercicio_py/ex0051_break.py) Usuário digita vários números e o programa retorna quantos foram digitados. A condição de parada é quando for informado o número 999 (desconsiderar este da contagem).
+
+- [ex0052:](exercicio_py/ex0052_tabuada_multi_while.py) Usuário digita um número e programa retorna a tabuada de multiplicação desse número, usando o laço for. Antes de encerrar programa deve perguntar ao usuário se deseja continuar. Se a resposta for 'sim' o programa continua e pede outro número para efetuar a tabuada. Se a resposta for 'não' o programa é encerrado.

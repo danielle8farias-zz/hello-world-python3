@@ -119,3 +119,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0058:](exercicio_py/ex0058_produtos_papelaria.py) Tabela de preços de produtos de uma livraria guardada em uma tupla composta.
 
+- [ex0059:](exercicio_py/ex0059_palavras_vogais_tupla.py) Em uma tupla de palavras, identificar e mostrar as vogais em cada uma.

@@ -114,3 +114,6 @@ e pedir para que o usuário digite novamente.
 - [ex0055:](exercicio_py/ex0055_tupla.py) Cardápio de refeições organizado por tuplas.
 
 - [ex0056:](exercicio_py/ex0056_dias_semana.py) Dias da semana armazenadas numa tupla. Usuário escohe um número inteiro de 0 a 6 e programa retorna um desses dias armazenados, de acordo com a posição na tupla.
+
+- [ex0057:](exercicio_py/ex0057_adiciona_num_tupla.py) Quatro números inteiros são guardados em uma tupla. Retorna quantos números 8 foram digitados. A posição do número 3, se houver e quais desses números na tupla são pares.
+

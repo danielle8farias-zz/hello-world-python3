@@ -117,3 +117,5 @@ e pedir para que o usuário digite novamente.
 
 - [ex0057:](exercicio_py/ex0057_adiciona_num_tupla.py) Quatro números inteiros são guardados em uma tupla. Retorna quantos números 8 foram digitados. A posição do número 3, se houver e quais desses números na tupla são pares.
 
+- [ex0058:](exercicio_py/ex0058_produtos_papelaria.py) Tabela de preços de produtos de uma livraria guardada em uma tupla composta.
+

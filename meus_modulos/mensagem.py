@@ -68,3 +68,4 @@ def ler_resposta(msg):
         else:
             #retorna o valor da resposta
             return resposta
+

@@ -112,3 +112,5 @@ e pedir para que o usuário digite novamente.
 - [ex0054:](exercicio_py/ex0054_caixa_eletronico.py) Simulador de caixa eletrônico. Usuário informa o valor que deseja sacar. O programa retorna quantas cédulas de cada valor serão entregues. O caixa possui cédulas de 50, 20, 10 e 1.
 
 - [ex0055:](exercicio_py/ex0055_tupla.py) Cardápio de refeições organizado por tuplas.
+
+- [ex0056:](exercicio_py/ex0056_dias_semana.py) Dias da semana armazenadas numa tupla. Usuário escohe um número inteiro de 0 a 6 e programa retorna um desses dias armazenados, de acordo com a posição na tupla.

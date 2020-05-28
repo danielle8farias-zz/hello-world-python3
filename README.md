@@ -129,3 +129,5 @@ e pedir para que o usuário digite novamente.
 
 - [ex0063:](exercicio_py/ex0063_lista_ordenada.py) Usuário digita 5 valores inteiros. Esses valores são guardados em uma lista. A ordenação é feita no momento da inserção. Retorna o valor da lista ordenada. 
 
+- [ex0064:](exercicio_py/ex0064_lista_par_impar.py) Usuário informa vários números inteiros que serão guardados em uma lista. Programa retorna os valores pares em uma lista separada e ímpares em outra lista. Ao final, as três listas são exibidas.
+

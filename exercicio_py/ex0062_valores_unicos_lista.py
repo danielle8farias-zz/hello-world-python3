@@ -1,6 +1,6 @@
 '''
 Usuário digita vários valores inteiros. Esses valores são guardados em uma lista. 
-Não é permitido números repetidos.
+Não são permitidos números repetidos.
 '''
 
 lista_num = list()

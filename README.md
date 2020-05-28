@@ -127,3 +127,5 @@ e pedir para que o usuário digite novamente.
 
 - [ex0062:](exercicio_py/ex0062_valores_unicos_lista.py) Usuário digita vários valores inteiros. Esses valores são guardados em uma lista. Não é permitido números repetidos.
 
+- [ex0063:](exercicio_py/ex0063_lista_ordenada.py) Usuário digita 5 valores inteiros. Esses valores são guardados em uma lista. A ordenação é feita no momento da inserção. Retorna o valor da lista ordenada. 
+

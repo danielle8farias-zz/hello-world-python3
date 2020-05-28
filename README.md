@@ -123,6 +123,7 @@ e pedir para que o usuário digite novamente.
 
 - [ex0060:](exercicio_py/ex0060_listas.py) Propriedades de uma lista.
 
-- [ex0061:](exercicio_py/ex0061_maior_menor_lista.py) Usuário informa 5 números inteiros. O programa os guarda em uma lista e retorna o maior e o menor deles e a sua posição.
+- [ex0061:](exercicio_py/ex0061_maior_menor_lista.py) Usuário informa 5 números inteiros. O programa os guarda em uma lista e retorna o maior e o menor deles e a sua posição. Números repetidos são permitidos.
 
-- 
+- [ex0062:](exercicio_py/ex0062_valores_unicos_lista.py) Usuário digita vários valores inteiros. Esses valores são guardados em uma lista. Não é permitido números repetidos.
+

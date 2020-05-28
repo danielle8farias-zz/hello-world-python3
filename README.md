@@ -122,3 +122,7 @@ e pedir para que o usuário digite novamente.
 - [ex0059:](exercicio_py/ex0059_palavras_vogais_tupla.py) Em uma tupla de palavras, identificar e mostrar as vogais em cada uma.
 
 - [ex0060:](exercicio_py/ex0060_listas.py) Propriedades de uma lista.
+
+- [ex0061:](exercicio_py/ex0061_maior_menor_lista.py) Usuário informa 5 números inteiros. O programa os guarda em uma lista e retorna o maior e o menor deles e a sua posição.
+
+- 

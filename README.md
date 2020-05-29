@@ -132,3 +132,5 @@ e pedir para que o usuário digite novamente.
 - [ex0064:](exercicio_py/ex0064_lista_par_impar.py) Usuário informa vários números inteiros que serão guardados em uma lista. Programa retorna os valores pares em uma lista separada e ímpares em outra lista. Ao final, as três listas são exibidas.
 
 - [ex0065:](exercicio_py/ex0065_pilha_parenteses.py) Usuário digita uma expressão matemática que faça uso de parenteses. O programa deverá analisar se os números de parenteses abertos correspondem aos números de parenteses fechados.
+
+- [ex0066:](exercicio_py/ex0066_lista_composta.py) Utilizando listas compostas.

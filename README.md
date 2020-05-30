@@ -138,3 +138,5 @@ e pedir para que o usuário digite novamente.
 - [ex0067:](exercicio_py/ex0067_matriz_3x3.py) Usuário digita valores numa matriz 3 x 3. Programa retorna essa matriz.
 
 - [ex0068:](exercicio_py/ex0068_matriz_nxn.py) Usuário escolhe o tamanho da matriz e digita o valor dos seus elementos. Programa retorna essa matriz.
+
+- [ex0069:](exercicio_py/ex0069_palpite_mega_sena.py) Usuário escolhe quantas apostas deseja fazer no jogo da mega-sena. Programa retorna as sugestões de apostas; 6 números de 1 a 60. Não pode haver números repetidos.

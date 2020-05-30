@@ -133,4 +133,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0065:](exercicio_py/ex0065_pilha_parenteses.py) Usuário digita uma expressão matemática que faça uso de parenteses. O programa deverá analisar se os números de parenteses abertos correspondem aos números de parenteses fechados.
 
-- [ex0066:](exercicio_py/ex0066_lista_composta.py) Utilizando listas compostas.
+- [ex0066:](exercicio_py/ex0066_lista_composta.py) Utilizando listas compostas para guardar dados como nome e idade.

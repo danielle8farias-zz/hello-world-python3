@@ -1,5 +1,5 @@
 '''
-Utilizando lsitas compostas.
+Utilizando lsitas compostas para guardar dados como nome e idade.
 '''
 
 lista1 = list()

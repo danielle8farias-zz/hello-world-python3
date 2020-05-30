@@ -136,3 +136,5 @@ e pedir para que o usuário digite novamente.
 - [ex0066:](exercicio_py/ex0066_lista_composta.py) Utilizando listas compostas para guardar dados como nome e idade.
 
 - [ex0067:](exercicio_py/ex0067_matriz_3x3.py) Usuário digita valores numa matriz 3 x 3. Programa retorna essa matriz.
+
+- [ex0068:](exercicio_py/ex0068_matriz_nxn.py) Usuário escolhe o tamanho da matriz e digita o valor dos seus elementos. Programa retorna essa matriz.

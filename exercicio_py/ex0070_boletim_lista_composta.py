@@ -50,6 +50,9 @@ while True:
     num = int(input('Digite o número do aluno para ver as notas desse: '))
 
     if num == 99:
+        print('Finalizando...\n')
         break
-    else:
+    #aceita apenas opções que são itens da lista
+    #len()-1 porque o índice da lista começa em zero
+    if num <= len(boletim)-1:
         print(f'\nNotas de {boletim[num][0]} são: {boletim[num][1]}')

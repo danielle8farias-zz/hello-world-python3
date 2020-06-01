@@ -142,3 +142,5 @@ e pedir para que o usuário digite novamente.
 - [ex0069:](exercicio_py/ex0069_palpite_mega_sena.py) Usuário escolhe quantas apostas deseja fazer no jogo da mega-sena. Programa retorna as sugestões de apostas; 6 números de 1 a 60. Não pode haver números repetidos.
 
 - [ex0070:](exercicio_py/ex0070_boletim_lista_composta.py) Usuário lê nomes e duas notas de vários alunos. O programa guarda os dados numa lista composta. Retorna o boletim com, o nome, o número e a média de cada aluno. Ao final é permitido escolher o aluno pelo número para ver as notas individualmente.
+
+- [ex0071:](exercicio_py/ex0071_boletim_lista_composta.py) Outra maneira de fazer o ex0070.

@@ -32,19 +32,18 @@ while True:
     if resp == 'N':
         break
     print()
+print()
 
-print(f'{"No.":<4}', end='')
-print(f'{"NOME":>5}', end='')
-print(f'{"MÉDIA":>15}')
+print(f'{"No.":<4}{"NOME":>5}{"MÉDIA":>15}')
 print('-'*30)
 
 for i in range(len(boletim)):
     #número do auno
     print(f'{i:<4}', end='')
     #nome do aluno
-    print(f'{boletim[i][0]:<5}', end='')
+    print(f'{boletim[i][0]:<10}', end='')
     #média do aluno
-    print(f'{boletim[i][2]:>15}')
+    print(f'{boletim[i][2]:>9.1f}')
 
 while True:
     print('\n99 interrompe')

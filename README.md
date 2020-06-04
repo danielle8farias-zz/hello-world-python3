@@ -154,3 +154,5 @@ e pedir para que o usuário digite novamente.
 - [ex0075:](exercicio_py/ex0075_funcao.py) Funções que criam linhas e formatos de títulos.
 
 - [ex0076:](exercicio_py/ex0076_calculadora_basica_funcao.py) Calculadora básica que soma, subtrai, multiplica ou divide dois números. Usando funções.
+
+- [ex0077:](exercicio_py/ex0077_dobra_valor_lista.py) Dobrando valores de uma lista através de uma função.

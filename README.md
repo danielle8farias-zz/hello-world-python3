@@ -149,3 +149,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0073:](exercicio_py/ex0073_produtos_papelaria_dict.py) Tabela de preços de produtos de uma livraria guardada em um dicionário.
 
+- [ex0074:](exercicio_py/ex0074_boletim_dict.py) Usuário lê nomes e duas notas de vários alunos. O programa retorna o boletim com, o nome, o número e a média de cada aluno. Ao final é permitido escolher o aluno pelo número para ver as notas individualmente. Os dados são armazenados em um dicionário.

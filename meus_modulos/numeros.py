@@ -1,6 +1,8 @@
 '''
 Funções para:
 validar número float;
+validar número inteiro;
+validar o divisor da operação de divisão;
 '''
 
 #função que captura um número informado pelo usuário para validação
@@ -44,3 +46,20 @@ def ler_num_int(n):
         else:
             #retorna valor de mes
             return num
+
+
+def ler_divisor(n):
+    while True:
+        try:
+            num = float(input(n))
+            if num == 0:
+                raise Exception('Não é possível dividir por 0.')
+        except ValueError as erro:
+            print('Digite um número.')
+            continue
+        except Exception as erro1:
+            print(f'Valor inválido: {erro1}')
+            continue
+        else:
+            return num
+        

@@ -16,7 +16,7 @@ def ler_num_float(n):
             num = float(input(n))
         #criando exceção
         #   caso o valor digitado seja diferente de um número
-        except ValueError as erro:
+        except ValueError:
             #print() retorna uma string na tela
             print('Digite um valor válido!')
             #volta para o início do laço
@@ -37,7 +37,7 @@ def ler_num_int(n):
             num = int(input(n))
         #criando exceção
         #   caso o valor digitado seja diferente de um número
-        except ValueError as erro:
+        except ValueError:
             #print() retorna uma string na tela
             print('Digite um número inteiro!')
             #volta para o início do laço
@@ -54,11 +54,11 @@ def ler_divisor(n):
             num = float(input(n))
             if num == 0:
                 raise Exception('Não é possível dividir por 0.')
-        except ValueError as erro:
+        except ValueError:
             print('Digite um número.')
             continue
-        except Exception as erro1:
-            print(f'Valor inválido: {erro1}')
+        except Exception as erro:
+            print(f'Valor inválido: {erro}')
             continue
         else:
             return num

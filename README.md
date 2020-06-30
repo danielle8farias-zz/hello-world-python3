@@ -156,3 +156,5 @@ e pedir para que o usuário digite novamente.
 - [ex0076:](exercicio_py/ex0076_calculadora_basica_funcao.py) Calculadora básica que soma, subtrai, multiplica ou divide dois números. Usando funções.
 
 - [ex0077:](exercicio_py/ex0077_dobra_valor_lista.py) Dobrando valores de uma lista através de uma função.
+
+- [ex0078:](exercicio_py/ex0078_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas. Fazendo validação do dado.

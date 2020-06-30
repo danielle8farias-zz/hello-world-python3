@@ -1,6 +1,6 @@
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
-from numeros import ler_num_float, ler_divisor
+from numeros import ler_num_float, ler_divisor, ler_num_int
 
 
 def somar():
@@ -29,8 +29,8 @@ def dividir():
 
 from math import pow
 def exponenciar():
-    base = float(input('Digite o número da base: '))
-    expo = float(input('Digite o número do expoente: '))
+    base = ler_num_float('Digite o número da base: ')
+    expo = ler_num_int('Digite o número do expoente: ')
     return pow(base, expo)
 
 

@@ -1,10 +1,7 @@
 #!/usr/bin/env python3.8
 
-#importando o módulo de informações sobre o sistema
 import sys
-#adicionando ao final da lista de módulos o caminho para os meus módulos
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
-#importando módulos
 from mensagem import ler_cabecalho, rodape, linha, ler_resposta
 from time import sleep
 from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar

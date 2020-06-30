@@ -158,3 +158,5 @@ e pedir para que o usuário digite novamente.
 - [ex0077:](exercicio_py/ex0077_dobra_valor_lista.py) Dobrando valores de uma lista através de uma função.
 
 - [ex0078:](exercicio_py/ex0078_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas. Fazendo validação do dado.
+
+- [ex0079:](exercicio_py/ex0079_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada. Com validação de dados.

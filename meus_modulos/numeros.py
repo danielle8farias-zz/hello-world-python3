@@ -3,6 +3,8 @@ Funções para:
 validar número float;
 validar número inteiro;
 validar o divisor da operação de divisão;
+validar índice de raízes;
+validar números naturais;
 '''
 
 #função que captura um número informado pelo usuário para validação
@@ -75,6 +77,25 @@ def ler_indice(n):
                 raise Exception('Índice deve ser maior ou igual a 2')
         except ValueError:
             print('Digite um número inteiro.')
+            continue
+        except Exception as erro:
+            print(f'Valor inválido: {erro}')
+            continue
+        else:
+            return num
+
+
+def ler_num_nat(n):
+    '''
+    aceita somente números naturais
+    '''
+    while True:
+        try:
+            num = int(input(n))
+            if num < 0:
+                raise Exception('Apenas números naturais.')
+        except ValueError:
+            print('Digite um número maior ou igual a zero.')
             continue
         except Exception as erro:
             print(f'Valor inválido: {erro}')

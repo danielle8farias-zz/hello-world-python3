@@ -9,7 +9,7 @@ from time import sleep
 
 from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar
 from tabuadas import tipo_tabuada
-from sequencias import fatorial
+from sequencias import fatorial, pa
 
 
 ler_cabecalho('calculadora')
@@ -25,6 +25,7 @@ while True:
         6- radiciação
         7- tabuada
         8- fatorial
+        9- progressão aritmética (PA)
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -53,6 +54,8 @@ while True:
     elif opcao == 8:
         result = fatorial()
         print(f'\nFatorial: {result}')
+    elif opcao == 9:
+        pa()
     else:
         break
 

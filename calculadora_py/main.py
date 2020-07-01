@@ -3,10 +3,13 @@
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho, rodape, linha, ler_resposta
+from numeros import ler_num_int
+
 from time import sleep
+
 from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar
 from tabuadas import tipo_tabuada
-from numeros import ler_num_int
+from sequencias import fatorial
 
 
 ler_cabecalho('calculadora')
@@ -48,7 +51,8 @@ while True:
     elif opcao == 7:
         tipo_tabuada()
     elif opcao == 8:
-        pass
+        result = fatorial()
+        print(f'\nFatorial: {result}')
     else:
         break
 

@@ -62,4 +62,26 @@ def ler_divisor(n):
             continue
         else:
             return num
-        
+
+
+def ler_indice(n):
+    '''
+    valida índice de uma raiz
+    '''
+    while True:
+        try:
+            num = int(input(n))
+            if num < 2:
+                raise Exception('Índice deve ser maior ou igual a 2')
+        except TypeError:
+            print('Digite um número.')
+            continue
+        except ValueError:
+            print('Digite um número inteiro.')
+            continue
+        except Exception as erro:
+            print(f'Valor inválido: {erro}')
+            continue
+        else:
+            return num
+

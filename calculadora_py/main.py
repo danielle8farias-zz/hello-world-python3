@@ -21,6 +21,7 @@ while True:
         5- exponenciação
         6- radiciação
         7- tabuada
+        8- fatorial
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -46,6 +47,8 @@ while True:
         print(f'\nRadiciação: {result}')
     elif opcao == 7:
         tipo_tabuada()
+    elif opcao == 8:
+        pass
     else:
         break
 

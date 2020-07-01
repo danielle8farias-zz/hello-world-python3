@@ -162,3 +162,5 @@ e pedir para que o usuário digite novamente.
 - [ex0079:](exercicio_py/ex0079_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada. Com validação de dados.
 
 - [ex0080:](exercicio_py/ex0080_media_nota.py) Usuário informa quantas notas deseja cadastrar e informa o valor dessas notas. Programa calcula e retorna a média das notas. Se a média for maior ou igual a 6, a média é boa, senão é ruim. Com validação da entrada de dados.
+
+- [ex0081:](exercicio_py/ex0081_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido. Com validação dos dados.

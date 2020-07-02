@@ -35,22 +35,23 @@ def pa():
             termo -= 1
         print('pausa')
         print('Digite 0 para encerrar.')
-        termo = int(input('Quantos termos deseja mostrar? '))
+        termo = ler_num_nat('Quantos termos deseja mostrar? ')
         total_termos += termo
     print(f'Total de termos mostrados: {total_termos}\n')
 
 
 def fibo():
-    num = int(input('Quantos termos você quer mostrar? '))
-    t1 = 0
-    t2 = 1
-    print(f'{t1} -> {t2}', end='')
-    i = 3
-    while i <= num:
-        tn = t1 + t2
-        print(f' -> {tn}', end='')
-        t1 = t2
-        t2 = tn
-        i += 1
+    num = ler_num_nat('Quantos termos você quer mostrar? ')
+    while num != 0:
+        t1 = 0
+        t2 = 1
+        print(f'{t1} -> {t2}', end='')
+        i = 3
+        while i <= num:
+            tn = t1 + t2
+            print(f' -> {tn}', end='')
+            t1 = t2
+            t2 = tn
+            i += 1
     print()
 

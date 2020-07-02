@@ -1,9 +1,11 @@
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+from mensagem import ler_cabecalho
 from numeros import ler_num_nat, ler_num_float
 
 
 def fatorial():
+    ler_cabecalho('fatorial')
     num = ler_num_nat('Digite um número natural: ')
     print()
     print(f'Calculando {num}!')
@@ -21,6 +23,7 @@ def fatorial():
     
 
 def pa():
+    ler_cabecalho('progressão aritmética')
     A1 =  ler_num_float('Primeiro termo: ')
     r = ler_num_float('Razão: ')
     i = 1
@@ -41,6 +44,7 @@ def pa():
 
 
 def fibo():
+    ler_cabecalho('sequência fibonacci')
     num = ler_num_nat('Quantos termos você quer mostrar? ')
     if num == 1:
         print('0')

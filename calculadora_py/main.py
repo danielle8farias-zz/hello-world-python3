@@ -9,7 +9,7 @@ from time import sleep
 
 from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar
 from tabuadas import tipo_tabuada
-from sequencias import fatorial, pa
+from sequencias import fatorial, pa, fibo
 
 
 ler_cabecalho('calculadora')
@@ -26,6 +26,7 @@ while True:
         7- tabuada
         8- fatorial
         9- progressão aritmética (PA)
+        10- sequência Fibonacci
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -56,6 +57,8 @@ while True:
         print(f'\nFatorial: {result}')
     elif opcao == 9:
         pa()
+    elif opcao == 10:
+        fibo()
     else:
         break
 

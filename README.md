@@ -166,3 +166,9 @@ e pedir para que o usuário digite novamente.
 - [ex0081:](exercicio_py/ex0081_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido. Com validação dos dados.
 
 - [ex0082:](exercicio_py/ex0082_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse. Com validação de dados.
+
+- [ex0083:](exercicio_py/ex0083_soma_array.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
+
+- [ex0084:](exercicio_py/ex0084_sen_coss_tang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
+
+- ex0085: 

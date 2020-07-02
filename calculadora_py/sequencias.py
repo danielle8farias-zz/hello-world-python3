@@ -42,7 +42,9 @@ def pa():
 
 def fibo():
     num = ler_num_nat('Quantos termos você quer mostrar? ')
-    while num != 0:
+    if num == 1:
+        print('0')
+    elif num > 0:
         t1 = 0
         t2 = 1
         print(f'{t1} -> {t2}', end='')

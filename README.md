@@ -171,4 +171,5 @@ e pedir para que o usuário digite novamente.
 
 - [ex0084:](exercicio_py/ex0084_sen_coss_tang.py) Usuário fornece um número em radianos e programa retorna os valores de seno, cosseno e tangente.
 
-- ex0085: 
+- [ex0085:](exercicio_py/ex0085_troca_vogal.py) Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por *(asterisco).
+

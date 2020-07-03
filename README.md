@@ -173,3 +173,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0085:](exercicio_py/ex0085_troca_vogal.py) Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por *(asterisco).
 
+- [ex0086:](exercicio_py/ex0086_primo.py) Usuário digita um número natural inteiro e programa verifica se esse é número primo. Com validação de dados.

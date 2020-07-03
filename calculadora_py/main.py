@@ -10,7 +10,7 @@ from time import sleep
 from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar
 from tabuadas import tipo_tabuada
 from sequencias import fatorial, pa, fibo
-from trigonometria import hipo
+from trigonometria import hipo, razao_trigon
 
 
 ler_cabecalho('calculadora')
@@ -29,6 +29,7 @@ while True:
         9- progressão aritmética (PA)
         10- sequência Fibonacci
         11- lados de um triângulo retângulo
+        12- Seno, Cosseno e Tangente
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -63,6 +64,8 @@ while True:
         fibo()
     elif opcao == 11:
         hipo()
+    elif opcao == 12:
+        razao_trigon()
     else:
         break
 

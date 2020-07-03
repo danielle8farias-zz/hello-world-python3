@@ -1,8 +1,8 @@
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho
-from math import sqrt, hypot
 from numeros import ler_num_float
+
 
 def calcular_cateto(a, b):
     c = sqrt(a**2 - pow(b, 2))
@@ -27,6 +27,7 @@ def ler_escolha(num):
             return escolha
 
 
+from math import sqrt, hypot
 def hipo():
     ler_cabecalho('lados de um triângulo retângulo')
     print('Digite:')
@@ -46,5 +47,19 @@ def hipo():
         b = ler_num_float('Digite o Cateto: ')
         c = calcular_cateto(a, b)
         print(f'O valor do outro Cateto é: {c:.2f}')
+    print()
+
+
+from math import radians, sin, cos, tan
+def razao_trigon():
+    ler_cabecalho('SENO COSSENO TANGENTE')
+    numero = ler_num_float('Digite um ângulo: ')
+    #radians() convertendo float para radianos
+    seno = sin(radians(numero))
+    cosseno = cos(radians(numero))
+    tangente = tan(radians(numero))
+    print(f'O seno é {seno:.2f}')
+    print(f'O cosseno é {cosseno:.2f}')
+    print(f'A tangente é {tangente:.2f}')
     print()
 

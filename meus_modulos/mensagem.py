@@ -3,7 +3,8 @@ funções para:
 cabeçalho;
 linha;
 rodapé;
-resposta se quer continuar.
+resposta se quer continuar;
+validando recebimento de string;
 '''
 
 def ler_cabecalho(msg):
@@ -68,4 +69,23 @@ def ler_resposta(msg):
         else:
             #retorna o valor da resposta
             return resposta
+
+
+def ler_palavra(msg):
+    while True:
+        try:
+            palavra = input(msg).upper().strip()
+            #retirando espaços
+            palavras = palavra.split(' ')
+            palavras = ''.join(palavras)
+            #isalpha() se possui apenas letras
+            #verificando se palavra possui caracteres que não sejam letras
+            if not palavras.isalpha():
+                raise Exception('Digite apenas letras.')
+        except Exception as erro:
+            print(f'Valor inválido: {erro}')
+            continue
+        #se o 'try' for válido
+        else:
+            return palavra
 

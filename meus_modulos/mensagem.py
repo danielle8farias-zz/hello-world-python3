@@ -76,7 +76,7 @@ def ler_palavra(msg):
         try:
             palavra = input(msg).upper().strip()
             #retirando espaços
-            palavras = palavra.split(' ')
+            palavras = palavra.split()
             palavras = ''.join(palavras)
             #isalpha() se possui apenas letras
             #verificando se palavra possui caracteres que não sejam letras

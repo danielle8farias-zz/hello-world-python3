@@ -176,3 +176,5 @@ e pedir para que o usuário digite novamente.
 - [ex0086:](exercicio_py/ex0086_primo.py) Usuário digita um número natural inteiro e programa verifica se esse é número primo. Com validação de dados.
 
 - [ex0087:]() Usuário informa um número inteiro entre 0 e 9999 e programa retorna a posição decimal de cada algarismo; unidade, dezena, centena, etc.
+
+- [ex0088:](exercicio_py/ex0088_primeiro_ultimo_nome.py) Usuário informa nome completo e programa retorne apenas o primeiro e o último nome.

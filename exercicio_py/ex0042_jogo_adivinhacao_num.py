@@ -10,6 +10,13 @@ No final, deve-se mostrar quantos palpites foram dados até o usuário acertar.
 from random import randint
 from time import sleep
 
+import sys
+sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+from mensagem import ler_cabecalho, rodape
+from numeros import ler_num_int
+
+
+ler_cabecalho('jogo de adivinhação')
 print('O computador escolheu um número entre 0 e 10.')
 print('Você consegue adivinhar qual foi?')
 print()
@@ -19,7 +26,7 @@ palpite = 0
 computador = randint(0, 10)
 
 while not acertou:
-    jogador = int(input('Qual o seu palpite? '))
+    jogador = ler_num_int('Qual o seu palpite? ')
     print('Processando...')
     sleep(1)
     palpite += 1
@@ -33,3 +40,4 @@ while not acertou:
         else:
             print('Meu número é maior... Tente novamente!')
 print()
+rodape()

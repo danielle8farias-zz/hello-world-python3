@@ -7,7 +7,7 @@ from numeros import ler_num_int
 
 from time import sleep
 
-from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar
+from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar, primo
 from tabuadas import tipo_tabuada
 from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
@@ -17,19 +17,20 @@ ler_cabecalho('calculadora')
 sleep(1)
 while True:
     print('''
-        0- sair
-        1- soma
-        2- subtração
-        3- multiplicação
-        4- divisão
-        5- exponenciação
-        6- radiciação
-        7- tabuada
-        8- fatorial
-        9- progressão aritmética (PA)
+        0 - sair
+        1 - soma
+        2 - subtração
+        3 - multiplicação
+        4 - divisão
+        5 - exponenciação
+        6 - radiciação
+        7 - tabuada
+        8 - fatorial
+        9 - progressão aritmética (PA)
         10- sequência Fibonacci
         11- lados de um triângulo retângulo
         12- Seno, Cosseno e Tangente
+        13- verificar se um número é primo
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -66,6 +67,8 @@ while True:
         hipo()
     elif opcao == 12:
         razao_trigon()
+    elif opcao == 13:
+        primo()
     else:
         break
 

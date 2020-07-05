@@ -175,7 +175,7 @@ e pedir para que o usuário digite novamente.
 
 - [ex0086:](exercicio_py/ex0086_primo.py) Usuário digita um número natural inteiro e programa verifica se esse é número primo. Com validação de dados.
 
-- [ex0087:]() Usuário informa um número inteiro entre 0 e 9999 e programa retorna a posição decimal de cada algarismo; unidade, dezena, centena, etc.
+- [ex0087:](exercicio_py/ex0087_digito_separado.py) Usuário informa um número inteiro entre 0 e 9999 e programa retorna a posição decimal de cada algarismo; unidade, dezena, centena, etc.
 
 - [ex0088:](exercicio_py/ex0088_primeiro_ultimo_nome.py) Usuário informa nome completo e programa retorne apenas o primeiro e o último nome.
 
@@ -186,3 +186,13 @@ e pedir para que o usuário digite novamente.
 - [ex0091:](exercicio_py/ex0091_verifica_se_triangulo.py) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
 
 - [ex0092:](exercicio_py/ex0092_conversor_bases.py) Usuário informa um número inteiro e escolhe uma opção de conversão desse número. O programa retorna a conversão escolhida desse número para base binária, octal ou hexadecimal.
+
+- [ex0093:](exercicio_py/ex0093_classe_pessoa.py) Classe pessoa com nome, idade e ações.
+
+- [ex0094:](exercicio_py/ex0094_classe_computador.py) Classe computador com suas características, componentes e ações.
+
+- [ex0095:](exercicio_py/ex0095_classe_personagem_disney.py) Classe personagem com nome e cor.
+
+- [ex0096:](exercicio_py/ex0096_classe_usuario.py) Classe usuário com nome e data de nascimento.
+
+- [ex0097:](exercicio_py/ex0097_classe_empregado.py) Classe empregado com nome, sobrenome e salário.

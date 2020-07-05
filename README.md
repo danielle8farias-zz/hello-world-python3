@@ -183,3 +183,5 @@ e pedir para que o usuário digite novamente.
 
 - [ex0090:](exercicio_py/ex0090_maior_menor_de_tres.py) Usuário informa 3 números inteiros e programa retorna o maior e o menor deles.
 
+- [ex0091:](exercicio_py/ex0091_verifica_se_triangulo.py) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
+

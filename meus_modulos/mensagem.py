@@ -38,7 +38,7 @@ def linha():
 
 def ler_resposta(msg):
     '''
-    Faz o programa rodar enquanto o usuário digitar S ou SIM
+    Aceita que o usuário digite apenas S/SIM ou N/Não
     '''
     while True:
         try:
@@ -55,7 +55,7 @@ def ler_resposta(msg):
                 raise Exception('S para sim ou N para não')
         #em caso de resposta vazia; 
         #   caso não haja string para pegar a posição inicial
-        except IndexError as erro:
+        except IndexError:
             print(f'Resposta inválida.')
             continue
         #chama a exceção criada
@@ -72,6 +72,9 @@ def ler_resposta(msg):
 
 
 def ler_palavra(msg):
+    '''
+    Verifica se o que foi digitado foram apenas letras
+    '''
     while True:
         try:
             palavra = input(msg).upper().strip()

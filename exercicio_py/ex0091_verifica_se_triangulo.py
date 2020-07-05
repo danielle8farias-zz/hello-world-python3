@@ -11,7 +11,7 @@ from numeros import ler_num_float
 
 
 #função que verifica e identifica o triângulo
-def verifica_triangulo(lado1, lado2, lado3):
+def verificar_triangulo(lado1, lado2, lado3):
     #verificando se a soma de dois lados quaisquer é maior do que o terceiro lado
     if lado2+lado3 > lado1 and lado1+lado3 > lado2 and lado1+lado2 > lado3:
         #verificando se possui os 3 lados iguais
@@ -33,7 +33,7 @@ while True:
     lado1 = ler_num_float("Digite o 1º lado do triângulo: ")
     lado2 = ler_num_float("Digite o 2º lado do triângulo: ")
     lado3 = ler_num_float("Digite o 3º lado do triângulo: ")
-    verifica_triangulo(lado1, lado2, lado3)
+    verificar_triangulo(lado1, lado2, lado3)
     print()
     resposta = ' '
     while resposta not in 'SN':

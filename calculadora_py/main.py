@@ -11,6 +11,7 @@ from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radic
 from tabuadas import tipo_tabuada
 from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
+from geometria import verificar_triangulo
 
 
 ler_cabecalho('calculadora')
@@ -31,6 +32,7 @@ while True:
         11- lados de um triângulo retângulo
         12- Seno, Cosseno e Tangente
         13- verificar se um número é primo
+        14- verifica se é triângulo
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -69,6 +71,8 @@ while True:
         razao_trigon()
     elif opcao == 13:
         primo()
+    elif opcao == 14:
+        verificar_triangulo()
     else:
         break
 

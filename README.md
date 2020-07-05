@@ -185,3 +185,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0091:](exercicio_py/ex0091_verifica_se_triangulo.py) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
 
+- [ex0092:](exercicio_py/ex0092_conversor_bases.py) Usuário informa um número inteiro e escolhe uma opção de conversão desse número. O programa retorna a conversão escolhida desse número para base binária, octal ou hexadecimal.

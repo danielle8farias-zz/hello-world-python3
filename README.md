@@ -180,3 +180,6 @@ e pedir para que o usuário digite novamente.
 - [ex0088:](exercicio_py/ex0088_primeiro_ultimo_nome.py) Usuário informa nome completo e programa retorne apenas o primeiro e o último nome.
 
 - [ex0089:](exercicio_py/ex0089_ano_bissexto.py) Usuário informa um ano que deseja verificar e programa retorna se esse é bissexto.
+
+- [ex0090:](exercicio_py/ex0090_maior_menor_de_tres.py) Usuário informa 3 números inteiros e programa retorna o maior e o menor deles.
+

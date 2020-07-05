@@ -93,9 +93,9 @@ def ler_num_nat(n):
         try:
             num = int(input(n))
             if num < 0:
-                raise Exception('Apenas números naturais.')
+                raise Exception('Digite um número maior ou igual a zero.')
         except ValueError:
-            print('Digite um número maior ou igual a zero.')
+            print('Apenas números naturais.')
             continue
         except Exception as erro:
             print(f'Valor inválido: {erro}')

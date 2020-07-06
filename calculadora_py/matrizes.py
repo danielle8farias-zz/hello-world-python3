@@ -5,6 +5,20 @@ from numeros import ler_num_int, ler_num_float
 from time import sleep
 
 
+#efetuando multiplicação por número real
+def efetuar_multi_real(A, n):
+    num_linhas = len(A)
+    num_colunas = len(A[0]) #basta colocar o comprimento de uma das linhas de A
+    multi_real = []
+    for i in range(num_linhas):
+        linha = []
+        for j in range(num_colunas):
+            valor = (n * A[i][j])
+            linha.append(valor)
+        multi_real.append(linha)
+    return multi_real
+
+
 #efetuando a subtração das matrizes
 def efetuar_subtracao_matrizes (A, B):
     num_linhas = len(A)
@@ -156,6 +170,41 @@ def subtrair_matrizes():
     print()
 
 
+#chamda principal da multiplicação de uma matriz por um número real
+def multiplicacao_real():
+    ler_cabecalho('multiplicação por um número real')
+    #definindo a ordem das matrizes 
+    print('Matriz A')
+    Ai, Aj = linha_coluna()
+    print()
+    num = ler_num_float('Digite um número que deseja multiplicar: ')
+    print()
+    #construindo a matriz
+    print('Construindo matriz A')
+    A = construir_matriz(Ai, Aj)
+    print()
+    #imprimindo a matriz
+    sleep(0.5)
+    print('Matriz A:')
+    for i in range(Ai):
+        for j in range(Aj):
+            sleep(0.5)
+            print(f'[{A[i][j]:^5}]', end='', flush=True)
+        print()
+    print()
+    sleep(0.5)
+    resultado = efetuar_multi_real(A, num)
+    #imprimindo a multiplicação por real
+    sleep(0.5)
+    print('\nResultado da multiplicação por número real:')
+    for i in range(Ai):
+        for j in range(Aj):
+            sleep(0.5)
+            print(f'[{resultado[i][j]:^5}]', end='', flush=True)
+        print()
+    print()
+
+
 #função que verifica a validade da escolha
 def ler_escolha(num):
     while True:
@@ -180,7 +229,7 @@ def tipo_matriz():
     print('''
     1- Somar duas matrizes
     2- Subtrair duas matrizes
-    3- 
+    3- Multiplicação de uma matriz por um número real
     ''')
     opcao = ler_escolha('Escolha uma das opções: ')
     print()
@@ -190,7 +239,7 @@ def tipo_matriz():
     elif opcao == 2:
         subtrair_matrizes()
     elif opcao == 3:
-        pass
+        multiplicacao_real()
     elif opcao == 4:
         pass
     else:

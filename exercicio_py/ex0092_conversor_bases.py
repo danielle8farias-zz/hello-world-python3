@@ -10,7 +10,7 @@ from mensagem import ler_cabecalho, rodape, ler_resposta
 from numeros import ler_num_int, ler_num_nat
 
 
-def f_escolha(opcao):
+def f_escolha(opcao, num):
     if opcao == 1:
         #bin() convertendo para binário
         print(f'Em binário: {bin(num)[2:]}')
@@ -31,7 +31,7 @@ while True:
     [2] octal
     [3] hexadecimal''')
     opcao = ler_num_nat('Sua opção: ')
-    f_escolha(opcao)
+    f_escolha(opcao, num)
     print()
     resposta = ' '
     while resposta not in 'SN':

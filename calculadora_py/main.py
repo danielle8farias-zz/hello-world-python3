@@ -13,6 +13,7 @@ from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
 from geometria import verificar_triangulo
 from sistema_numeracao import bases
+from matrizes import tipo_matriz
 
 
 ler_cabecalho('calculadora')
@@ -35,6 +36,7 @@ while True:
         13- verificar se um número é primo
         14- verifica se é triângulo
         15- conversor de bases
+        16- matrizes
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -77,6 +79,8 @@ while True:
         verificar_triangulo()
     elif opcao == 15:
         bases()
+    elif opcao == 16:
+        tipo_matriz()
     else:
         break
 

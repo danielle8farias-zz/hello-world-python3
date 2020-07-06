@@ -198,3 +198,6 @@ e pedir para que o usuário digite novamente.
 - [ex0097:](exercicio_py/ex0097_classe_empregado.py) Classe empregado com nome, sobrenome e salário.
 
 - [ex0098:](exercicio_py/ex0098_conversao_temperatura.py) Usuário tem a opção de esclher entre converter um valor de temperatura de Celsius para Farenheit ou de Farenheit para Celsius.
+
+- [ex0099:](exercicio_py/ex0099_soma_duas_matrizes.py) Usuário digita duas matrizes, escolhendo a ordem dessas e programa retorna a soma entre elas.
+

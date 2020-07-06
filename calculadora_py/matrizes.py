@@ -5,6 +5,20 @@ from numeros import ler_num_int, ler_num_float
 from time import sleep
 
 
+#efetuando a subtração das matrizes
+def efetuar_subtracao_matrizes (A, B):
+    num_linhas = len(A)
+    num_colunas = len(A[0]) #basta colocar o comprimento de uma das linhas de A
+    subtracao = []
+    for i in range(num_linhas):
+        linha = []
+        for j in range(num_colunas):
+            valor_subtracao = (A[i][j] - B[i][j])
+            linha.append(valor_subtracao)
+        subtracao.append(linha)
+    return subtracao
+
+
 #efetuando a soma das matrizes
 def efetuar_soma_matrizes (A, B):
     num_linhas = len(A)
@@ -39,7 +53,7 @@ def linha_coluna ():
 
 
 #chamda principal da soma de matrizes
-def somar_matrizes(opcao):
+def somar_matrizes():
     ler_cabecalho('soma duas matrizes')
     #definindo a ordem das matrizes 
     print('Matriz A')
@@ -85,6 +99,60 @@ def somar_matrizes(opcao):
         print()
     else:
         print('Não é possível somar: As matrizes devem ser de mesma ordem.')
+        sleep(0.5)
+        tipo_matriz()
+    print()
+
+
+#chamda principal da subtração de matrizes
+def subtrair_matrizes():
+    ler_cabecalho('subtrair duas matrizes')
+    #definindo a ordem das matrizes 
+    print('Matriz A')
+    Ai, Aj = linha_coluna()
+    print()
+    print('Matriz B')
+    Bi, Bj = linha_coluna()
+    print()
+    #verificando se são de mesma ordem
+    if Ai == Bi and Aj == Bj:
+        #construindo as matrizes
+        print('Construindo matriz A')
+        A = construir_matriz(Ai, Aj)
+        print('\nConstruindo matriz B')
+        B = construir_matriz(Bi, Bj)
+        print()
+        #imprimindo as matrizes
+        sleep(0.5)
+        print('Matriz A:')
+        for i in range(Ai):
+            for j in range(Aj):
+                sleep(0.5)
+                print(f'[{A[i][j]:^5}]', end='', flush=True)
+            print()
+        print()
+        sleep(0.5)
+        print('Matriz B:')
+        for i in range(Bi):
+            for j in range(Bj):
+                sleep(0.5)
+                print(f'[{B[i][j]:^5}]', end='', flush=True)
+            print()
+        print()
+        resultado = efetuar_subtracao_matrizes(A, B)
+        #imprimindo a subtração
+        sleep(0.5)
+        print('\nResultado da subtração:')
+        for i in range(Ai):
+            for j in range(Aj):
+                sleep(0.5)
+                print(f'[{resultado[i][j]:^5}]', end='', flush=True)
+            print()
+        print()
+    else:
+        print('Não é possível subtrair: As matrizes devem ser de mesma ordem.')
+        sleep(0.5)
+        tipo_matriz()
     print()
 
 
@@ -111,16 +179,16 @@ def tipo_matriz():
     ler_cabecalho('Matrizes')
     print('''
     1- Somar duas matrizes
-    2- ...
-    3- ...
+    2- Subtrair duas matrizes
+    3- 
     ''')
     opcao = ler_escolha('Escolha uma das opções: ')
     print()
     if opcao == 1:
-        somar_matrizes(opcao)
+        somar_matrizes()
         sleep(1)
     elif opcao == 2:
-        pass
+        subtrair_matrizes()
     elif opcao == 3:
         pass
     elif opcao == 4:

@@ -12,6 +12,7 @@ from tabuadas import tipo_tabuada
 from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
 from geometria import verificar_triangulo
+from sistema_numeracao import bases
 
 
 ler_cabecalho('calculadora')
@@ -33,6 +34,7 @@ while True:
         12- Seno, Cosseno e Tangente
         13- verificar se um número é primo
         14- verifica se é triângulo
+        15- conversor de bases
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -73,6 +75,8 @@ while True:
         primo()
     elif opcao == 14:
         verificar_triangulo()
+    elif opcao == 15:
+        bases()
     else:
         break
 

@@ -63,6 +63,15 @@ def efetuar_soma_matrizes (A, B):
     return soma
 
 
+#função que imprime matriz
+def imprimir_matriz(M, Mi, Mj):
+    for i in range(Mi):
+        for j in range(Mj):
+            sleep(0.5)
+            print(f'[{M[i][j]:^5}]', end='', flush=True)
+        print()
+
+
 #construindo a matriz
 def construir_matriz (num_linhas, num_colunas):
     matriz = []
@@ -103,30 +112,17 @@ def somar_matrizes():
         #imprimindo as matrizes
         sleep(0.5)
         print('Matriz A:')
-        for i in range(Ai):
-            for j in range(Aj):
-                sleep(0.5)
-                print(f'[{A[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(A, Ai, Aj)
         print()
         sleep(0.5)
         print('Matriz B:')
-        for i in range(Bi):
-            for j in range(Bj):
-                sleep(0.5)
-                print(f'[{B[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(B, Bi, Bj)
         print()
         resultado = efetuar_soma_matrizes(A, B)
         #imprimindo a soma
         sleep(0.5)
         print('\nResultado da soma:')
-        for i in range(Ai):
-            for j in range(Aj):
-                sleep(0.5)
-                print(f'[{resultado[i][j]:^5}]', end='', flush=True)
-            print()
-        print()
+        imprimir_matriz(resultado, Ai, Aj)
     else:
         print('Não é possível somar: As matrizes devem ser de mesma ordem.')
         sleep(0.5)
@@ -155,30 +151,17 @@ def subtrair_matrizes():
         #imprimindo as matrizes
         sleep(0.5)
         print('Matriz A:')
-        for i in range(Ai):
-            for j in range(Aj):
-                sleep(0.5)
-                print(f'[{A[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(A, Ai, Aj)
         print()
         sleep(0.5)
         print('Matriz B:')
-        for i in range(Bi):
-            for j in range(Bj):
-                sleep(0.5)
-                print(f'[{B[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(B, Bi, Bj)
         print()
         resultado = efetuar_subtracao_matrizes(A, B)
         #imprimindo a subtração
         sleep(0.5)
         print('\nResultado da subtração:')
-        for i in range(Ai):
-            for j in range(Aj):
-                sleep(0.5)
-                print(f'[{resultado[i][j]:^5}]', end='', flush=True)
-            print()
-        print()
+        imprimir_matriz(resultado, Ai, Aj)
     else:
         print('Não é possível subtrair: As matrizes devem ser de mesma ordem.')
         sleep(0.5)
@@ -202,22 +185,13 @@ def multiplicacao_real():
     #imprimindo a matriz
     sleep(0.5)
     print('Matriz A:')
-    for i in range(Ai):
-        for j in range(Aj):
-            sleep(0.5)
-            print(f'[{A[i][j]:^5}]', end='', flush=True)
-        print()
-    print()
+    imprimir_matriz(A, Ai, Aj)
     sleep(0.5)
     resultado = efetuar_multi_real(A, num)
     #imprimindo a multiplicação por real
     sleep(0.5)
     print('\nResultado da multiplicação por número real:')
-    for i in range(Ai):
-        for j in range(Aj):
-            sleep(0.5)
-            print(f'[{resultado[i][j]:^5}]', end='', flush=True)
-        print()
+    imprimir_matriz(resultado, Ai, Aj)
     print()
 
 
@@ -242,23 +216,16 @@ def multiplicacao_matriz():
         #imprimindo as matrizes
         sleep(0.5)
         print('Matriz A')
-        for i in range(Ai):
-            for j in range(Aj):
-                sleep(0.5)
-                print(f'[{A[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(A, Ai, Aj)
         print()
         sleep(0.5)
         print('Matriz B')
-        for i in range(Bi):
-            for j in range(Bj):
-                sleep(0.5)
-                print(f'[{B[i][j]:^5}]', end='', flush=True)
-            print()
-        print()
+        imprimir_matriz(B, Bi, Bj)
         resultado = efetuar_multi_matriz(A, B)
-
-
+        #imprimindo a multiplicação
+        sleep(0.5)
+        print('\nResultado da multiplicação de matrizes:')
+        imprimir_matriz(resultado, Ai, Bj)
     else:
         print('Não é possível multiplicar as matrizes. O número de colunas da Matriz A deve ser igual ao número de linhas da Matriz B.')
         sleep(0.5)

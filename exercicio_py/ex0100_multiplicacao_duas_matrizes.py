@@ -28,6 +28,14 @@ def construir_matriz (num_linhas, num_colunas):
     return matriz
 
 
+def imprimir_matriz(M, Mi, Mj):
+    for i in range(Mi):
+        for j in range(Mj):
+            sleep(0.5)
+            print(f'[{M[i][j]:^5}]', end='', flush=True)
+        print()
+
+
 def multiplicar_matrizes (A, B):
     num_linhas_A, num_colunas_A = len(A), len(A[0])
     num_linhas_B, num_colunas_B = len(B), len(B[0])
@@ -60,24 +68,16 @@ while True:
         #imprimindo as matrizes
         sleep(0.5)
         print('Matriz A:')
-        for i in range(Ai):
-            for j in range(Aj):
-                sleep(0.5)
-                print(f'[{A[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(A, Ai, Aj)
         print()
         sleep(0.5)
         print('Matriz B:')
-        for i in range(Bi):
-            for j in range(Bj):
-                sleep(0.5)
-                print(f'[{B[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(B, Bi, Bj)
         print()
         resultado = multiplicar_matrizes(A, B)
         #imprimindo a multiplicação
         sleep(0.5)
-        print('\nResultado da soma:')
+        print('\nResultado da multiplicação das matrizes:')
         for i in range(Ai):
             for j in range(Bj):
                 sleep(0.5)
@@ -85,7 +85,7 @@ while True:
             print()
         print()
     else:
-        print('Não é possível multiplicar: O número de colunas da 1ª matriz deve ser igual ao número de linhas da 2ª')
+        print('Não é possível multiplicar: O número de colunas da matriz A deve ser igual ao número de linhas da matriz B.')
     print()
     resposta = ' '
     while resposta not in 'SN':

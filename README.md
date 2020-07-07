@@ -201,3 +201,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0099:](exercicio_py/ex0099_soma_duas_matrizes.py) Usuário digita duas matrizes, escolhendo a ordem dessas e programa retorna a soma entre elas.
 
+- [ex0100:](exercicio_py/ex0100_multiplicacao_duas_matrizes.py) Usuário digita duas matrizes, escolhendo a ordem dessas e programa retorna a multiplicação entre elas.

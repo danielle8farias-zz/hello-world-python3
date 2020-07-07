@@ -5,6 +5,22 @@ from numeros import ler_num_int, ler_num_float
 from time import sleep
 
 
+#efetuar multiplicação de matrizes
+def efetuar_multi_matriz(A, B):
+    num_linhas_A, num_colunas_A = len(A), len(A[0])
+    num_colunas_B, num_colunas_B = len(B), len(B[0])
+    multiplicacao = list()
+    for i in range(num_linhas_A):
+        linha = []
+        for j in range(num_colunas_B):
+            soma = 0
+            for k in range(num_colunas_A):
+                soma += A[i][k] * B[k][j]
+            linha.append(soma)
+        multiplicacao.append(linha)
+    return multiplicacao
+
+
 #efetuando multiplicação por número real
 def efetuar_multi_real(A, n):
     num_linhas = len(A)
@@ -66,7 +82,7 @@ def linha_coluna ():
     return num_linhas, num_colunas
 
 
-#chamda principal da soma de matrizes
+#chamada principal da soma de matrizes
 def somar_matrizes():
     ler_cabecalho('soma duas matrizes')
     #definindo a ordem das matrizes 
@@ -118,7 +134,7 @@ def somar_matrizes():
     print()
 
 
-#chamda principal da subtração de matrizes
+#chamada principal da subtração de matrizes
 def subtrair_matrizes():
     ler_cabecalho('subtrair duas matrizes')
     #definindo a ordem das matrizes 
@@ -170,7 +186,7 @@ def subtrair_matrizes():
     print()
 
 
-#chamda principal da multiplicação de uma matriz por um número real
+#chamada principal da multiplicação de uma matriz por um número real
 def multiplicacao_real():
     ler_cabecalho('multiplicação por um número real')
     #definindo a ordem das matrizes 
@@ -205,6 +221,51 @@ def multiplicacao_real():
     print()
 
 
+#chamada principal da multiplicação de matrizes
+def multiplicacao_matriz():
+    ler_cabecalho('multiplicação de matrizes')
+    #definindo ordem das matrizes
+    print('Matriz A')
+    Ai, Aj = linha_coluna()
+    print()
+    print('Matriz B')
+    Bi, Bj = linha_coluna()
+    print()
+    if Aj == Bi:
+        #construindo as matrizes
+        print('Construindo a matriz A')
+        A = construir_matriz(Ai, Aj)
+        print()
+        print('Construindo a matriz B')
+        B = construir_matriz(Bi, Bj)
+        print()
+        #imprimindo as matrizes
+        sleep(0.5)
+        print('Matriz A')
+        for i in range(Ai):
+            for j in range(Aj):
+                sleep(0.5)
+                print(f'[{A[i][j]:^5}]', end='', flush=True)
+            print()
+        print()
+        sleep(0.5)
+        print('Matriz B')
+        for i in range(Bi):
+            for j in range(Bj):
+                sleep(0.5)
+                print(f'[{B[i][j]:^5}]', end='', flush=True)
+            print()
+        print()
+        resultado = efetuar_multi_matriz(A, B)
+
+
+    else:
+        print('Não é possível multiplicar as matrizes. O número de colunas da Matriz A deve ser igual ao número de linhas da Matriz B.')
+        sleep(0.5)
+        tipo_matriz()
+    print()
+
+
 #função que verifica a validade da escolha
 def ler_escolha(num):
     while True:
@@ -230,6 +291,7 @@ def tipo_matriz():
     1- Somar duas matrizes
     2- Subtrair duas matrizes
     3- Multiplicação de uma matriz por um número real
+    4- Multiplicação de matrizes
     ''')
     opcao = ler_escolha('Escolha uma das opções: ')
     print()
@@ -241,6 +303,6 @@ def tipo_matriz():
     elif opcao == 3:
         multiplicacao_real()
     elif opcao == 4:
-        pass
+        multiplicacao_matriz()
     else:
         pass

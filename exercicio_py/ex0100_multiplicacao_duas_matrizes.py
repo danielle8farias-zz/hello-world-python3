@@ -78,11 +78,7 @@ while True:
         #imprimindo a multiplicação
         sleep(0.5)
         print('\nResultado da multiplicação das matrizes:')
-        for i in range(Ai):
-            for j in range(Bj):
-                sleep(0.5)
-                print(f'[{resultado[i][j]:^5}]', end='', flush=True)
-            print()
+        imprimir_matriz(resultado, Ai, Bj)
         print()
     else:
         print('Não é possível multiplicar: O número de colunas da matriz A deve ser igual ao número de linhas da matriz B.')

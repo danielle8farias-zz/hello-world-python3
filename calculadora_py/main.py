@@ -9,6 +9,7 @@ from time import sleep
 
 from aritmetica.soma_dois_num import somar
 from aritmetica.subtrai_dois_num import subtrair
+from aritmetica.multiplica_dois_num import multiplicar
 
 
 #from aritmetica import subtrair, multiplicar, dividir, exponenciar, radiciar, primo
@@ -56,7 +57,8 @@ while True:
         sleep(0.5)
     elif opcao == 3:
         result = multiplicar()
-        print(f'\nMultiplicação: {result}')
+        print(f'\nMultiplicação: {result}\n')
+        sleep(0.5)
     elif opcao == 4:
         result = dividir()
         print(f'\nDivisão: {result}')

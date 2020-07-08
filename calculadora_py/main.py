@@ -22,11 +22,16 @@ from sequencias.fatorial import fatorial
 from sequencias.progressao_aritmetica import pa
 from sequencias.fibonacci import fibo
 
+#importando pacotes de geometria
+from geometria.triangulo import verificar_triangulo
+
+#importando pacotes de trigonometria
+from trigonometria.hipotenusa import hipo
 
 
-# from sequencias import fatorial, pa, fibo
-from trigonometria import hipo, razao_trigon
-from geometria import verificar_triangulo
+
+#from trigonometria import hipo, razao_trigon
+#from geometria import verificar_triangulo
 from sistema_numeracao import bases
 from matrizes import tipo_matriz
 
@@ -43,13 +48,13 @@ while True:
     2 - subtração           8 - fatorial
     3 - multiplicação       9 - progressão aritmética (PA)
     4 - divisão             10- sequência Fibonacci
-    5 - exponenciação
+    5 - exponenciação       11- lados de um triângulo retângulo
         
         
         
         
         
-        11- lados de um triângulo retângulo
+        
         12- Seno, Cosseno e Tangente
         13- verificar se um número é primo
         14- verifica se é triângulo
@@ -60,44 +65,68 @@ while True:
 
     linha()
     sleep(0.5)
+    #soma
     if opcao == 1:
         result = somar()
         print(f'\nSoma: {result}\n')
         sleep(0.5)
+    
+    #subtração
     elif opcao == 2:
         result = subtrair()
         print(f'\nSubtração: {result}\n')
         sleep(0.5)
+    
+    #multiplicação
     elif opcao == 3:
         result = multiplicar()
         print(f'\nMultiplicação: {result}\n')
         sleep(0.5)
+
+    #divisão
     elif opcao == 4:
         result = dividir()
         print(f'\nDivisão: {result}\n')
         sleep(0.5)
+
+    #potência
     elif opcao == 5:
         result = exponenciar()
         print(f'\nExponenciação: {result}\n')
         sleep(0.5)
+
+    #raiz
     elif opcao == 6:
         result = radiciar()
         print(f'\nRadiciação: {result}\n')
         sleep(0.5)
+
+    #tabuadas
     elif opcao == 7:
         tipo_tabuada()
         sleep(0.5)
+
+    #fatorial
     elif opcao == 8:
         result = fatorial()
         print(f'\nFatorial: {result}\n')
         sleep(0.5)
+
+    #progressão aritmética
     elif opcao == 9:
         pa()
         sleep(0.5)
+
+    #fibonacci
     elif opcao == 10:
         fibo()
+        sleep(0.5)
+
+    #hipotenusa e catetos
     elif opcao == 11:
         hipo()
+        sleep(0.5)
+    
     elif opcao == 12:
         razao_trigon()
     elif opcao == 13:

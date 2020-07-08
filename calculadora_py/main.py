@@ -7,7 +7,9 @@ from numeros import ler_num_int
 
 from time import sleep
 
-from aritmetica import somar, subtrair, multiplicar, dividir, exponenciar, radiciar, primo
+from aritmetica.soma_dois_num import somar
+
+#from aritmetica import subtrair, multiplicar, dividir, exponenciar, radiciar, primo
 from tabuadas import tipo_tabuada
 from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
@@ -44,7 +46,8 @@ while True:
     sleep(0.5)
     if opcao == 1:
         result = somar()
-        print(f'\nSoma: {result}')
+        print(f'\nSoma: {result}\n')
+        sleep(0.5)
     elif opcao == 2:
         result = subtrair()
         print(f'\nSubtração: {result}')

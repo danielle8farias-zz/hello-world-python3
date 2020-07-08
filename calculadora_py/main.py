@@ -11,6 +11,7 @@ from aritmetica.subtrai_dois_num import subtrair
 from aritmetica.multiplica_dois_num import multiplicar
 from aritmetica.divide_dois_num import dividir
 from aritmetica.exponencial import exponenciar
+from aritmetica.radicial import radiciar
 
 
 #from aritmetica import subtrair, multiplicar, dividir, exponenciar, radiciar, primo
@@ -69,10 +70,12 @@ while True:
         sleep(0.5)
     elif opcao == 5:
         result = exponenciar()
-        print(f'\nExponenciação: {result}')
+        print(f'\nExponenciação: {result}\n')
+        sleep(0.5)
     elif opcao == 6:
         result = radiciar()
-        print(f'\nRadiciação: {result}')
+        print(f'\nRadiciação: {result}\n')
+        sleep(0.5)
     elif opcao == 7:
         tipo_tabuada()
     elif opcao == 8:

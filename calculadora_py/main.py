@@ -12,9 +12,12 @@ from aritmetica.multiplica_dois_num import multiplicar
 from aritmetica.divide_dois_num import dividir
 from aritmetica.exponencial import exponenciar
 from aritmetica.radicial import radiciar
+from aritmetica.primo import primo
 
 
-#from aritmetica import subtrair, multiplicar, dividir, exponenciar, radiciar, primo
+
+
+
 from tabuadas import tipo_tabuada
 from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
@@ -91,6 +94,7 @@ while True:
         razao_trigon()
     elif opcao == 13:
         primo()
+        sleep(0.5)
     elif opcao == 14:
         verificar_triangulo()
     elif opcao == 15:

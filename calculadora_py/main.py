@@ -5,14 +5,12 @@ sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho, rodape, linha, ler_resposta
 from numeros import ler_num_int
 
-from time import sleep
-
-
 #importando pacote de operações aritméticas
 from aritmetica.soma_dois_num import somar
 from aritmetica.subtrai_dois_num import subtrair
 from aritmetica.multiplica_dois_num import multiplicar
 from aritmetica.divide_dois_num import dividir
+from aritmetica.exponencial import exponenciar
 
 
 #from aritmetica import subtrair, multiplicar, dividir, exponenciar, radiciar, primo
@@ -22,6 +20,9 @@ from trigonometria import hipo, razao_trigon
 from geometria import verificar_triangulo
 from sistema_numeracao import bases
 from matrizes import tipo_matriz
+
+
+from time import sleep
 
 
 ler_cabecalho('calculadora')

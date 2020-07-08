@@ -7,9 +7,12 @@ from numeros import ler_num_int
 
 from time import sleep
 
+
+#importando pacote de operações aritméticas
 from aritmetica.soma_dois_num import somar
 from aritmetica.subtrai_dois_num import subtrair
 from aritmetica.multiplica_dois_num import multiplicar
+from aritmetica.divide_dois_num import dividir
 
 
 #from aritmetica import subtrair, multiplicar, dividir, exponenciar, radiciar, primo
@@ -61,7 +64,8 @@ while True:
         sleep(0.5)
     elif opcao == 4:
         result = dividir()
-        print(f'\nDivisão: {result}')
+        print(f'\nDivisão: {result}\n')
+        sleep(0.5)
     elif opcao == 5:
         result = exponenciar()
         print(f'\nExponenciação: {result}')

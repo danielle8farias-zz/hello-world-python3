@@ -20,6 +20,7 @@ from tabuadas.main_tabuada import tipo_tabuada
 #importando pacotes de sequências
 from sequencias.fatorial import fatorial
 from sequencias.progressao_aritmetica import pa
+from sequencias.fibonacci import fibo
 
 
 
@@ -41,13 +42,13 @@ while True:
     1 - soma                7 - tabuada
     2 - subtração           8 - fatorial
     3 - multiplicação       9 - progressão aritmética (PA)
-    4 - divisão
+    4 - divisão             10- sequência Fibonacci
     5 - exponenciação
         
         
         
         
-        10- sequência Fibonacci
+        
         11- lados de um triângulo retângulo
         12- Seno, Cosseno e Tangente
         13- verificar se um número é primo

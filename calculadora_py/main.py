@@ -17,9 +17,12 @@ from aritmetica.primo import primo
 #importando pacote de tabuadas
 from tabuadas.main_tabuada import tipo_tabuada
 
+#importando pacotes de sequências
+from sequencias.fatorial import fatorial
 
 
-from sequencias import fatorial, pa, fibo
+
+# from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
 from geometria import verificar_triangulo
 from sistema_numeracao import bases
@@ -33,15 +36,15 @@ ler_cabecalho('calculadora')
 sleep(1)
 while True:
     print('''
-        0 - sair
-        1 - soma
-        2 - subtração
-        3 - multiplicação
-        4 - divisão
-        5 - exponenciação
-        6 - radiciação
-        7 - tabuada
-        8 - fatorial
+    0 - sair                6 - radiciação
+    1 - soma                7 - tabuada
+    2 - subtração           8 - fatorial
+    3 - multiplicação
+    4 - divisão
+    5 - exponenciação
+        
+        
+        
         9 - progressão aritmética (PA)
         10- sequência Fibonacci
         11- lados de um triângulo retângulo
@@ -84,7 +87,7 @@ while True:
         sleep(0.5)
     elif opcao == 8:
         result = fatorial()
-        print(f'\nFatorial: {result}')
+        print(f'\nFatorial: {result}\n')
     elif opcao == 9:
         pa()
     elif opcao == 10:

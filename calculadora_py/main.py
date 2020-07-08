@@ -19,6 +19,7 @@ from tabuadas.main_tabuada import tipo_tabuada
 
 #importando pacotes de sequências
 from sequencias.fatorial import fatorial
+from sequencias.progressao_aritmetica import pa
 
 
 
@@ -39,13 +40,13 @@ while True:
     0 - sair                6 - radiciação
     1 - soma                7 - tabuada
     2 - subtração           8 - fatorial
-    3 - multiplicação
+    3 - multiplicação       9 - progressão aritmética (PA)
     4 - divisão
     5 - exponenciação
         
         
         
-        9 - progressão aritmética (PA)
+        
         10- sequência Fibonacci
         11- lados de um triângulo retângulo
         12- Seno, Cosseno e Tangente
@@ -88,8 +89,10 @@ while True:
     elif opcao == 8:
         result = fatorial()
         print(f'\nFatorial: {result}\n')
+        sleep(0.5)
     elif opcao == 9:
         pa()
+        sleep(0.5)
     elif opcao == 10:
         fibo()
     elif opcao == 11:

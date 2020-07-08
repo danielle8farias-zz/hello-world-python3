@@ -14,11 +14,11 @@ from aritmetica.exponencial import exponenciar
 from aritmetica.radicial import radiciar
 from aritmetica.primo import primo
 
+#importando pacote de tabuadas
+from tabuadas.main_tabuada import tipo_tabuada
 
 
 
-
-from tabuadas import tipo_tabuada
 from sequencias import fatorial, pa, fibo
 from trigonometria import hipo, razao_trigon
 from geometria import verificar_triangulo
@@ -81,6 +81,7 @@ while True:
         sleep(0.5)
     elif opcao == 7:
         tipo_tabuada()
+        sleep(0.5)
     elif opcao == 8:
         result = fatorial()
         print(f'\nFatorial: {result}')

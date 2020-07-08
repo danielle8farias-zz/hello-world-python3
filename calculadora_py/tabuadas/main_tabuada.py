@@ -7,8 +7,7 @@ from numeros import ler_num_float, ler_num_int
 from tabuadas.tabuada_soma import tab_somar
 from tabuadas.tabuada_subtracao import tab_subtrair
 from tabuadas.tabuada_multiplicacao import tab_multiplicar
-
-
+from tabuadas.tabuada_divisao import tab_dividir
 
 from time import sleep
    

@@ -8,6 +8,8 @@ from numeros import ler_num_int
 from time import sleep
 
 from aritmetica.soma_dois_num import somar
+from aritmetica.subtrai_dois_num import subtrair
+
 
 #from aritmetica import subtrair, multiplicar, dividir, exponenciar, radiciar, primo
 from tabuadas import tipo_tabuada
@@ -50,7 +52,8 @@ while True:
         sleep(0.5)
     elif opcao == 2:
         result = subtrair()
-        print(f'\nSubtração: {result}')
+        print(f'\nSubtração: {result}\n')
+        sleep(0.5)
     elif opcao == 3:
         result = multiplicar()
         print(f'\nMultiplicação: {result}')

@@ -6,6 +6,7 @@ from numeros import ler_num_int
 from matrizes.soma_matriz import somar_matrizes
 from matrizes.subtra_matriz import subtrair_matrizes
 from matrizes.multip_real_matriz import multiplicacao_real
+from matrizes.multip_matrizes import multiplicacao_matriz
 
 
 #primeira chamada da função

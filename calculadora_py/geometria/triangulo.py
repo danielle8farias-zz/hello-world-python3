@@ -32,5 +32,3 @@ def verificar_triangulo():
         print('Esses valores não formam um triângulo.')
         sleep(0.5)
     print()
-
-    

@@ -27,6 +27,7 @@ from geometria.triangulo import verificar_triangulo
 
 #importando pacotes de trigonometria
 from trigonometria.hipotenusa import hipo
+from trigonometria.razao_trigonometrica import razao_trigon
 
 
 
@@ -43,19 +44,19 @@ ler_cabecalho('calculadora')
 sleep(1)
 while True:
     print('''
-    0 - sair                6 - radiciação
-    1 - soma                7 - tabuada
-    2 - subtração           8 - fatorial
-    3 - multiplicação       9 - progressão aritmética (PA)
-    4 - divisão             10- sequência Fibonacci
-    5 - exponenciação       11- lados de um triângulo retângulo
+    0 - sair            6 - radiciação                         12- Seno, Cosseno e Tangente
+    1 - soma            7 - tabuada
+    2 - subtração       8 - fatorial
+    3 - multiplicação   9 - progressão aritmética (PA)
+    4 - divisão         10- sequência Fibonacci
+    5 - exponenciação   11- lados de um triângulo retângulo
         
         
         
         
         
         
-        12- Seno, Cosseno e Tangente
+        
         13- verificar se um número é primo
         14- verifica se é triângulo
         15- conversor de bases
@@ -127,8 +128,11 @@ while True:
         hipo()
         sleep(0.5)
     
+    #seno, cosseno, tangente
     elif opcao == 12:
         razao_trigon()
+        sleep(0.5)
+    
     elif opcao == 13:
         primo()
         sleep(0.5)

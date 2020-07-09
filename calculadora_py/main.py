@@ -31,7 +31,7 @@ from trigonometria.razao_trigonometrica import razao_trigon
 
 
 
-#from trigonometria import hipo, razao_trigon
+
 #from geometria import verificar_triangulo
 from sistema_numeracao import bases
 from matrizes import tipo_matriz
@@ -45,20 +45,13 @@ sleep(1)
 while True:
     print('''
     0 - sair            6 - radiciação                         12- Seno, Cosseno e Tangente
-    1 - soma            7 - tabuada
-    2 - subtração       8 - fatorial
+    1 - soma            7 - tabuada                            13- verificar se um número é primo
+    2 - subtração       8 - fatorial                           14- verifica se é triângulo
     3 - multiplicação   9 - progressão aritmética (PA)
     4 - divisão         10- sequência Fibonacci
     5 - exponenciação   11- lados de um triângulo retângulo
         
-        
-        
-        
-        
-        
-        
-        13- verificar se um número é primo
-        14- verifica se é triângulo
+                
         15- conversor de bases
         16- matrizes
     ''')
@@ -133,11 +126,17 @@ while True:
         razao_trigon()
         sleep(0.5)
     
+    #ver se é primo
     elif opcao == 13:
         primo()
         sleep(0.5)
+
+    #verifica se lados formam um triângulo
     elif opcao == 14:
         verificar_triangulo()
+        sleep(0.5)
+
+        
     elif opcao == 15:
         bases()
     elif opcao == 16:

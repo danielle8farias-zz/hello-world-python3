@@ -29,11 +29,10 @@ from geometria.triangulo import verificar_triangulo
 from trigonometria.hipotenusa import hipo
 from trigonometria.razao_trigonometrica import razao_trigon
 
+#importando pacotes de sistemas numéricos
+from sistema_numeracao.mudanca_base import bases
 
 
-
-#from geometria import verificar_triangulo
-from sistema_numeracao import bases
 from matrizes import tipo_matriz
 
 
@@ -47,12 +46,12 @@ while True:
     0 - sair            6 - radiciação                         12- Seno, Cosseno e Tangente
     1 - soma            7 - tabuada                            13- verificar se um número é primo
     2 - subtração       8 - fatorial                           14- verifica se é triângulo
-    3 - multiplicação   9 - progressão aritmética (PA)
+    3 - multiplicação   9 - progressão aritmética (PA)         15- conversor de bases
     4 - divisão         10- sequência Fibonacci
     5 - exponenciação   11- lados de um triângulo retângulo
         
                 
-        15- conversor de bases
+        
         16- matrizes
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
@@ -136,9 +135,11 @@ while True:
         verificar_triangulo()
         sleep(0.5)
 
-        
+    #conversor de bases
     elif opcao == 15:
         bases()
+        sleep(0.5)
+
     elif opcao == 16:
         tipo_matriz()
     else:

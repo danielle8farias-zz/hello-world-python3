@@ -3,7 +3,7 @@ sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho
 from numeros import ler_num_int
 
-from time import sleep
+from matrizes.soma_matriz import somar_matrizes
 
 
 #primeira chamada da função
@@ -20,7 +20,6 @@ def tipo_matriz():
     print()
     if opcao == 1:
         somar_matrizes()
-        sleep(1)
     elif opcao == 2:
         subtrair_matrizes()
     elif opcao == 3:

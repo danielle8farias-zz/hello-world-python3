@@ -2,9 +2,25 @@ import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho
 
-from matrizes.main_matriz import tipo_matriz
+from matrizes.ordem_matriz import linha_coluna
+from matrizes.construcao_matriz import construir_matriz
+from matrizes.impressao_matriz import imprimir_matriz
 
 from time import sleep
+
+
+#efetuando a soma das matrizes
+def efetuar_soma_matrizes (A, B):
+    num_linhas = len(A)
+    num_colunas = len(A[0]) #basta colocar o comprimento de uma das linhas de A
+    soma = []
+    for i in range(num_linhas):
+        linha = []
+        for j in range(num_colunas):
+            valor_soma = (A[i][j] + B[i][j])
+            linha.append(valor_soma)
+        soma.append(linha)
+    return soma
 
 
 #chamada principal da soma de matrizes
@@ -42,5 +58,4 @@ def somar_matrizes():
     else:
         print('Não é possível somar: As matrizes devem ser de mesma ordem.')
         sleep(0.5)
-        tipo_matriz()
     print()

@@ -32,9 +32,8 @@ from trigonometria.razao_trigonometrica import razao_trigon
 #importando pacotes de sistemas numéricos
 from sistema_numeracao.mudanca_base import bases
 
-
-from matrizes import tipo_matriz
-
+#importando pacotes de matrizes
+from matrizes.main_matriz import tipo_matriz
 
 from time import sleep
 
@@ -47,12 +46,8 @@ while True:
     1 - soma            7 - tabuada                            13- verificar se um número é primo
     2 - subtração       8 - fatorial                           14- verifica se é triângulo
     3 - multiplicação   9 - progressão aritmética (PA)         15- conversor de bases
-    4 - divisão         10- sequência Fibonacci
+    4 - divisão         10- sequência Fibonacci                16- matrizes
     5 - exponenciação   11- lados de um triângulo retângulo
-        
-                
-        
-        16- matrizes
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -140,8 +135,11 @@ while True:
         bases()
         sleep(0.5)
 
+    #matrizes
     elif opcao == 16:
         tipo_matriz()
+        sleep(0.5)
+        
     else:
         break
 

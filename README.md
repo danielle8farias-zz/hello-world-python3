@@ -207,3 +207,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0102:](exercicio_py/ex0102_acesso_site.py) Acessando site.
 
+- [ex0103:](exercicio_py/ex0103_arquivo.py) Manipulação de arquivos.

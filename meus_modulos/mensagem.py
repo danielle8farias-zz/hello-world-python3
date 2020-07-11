@@ -28,12 +28,12 @@ def rodape():
     print('-'*50)
 
 
-def linha():
+def linha(tam=50):
     '''
     sem parâmetro.
     retorna sinais de = repetidos em 50 caracteres.
     '''
-    print('='*50)
+    return '='*tam
 
 
 def ler_resposta(msg):

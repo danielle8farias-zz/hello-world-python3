@@ -2,6 +2,7 @@ import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho
 
+
 def arquivo_existe(nome):
     try:
         a = open(nome, 'rt')
@@ -29,6 +30,24 @@ def ler_arquivo(nome):
         print('ERRO ao ler o arquivo')
     else:
         ler_cabecalho('Pessoas cadastradas:')
-        print(a.read())
+        for linha in a:
+            dado = linha.split(';')
+            dado[1] = dado[1].replace('\n', '')
+            print(f'{dado[0]:<30}{dado[1]:>3} anos')
     finally:
         a.close()
+
+
+def cadastrar_pessoa(arquivo, nome, idade):
+    try:
+        a = open(arquivo, 'at')
+    except:
+        print('Houve um ERRO ao abrir o arquivo')
+    else:
+        try:
+            a.write(f'{nome};{idade}\n')
+        except:
+            print('Houve um ERRO ao escrever os dados')
+        else:
+            print(f'Novo registro de {nome} adicionado!')
+            a.close()

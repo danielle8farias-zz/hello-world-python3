@@ -1,6 +1,6 @@
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
-from numeros import ler_num_int, ler_num_float
+from numeros import ler_num_int
 
 
 def menu(vetor):

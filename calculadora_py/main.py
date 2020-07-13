@@ -35,6 +35,9 @@ from sistema_numeracao.mudanca_base import bases
 #importando pacotes de matrizes
 from matrizes.main_matriz import tipo_matriz
 
+#importando pacote de equações polinomiais
+from equacoes_polinomiais.equacao_2_grau import equacao_seg_grau
+
 from time import sleep
 
 
@@ -47,7 +50,7 @@ while True:
     2 - subtração       8 - fatorial                           14- verifica se é triângulo
     3 - multiplicação   9 - progressão aritmética (PA)         15- conversor de bases
     4 - divisão         10- sequência Fibonacci                16- matrizes
-    5 - exponenciação   11- lados de um triângulo retângulo
+    5 - exponenciação   11- lados de um triângulo retângulo    17- equação do 2º grau
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
 
@@ -138,6 +141,11 @@ while True:
     #matrizes
     elif opcao == 16:
         tipo_matriz()
+        sleep(0.5)
+
+    #equação do 2º grau
+    elif opcao == 17:
+        equacao_seg_grau()
         sleep(0.5)
         
     else:

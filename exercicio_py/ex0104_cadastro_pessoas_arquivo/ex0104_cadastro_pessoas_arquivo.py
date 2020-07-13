@@ -4,8 +4,15 @@ from mensagem import ler_cabecalho, rodape, ler_resposta
 from numeros import ler_num_int, ler_num_float
 
 from interface import menu
+from manipular_arquivo import arquivo_existe, criar_arquivo
 
 from time import sleep
+
+arquivo = 'dados_pessoas.txt'
+
+if not arquivo_existe(arquivo):
+    criar_arquivo(arquivo)
+
 
 while True:
     ler_cabecalho('sistema de cadastro')

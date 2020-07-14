@@ -3,7 +3,7 @@ sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho
 from numeros import ler_num_float
 
-from math import pow, sqrt
+from math import sqrt
 from time import sleep
 
 
@@ -25,7 +25,15 @@ def calcular_delta(a, b, c):
     delta = (pow(b, 2)) - 4 * a * c
     sleep(0.5)
     print(f'Delta: {delta}')
-    calcular_raiz_delta(a, b, delta)
+
+    if delta > 0:
+        print('A equação possui duas raízes reais e diferentes.')
+        calcular_raiz_delta(a, b, delta)
+    elif delta == 0:
+        print('A equação possui duas raízes reais e iguais.')
+        calcular_raiz_delta(a, b, delta)
+    else:
+        print('A equação não possui raízes reais.')
 
 
 def tratar_a(n):

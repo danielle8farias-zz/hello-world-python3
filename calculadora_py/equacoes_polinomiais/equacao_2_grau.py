@@ -1,5 +1,6 @@
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
+from mensagem import ler_cabecalho
 from numeros import ler_num_float
 
 from math import pow, sqrt
@@ -9,6 +10,7 @@ from time import sleep
 def calcular_raizes(a, b, raiz_delta):
     x1 = (-b + raiz_delta)/(2 * a)
     x2 = (-b - raiz_delta)/(2 * a)
+    sleep(0.5)
     print(f'Raizes: {x1} e {x2}')
 
 
@@ -33,7 +35,7 @@ def tratar_a(n):
             if a == 0:
                 raise Exception('Deve ser um número diferente de zero.')
         except ValueError:
-            print('Digite um valor para a.')
+            print('Digite um valor numérico para a.')
             continue
         except Exception as erro:
             print(f'Valor inválido: {erro}')
@@ -43,6 +45,7 @@ def tratar_a(n):
 
 
 def equacao_seg_grau():
+    ler_cabecalho('equação do 2º grau')
     a = tratar_a('Valor de a: ')
     b = ler_num_float('Valor de b: ')
     c = ler_num_float('Valor de c: ')

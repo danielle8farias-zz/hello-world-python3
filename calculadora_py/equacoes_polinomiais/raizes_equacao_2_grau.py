@@ -18,6 +18,7 @@ def calcular_raiz_delta(a, b, delta):
     raiz_delta = sqrt(delta)
     sleep(0.5)
     print(f'Raiz quadrada de Delta: {raiz_delta:.4f}')
+    sleep(0.5)
     calcular_raizes(a, b, raiz_delta)
 
 
@@ -27,12 +28,17 @@ def calcular_delta(a, b, c):
     print(f'Delta: {delta}')
 
     if delta > 0:
+        sleep(0.5)
         print('A equação possui duas raízes reais e diferentes.')
+        sleep(0.5)
         calcular_raiz_delta(a, b, delta)
     elif delta == 0:
+        sleep(0.5)
         print('A equação possui duas raízes reais e iguais.')
         calcular_raiz_delta(a, b, delta)
+        sleep(0.5)
     else:
+        sleep(0.5)
         print('A equação não possui raízes reais.')
 
 
@@ -53,7 +59,7 @@ def tratar_a(n):
 
 
 def equacao_seg_grau():
-    ler_cabecalho('equação do 2º grau')
+    ler_cabecalho('raízes equação do 2º grau')
     a = tratar_a('Valor de a: ')
     b = ler_num_float('Valor de b: ')
     c = ler_num_float('Valor de c: ')

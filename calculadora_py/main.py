@@ -36,7 +36,7 @@ from sistema_numeracao.mudanca_base import bases
 from matrizes.main_matriz import tipo_matriz
 
 #importando pacote de equações polinomiais
-from equacoes_polinomiais.equacao_2_grau import equacao_seg_grau
+from equacoes_polinomiais.main_equacao_2_grau import equacoes
 
 from time import sleep
 
@@ -145,7 +145,7 @@ while True:
 
     #equação do 2º grau
     elif opcao == 17:
-        equacao_seg_grau()
+        equacoes()
         sleep(0.5)
         
     else:

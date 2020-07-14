@@ -210,3 +210,5 @@ e pedir para que o usuário digite novamente.
 - [ex0103:](exercicio_py/ex0103_arquivo.py) Manipulação de arquivos.
 
 - [ex0104:](exercicio_py/ex0104_cadastro_pessoas_arquivo/ex0104_cadastro_pessoas_arquivo.py) Usuário cadastra nome e idade de pessoas; programa guarda os dados em um arquivo de texto. É possível ver as pessoas cadastradas.
+
+- [ex0105:](exercicio_py/ex0105_lista_ordenada.py) Usuário digita uma lista de valores inteiros. A lista pára de ser preenchida no momento de escolha do usuário. O programa retorna essa lista ordenada. Sem usar o método sort.

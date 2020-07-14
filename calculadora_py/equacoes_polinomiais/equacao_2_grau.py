@@ -26,8 +26,24 @@ def calcular_delta(a, b, c):
     calcular_raiz_delta(a, b, delta)
 
 
+def tratar_a(n):
+    while True:
+        try:
+            a = float(input(n))
+            if a == 0:
+                raise Exception('Deve ser um número diferente de zero.')
+        except ValueError:
+            print('Digite um valor para a.')
+            continue
+        except Exception as erro:
+            print(f'Valor inválido: {erro}')
+            continue
+        else:
+            return a
+
+
 def equacao_seg_grau():
-    a = ler_num_float('Valor de a: ')
+    a = tratar_a('Valor de a: ')
     b = ler_num_float('Valor de b: ')
     c = ler_num_float('Valor de c: ')
 

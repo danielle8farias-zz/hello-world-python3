@@ -1,4 +1,4 @@
-#funcao de subtrair dois numeros
+#função de subtrair dois números
 def subtrair(n1, n2):
     return n1 - n2
 

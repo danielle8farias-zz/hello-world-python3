@@ -15,4 +15,3 @@ def test_soma2():
 
 def test_soma3():
     assert somar(9,-3) == 6
-

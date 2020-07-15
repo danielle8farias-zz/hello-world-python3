@@ -216,3 +216,5 @@ e pedir para que o usuário digite novamente.
 - [ex0106:](exercicio_py/ex0106_fatorial_recursivo.py) Usuário digita um número natural e programa retorna o seu fatorial; usando recursão.
 
 - [ex0107:](exercicio_py/ex0107_fibonacci_recursivo.py) Usuário informa um número inteiro e programa retorna o valor da sequência de Fibonacci que está na posição de número informado; usando recursividade.
+
+- [ex0108:](exercicio_py/ex0108_lambda.py) Exemplos de utilização do lambda.

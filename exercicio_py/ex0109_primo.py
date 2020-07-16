@@ -11,9 +11,18 @@ from numeros import ler_num_nat
 
 
 def verificar_primo(n):
-    #verificando se o número dado é divisível de 2 até n-1
-    #   (lembrar que o range é de intervalo aberto no final)
-    for divisor in range(2, n):
+    ####    explicação do uso da raiz   ####
+    # n = 2 * a
+    #    a = n / 2
+    #    pois não existe divisor que seja maior do que a metade do número ou menor do que ele mesmo
+    # n = a * b
+    #    b = n / a
+    # se a > raiz(n), então n/a < n/raiz(n)
+    #    efetuando os cálculos de radiciação para retitrar a raiz do denominador, temos
+    #    n/a < raiz(n), logo b < raiz(n)
+    raiz = int(n ** (0.5))
+    #raiz+1 para incluir a própria raiz; pois range tem intervalo aberto
+    for divisor in range(2, raiz+1):
         if n % divisor == 0:
             return False
     return True

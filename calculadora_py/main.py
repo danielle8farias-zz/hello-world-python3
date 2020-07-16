@@ -46,7 +46,7 @@ sleep(1)
 while True:
     print('''
     0 - sair            6 - radiciação                         12- Seno, Cosseno e Tangente
-    1 - soma            7 - tabuada                            13- verificar se um número é primo
+    1 - soma            7 - tabuada                            13- primo
     2 - subtração       8 - fatorial                           14- verifica se é triângulo
     3 - multiplicação   9 - progressão aritmética (PA)         15- conversor de bases
     4 - divisão         10- sequência Fibonacci                16- matrizes

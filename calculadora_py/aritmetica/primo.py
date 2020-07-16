@@ -4,16 +4,19 @@ from mensagem import ler_cabecalho
 from numeros import ler_num_nat
 
 
+def verificar_primo(n):
+    raiz = int(n ** (0.5))
+    for divisor in range(2, raiz+1):
+        if n % divisor == 0:
+            return False
+    return True
+
+
 def primo():
     ler_cabecalho('número primo')
     n = ler_num_nat("Digite um número inteiro: ")
-    i = 0
-    c = 0
-    while i < n:
-        i+= 1
-        if (n % i == 0):
-            c += 1
-    if c == 2:
+    resultado = verificar_primo(n)
+    if resultado:
         print('É PRIMO!')
     else:
         print("não é primo")

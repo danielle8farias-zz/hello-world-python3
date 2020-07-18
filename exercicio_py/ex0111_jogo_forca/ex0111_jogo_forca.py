@@ -4,7 +4,7 @@ import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho, rodape, ler_resposta
 
-from interface import escolher_tema
+from interface import escolher_tema, desenhar_forca
 from manipular_arquivos import abrir_temas
 
 from time import sleep
@@ -19,6 +19,7 @@ while jogando:
     if opcao == 1:
         sleep(0.5)
         print(f'O tema escolhido foi: {temas[opcao - 1].upper()}')
+        desenhar_forca()
     elif opcao == 2:
         sleep(0.5)
         print(f'O tema escolhido foi: {temas[opcao - 1].upper()}')

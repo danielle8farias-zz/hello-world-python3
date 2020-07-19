@@ -79,5 +79,4 @@ def desenhar_forca():
     |
     ===========   
     ''']
-    for i in desenho:
-        print(i)
+    return desenho

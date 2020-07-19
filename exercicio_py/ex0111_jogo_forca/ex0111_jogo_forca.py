@@ -2,7 +2,7 @@
 
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
-from mensagem import ler_cabecalho, rodape, ler_resposta
+from mensagem import ler_cabecalho, rodape
 
 from interface import escolher_tema, desenhar_forca
 from manipular_arquivos import abrir_arquivo
@@ -10,10 +10,6 @@ from palavra_pc import escolher_palavra, palavra_secreta, adivinhar_palavra
 
 from time import sleep
 
-################################################################
-
-
-###################################################################
 
 jogando = True
 

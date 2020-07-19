@@ -71,7 +71,7 @@ def adivinhar_palavra(tamanho, palavra_oculta, palavra_escolhida):
         sleep(0.5)
         print(f'\nLetras que já foram escolhidas: {lista_chutes}')
 
-    if oalavra_escolhida == nova_palavra1:
+    if palavra_escolhida == nova_palavra1:
         print()
         sleep(0.5)
         print(f'*'*8,' PARABÉNS! VOCÊ VENCEU! ','*'*8)

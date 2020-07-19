@@ -1,1 +1,5 @@
-frutas, cores, planetas, capitais brasileiras, sair
+Frutas
+Cores
+Planetas
+Capitais brasileiras
+Sair

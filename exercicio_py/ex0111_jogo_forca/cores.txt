@@ -1,1 +1,17 @@
-azul, amarelo, bege, branco, cinza, coral, dourado, laranja, lilas, marrom, preto, purpura, rosa, roxo, verde, vermelho, violeta
+azul
+amarelo
+bege
+branco
+cinza
+coral
+dourado
+laranja
+lilas
+marrom
+preto
+purpura
+rosa
+roxo
+verde
+vermelho
+violeta

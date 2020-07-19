@@ -1,6 +1,6 @@
 .vscode/
 __pycache__/
-*.txt
 *.html
 *.json
 0000_teste/
+dados_pessoas.txt

@@ -1,8 +1,8 @@
-def abrir_temas():
-    arq = open('temas.txt', 'rt')
+def abrir_arquivo(nome):
+    arq = open(nome, 'rt')
 
     for linha in arq:
         #criando uma lista dos dados do arquivo
-        tema = linha.split(', ')
+        lista_itens = linha.split(', ')
     
-    return tema
+    return lista_itens

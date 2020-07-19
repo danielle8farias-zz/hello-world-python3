@@ -33,7 +33,7 @@ def adivinhar_palavra(tamanho, palavra_oculta, palavra_escolhida):
     print(f'\nA palavra é: {palavra_oculta}')
     while (erros < 6) and (palavra_escolhida != nova_palavra1):
         sleep(0.5)
-        chute = ler_palavra('\nEscolha uma letra: ')
+        chute = ler_palavra('\nEscolha uma letra: ')[0]
         posicao = 0
 
         if chute not in lista_chutes:

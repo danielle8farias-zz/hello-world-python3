@@ -29,13 +29,21 @@ while jogando:
         fruta_escolhida, tamanho = escolher_palavra(lista_frutas)
         #recebendo retorno de palavra secreta
         palavra_oculta = palavra_secreta(tamanho)
-
+        adivinhar_palavra(tamanho, palavra_oculta, fruta_escolhida)
+    #cores
+    elif opcao == 2:
+        sleep(0.5)
+        print(f'\nO tema escolhido foi:')
+        ler_cabecalho(f'{temas[opcao - 1]}')
+        #abrindo arquivo com nome das cores
+        lista_frutas = abrir_arquivo('cores.txt')
+        #recebendo retorno de palavra escolhida e tamanho
+        fruta_escolhida, tamanho = escolher_palavra(lista_frutas)
+        #recebendo retorno de palavra secreta
+        palavra_oculta = palavra_secreta(tamanho)
         adivinhar_palavra(tamanho, palavra_oculta, fruta_escolhida)
 
 
-    elif opcao == 2:
-        sleep(0.5)
-        print(f'O tema escolhido foi: {temas[opcao - 1]}')
     elif opcao == 3:
         sleep(0.5)
         print(f'O tema escolhido foi: {temas[opcao - 1]}')

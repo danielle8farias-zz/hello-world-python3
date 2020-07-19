@@ -8,4 +8,5 @@ def abrir_arquivo(nome):
         #criando uma lista dos dados do arquivo
         lista_itens.append(item)
     
+    arq.close()
     return lista_itens

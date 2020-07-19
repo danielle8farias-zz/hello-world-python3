@@ -42,14 +42,30 @@ while jogando:
         #recebendo retorno de palavra secreta
         palavra_oculta = palavra_secreta(tamanho)
         adivinhar_palavra(tamanho, palavra_oculta, fruta_escolhida)
-
-
+    #planetas
     elif opcao == 3:
         sleep(0.5)
-        print(f'O tema escolhido foi: {temas[opcao - 1]}')
+        print(f'\nO tema escolhido foi:')
+        ler_cabecalho(f'{temas[opcao - 1]}')
+        #abrindo arquivo com nome das cores
+        lista_frutas = abrir_arquivo('planetas.txt')
+        #recebendo retorno de palavra escolhida e tamanho
+        fruta_escolhida, tamanho = escolher_palavra(lista_frutas)
+        #recebendo retorno de palavra secreta
+        palavra_oculta = palavra_secreta(tamanho)
+        adivinhar_palavra(tamanho, palavra_oculta, fruta_escolhida)
+    #capitais brasileiras
     elif opcao == 4:
         sleep(0.5)
-        print(f'O tema escolhido foi: {temas[opcao - 1]}')
+        print(f'\nO tema escolhido foi:')
+        ler_cabecalho(f'{temas[opcao - 1]}')
+        #abrindo arquivo com nome das cores
+        lista_frutas = abrir_arquivo('capitais_br.txt')
+        #recebendo retorno de palavra escolhida e tamanho
+        fruta_escolhida, tamanho = escolher_palavra(lista_frutas)
+        #recebendo retorno de palavra secreta
+        palavra_oculta = palavra_secreta(tamanho)
+        adivinhar_palavra(tamanho, palavra_oculta, fruta_escolhida)
     elif opcao == 5:
         sleep(0.5)
         print('Finalizando o jogo')

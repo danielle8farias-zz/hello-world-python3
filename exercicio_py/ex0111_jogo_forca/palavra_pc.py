@@ -23,6 +23,7 @@ def adivinhar_palavra(tamanho, palavra_oculta, palavra_escolhida):
     forca = desenhar_forca()
     lista_chutes = []
     lista_palavra_oculta = palavra_oculta.split()
+    palavra_escolhida = palavra_escolhida.upper()
     #palavra que será lida pelo computador e usada para fazer a comparação
     nova_palavra1 = ' '
     #desenho da forca
@@ -46,13 +47,13 @@ def adivinhar_palavra(tamanho, palavra_oculta, palavra_escolhida):
                 for letra in palavra_escolhida:
                     if chute == letra:
                         sleep(0.5)
-                        print(f'letra: {chute.upper()}, na posição: {posicao}')
-                        lista_palavra_oculta[posicao] = chute.upper()
+                        print(f'letra: {chute}, na posição: {posicao}')
+                        lista_palavra_oculta[posicao] = chute
                     posicao += 1
                 #palavra que é mostrada na tela para o usuário
                 nova_palavra = ' '.join(lista_palavra_oculta)
                 #palavra que será lida pelo computador e usada para fazer a comparação
-                nova_palavra1 = ''.join(lista_palavra_oculta).lower()
+                nova_palavra1 = ''.join(lista_palavra_oculta)
 
         else:
             sleep(0.5)
@@ -74,11 +75,11 @@ def adivinhar_palavra(tamanho, palavra_oculta, palavra_escolhida):
         print()
         sleep(0.5)
         print(f'*'*8,' PARABÉNS! VOCÊ VENCEU! ','*'*8)
-        sleep(0.5)
+        sleep(1.5)
         print()
     else:
         print()
         sleep(0.5)
         print(f'-'*8,' Você perdeu ','-'*8)
-        sleep(0.5)
+        sleep(1.5)
         print()

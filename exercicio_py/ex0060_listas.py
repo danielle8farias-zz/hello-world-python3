@@ -93,5 +93,8 @@ print(frutas)
 
 #desempacotando lista
 lista1 = [1, 2, 3, 4, 5]
+#desempacotando os itens n3 em diante
 n1, n2, *n = lista1
 print(n1, n2, n)
+#desempacotando toda a lista
+print(*lista1)

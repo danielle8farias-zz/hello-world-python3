@@ -222,3 +222,7 @@ e pedir para que o usuário digite novamente.
 - [ex0109:](exercicio_py/ex0109_primo.py) Outro modo de fazer: Usuário digita um número natural inteiro e programa verifica se esse é número primo. Com validação de dados.
 
 - [ex0110:](exercicio_py/ex0110_matriz_arquivo/ex0110_matriz_arquivo.py) Abrindo uma matriz de um arquivo e mostrando seus elementos na tela.
+
+- [ex0111:](exercicio_py/ex0111_jogo_forca/ex0111_jogo_forca.py) Jogo da forca.
+
+- [ex0112:](exercicio_py/ex0112_args_kwargs.py) Usando args e kwargs.

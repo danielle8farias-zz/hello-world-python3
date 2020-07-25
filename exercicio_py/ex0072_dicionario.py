@@ -3,8 +3,8 @@ Dicionário com as unidades federativas do Brasil.
 '''
 
 #criando dicionário
-estado = dict()
-brasil = list()
+estado = {}
+brasil = []
 
 for i in range(3):
     estado['UF'] = input('Digite o nome do estado: ')
@@ -19,6 +19,7 @@ print()
 estado1 = {'UF': 'Amazonas', 'sigla': 'AM'}
 brasil.append(estado1)
 
+print('mostrando cada dicionário dentro da lista')
 for i in brasil:
     print(i)
 print()
@@ -27,12 +28,14 @@ estado2 = {'UF': 'Pará',
         'sigla': 'PA'}
 brasil.append(estado2)
 
+print('mostrando itens do dicionário; com chave e valor')
 for i in brasil:
     #mostrando itens do dicionário; com chave e valor
     for c, v in i.items():
         print(f'{c}: {v}')
 print()
 
+print('mostrando apenas os valores dentro do dicionário (sem as chaves)')
 for i in brasil:
     #mostrando apenas os valores dentro do dicionário (sem as chaves)
     for v in i.values():

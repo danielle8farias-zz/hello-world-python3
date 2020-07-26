@@ -1,5 +1,5 @@
 '''
-Usando deepcopy com lsita dentro de um dicionário
+Usando deepcopy com lista dentro de um dicionário
 '''
 
 dicio1 = {1:'a', 2:'b', 3:'c', 'd':[7,8,9]}

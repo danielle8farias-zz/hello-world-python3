@@ -227,4 +227,4 @@ e pedir para que o usuário digite novamente.
 
 - [ex0112:](exercicio_py/ex0112_args_kwargs.py) Usando args e kwargs.
 
-- [ex0113:](exercicio_py/ex0113_deepcopy.py) Usando deepcopy com lsita dentro de um dicionário.
+- [ex0113:](exercicio_py/ex0113_deepcopy.py) Usando deepcopy com lista dentro de um dicionário.

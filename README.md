@@ -226,3 +226,5 @@ e pedir para que o usuário digite novamente.
 - [ex0111:](exercicio_py/ex0111_jogo_forca/ex0111_jogo_forca.py) Jogo da forca.
 
 - [ex0112:](exercicio_py/ex0112_args_kwargs.py) Usando args e kwargs.
+
+- [ex0113:](exercicio_py/ex0113_deepcopy.py) Usando deepcopy com lsita dentro de um dicionário.

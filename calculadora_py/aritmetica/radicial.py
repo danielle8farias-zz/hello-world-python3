@@ -14,7 +14,7 @@ def radiciar():
         raiz = radicando ** (1/indice)
         return round(raiz * -1, 5)
     
-    elif indice % 2 == 0 or indice % 2 == 1:
+    elif (indice % 2 == 0 or indice % 2 == 1) and radicando > 0:
         raiz = radicando ** (1/indice)
         return round(raiz, 5)
     

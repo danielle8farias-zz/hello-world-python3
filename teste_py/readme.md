@@ -1,3 +1,5 @@
+# Executando os testes
+
 Para executar os testes, primeiro instale o Pytest
 
 ```
@@ -23,3 +25,5 @@ Caso queira rodar cada arquivo individualmente,
 ```
 pytest nomedoarquivo_test.py
 ```
+
+Mais informações em: https://docs.pytest.org/en/stable/contents.html

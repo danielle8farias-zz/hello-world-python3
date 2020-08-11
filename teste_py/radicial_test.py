@@ -21,3 +21,9 @@ def test_radicial1():
 
 def test_radicial2():
     assert radiciar(2, -25) == 'Não é possível calcular a raiz dentro dos Reais.'
+
+def test_radicial3():
+    assert radiciar(3, -27) == -3
+
+def test_radicial4():
+    assert radiciar(2, 7) == 2.64575

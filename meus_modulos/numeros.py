@@ -34,7 +34,7 @@ def ler_num_int(n):
     while True:
         try:
             #input() captura como string o que for digitado
-            #float() convertendo a string recebida para tipo flutuante
+            #int() convertendo a string recebida para tipo inteiro
             #atribuindo valor à variável 'num'
             num = int(input(n))
         #criando exceção

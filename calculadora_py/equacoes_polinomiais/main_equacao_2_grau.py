@@ -12,7 +12,7 @@ def equacoes():
     print('''
     0- sair
     1- determinar raízes de uma equação do 2º grau
-    2- determinar a equação do 2º grau
+    2- determinar a equação do 2º grau com a entrada das raízes
     ''')
     opcao = ler_num_int('Escolha uma das opções: ')
     print()

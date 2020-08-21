@@ -1,5 +1,6 @@
 # Exercícios solucionados com Python
 
+
 - [ex0000:](exercicio_py/ex0000_print.py) Mostra uma palavra e uma frase na tela.
 
 - [ex0001:](exercicio_py/ex0001_variavel.py) Cria uma variável que recebe uma string e retorna a mesma na tela.
@@ -228,3 +229,5 @@ e pedir para que o usuário digite novamente.
 - [ex0112:](exercicio_py/ex0112_args_kwargs.py) Usando args e kwargs.
 
 - [ex0113:](exercicio_py/ex0113_deepcopy.py) Usando deepcopy com lista dentro de um dicionário.
+
+- [ex00114:](exercicio_py/ex0114_compreensao_lista.py) Usando compreensão de lista (List comprehension)

@@ -22,7 +22,7 @@ def montar_equacao(x1, x2):
     elif c == 0 and b > 0:
         print(f'A equação é: X² + {b}X')
     else:
-        print(f'A equação é: X² - {b}X')
+        print(f'A equação é: X² - {b*-1}X')
 
 
 def multip_raizes(x1, x2):

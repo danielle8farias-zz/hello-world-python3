@@ -7,22 +7,28 @@ from numeros import ler_num_float
 def montar_equacao(x1, x2):
     b = somar_raizes(x1, x2)
     c = multip_raizes(x1, x2)
+
     if b < 0 and c > 0:
         print(f'A equação é: X² + {b*-1}X + {c}')
     elif b < 0  and c < 0:
         print(f'A equação é: X² + {b*-1}X - {c*-1}')
-    elif b > 0 and c < 0:
-        print(f'A equação é: X² - {b}X - {c*-1}')
+    elif b < 0  and c == 0:
+        print(f'A equação é: X² + {b*-1}X')
+    
     elif b > 0 and c > 0:
         print(f'A equação é: X² - {b}X + {c}')
+    elif b > 0 and c < 0:
+        print(f'A equação é: X² - {b}X - {c*-1}')
+    elif b > 0 and c == 0:
+        print(f'A equação é: X² - {b}X')
+    
     elif b == 0 and c > 0:
         print(f'A equação é: X² + {c}')
     elif b == 0 and c < 0:
         print(f'A equação é: X² - {c*-1}')
-    elif c == 0 and b > 0:
-        print(f'A equação é: X² + {b}X')
+    #elif b == 0 and c == 0:
     else:
-        print(f'A equação é: X² - {b*-1}X')
+        print(f'A equação é: X²')
 
 
 def multip_raizes(x1, x2):

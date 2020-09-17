@@ -13,3 +13,5 @@
 
 - [adicionando nova chave e valor a um dicionário após a verificação de não existência da chave e valor;](ex0072_dicionario6.py)
 
+- [verificando a existência de uma chave ou valor com retorno booleano;](ex0072_dicionario7.py)
+

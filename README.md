@@ -146,7 +146,7 @@ e pedir para que o usuário digite novamente.
 
 - [ex0071:](exercicio_py/ex0071_boletim_lista_composta.py) Outra maneira de fazer o ex0070.
 
-- [ex0072:](exercicio_py/ex0072_dicionario.py) Dicionário com as unidades federativas do Brasil.
+- [ex0072:](exercicio_py/ex0072_dicionario/ex0072_dicionario.md) Dicionários com as unidades federativas do Brasil.
 
 - [ex0073:](exercicio_py/ex0073_produtos_papelaria_dict.py) Tabela de preços de produtos de uma livraria guardada em um dicionário.
 

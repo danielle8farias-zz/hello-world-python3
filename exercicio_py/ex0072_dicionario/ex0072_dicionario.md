@@ -15,3 +15,5 @@
 
 - [verificando a existência de uma chave ou valor com retorno booleano;](ex0072_dicionario7.py)
 
+- [usando o método get;](ex0072_dicionario8.py)
+

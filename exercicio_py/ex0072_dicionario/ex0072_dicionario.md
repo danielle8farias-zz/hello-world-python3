@@ -17,3 +17,5 @@
 
 - [usando o método get;](ex0072_dicionario8.py)
 
+- [verificando a chave e criando um valor com o método setdefault.](ex0072_dicionario9.py)
+

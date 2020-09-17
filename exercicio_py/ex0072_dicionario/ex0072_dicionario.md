@@ -11,3 +11,5 @@
 
 - [checando as chaves e os valores de um dicionário;](ex0072_dicionario5.py)
 
+- [adicionando nova chave e valor a um dicionário após a verificação de não existência da chave e valor;](ex0072_dicionario6.py)
+

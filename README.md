@@ -188,15 +188,9 @@ e pedir para que o usuário digite novamente.
 
 - [ex0092:](exercicio_py/ex0092_conversor_bases.py) Usuário informa um número inteiro e escolhe uma opção de conversão desse número. O programa retorna a conversão escolhida desse número para base binária, octal ou hexadecimal.
 
-- [ex0093:](exercicio_py/ex0093_classe_pessoa.py) Classe pessoa com nome, idade e ações.
+- [ex0093:](exercicio_py/ex0093_classes/ex0093_classe.md) Diversos tipos de classes para criação de objetos diversos.
 
-- [ex0094:](exercicio_py/ex0094_classe_computador.py) Classe computador com suas características, componentes e ações.
 
-- [ex0095:](exercicio_py/ex0095_classe_personagem_disney.py) Classe personagem com nome e cor.
-
-- [ex0096:](exercicio_py/ex0096_classe_usuario.py) Classe usuário com nome e data de nascimento.
-
-- [ex0097:](exercicio_py/ex0097_classe_empregado.py) Classe empregado com nome, sobrenome e salário.
 
 - [ex0098:](exercicio_py/ex0098_conversao_temperatura.py) Usuário tem a opção de esclher entre converter um valor de temperatura de Celsius para Farenheit ou de Farenheit para Celsius.
 
@@ -231,3 +225,5 @@ e pedir para que o usuário digite novamente.
 - [ex0113:](exercicio_py/ex0113_deepcopy.py) Usando deepcopy com lista dentro de um dicionário.
 
 - [ex00114:](exercicio_py/ex0114_compreensao_lista.py) Usando compreensão de lista (List comprehension)
+
+

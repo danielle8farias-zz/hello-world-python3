@@ -1,7 +1,9 @@
 # Diversos tipos de classes para criação de objetos diversos
 
 
-- [ex0093:](ex0093_classe_computador/ex0093_classe_computador.py) Classe computador com suas características, componentes e ações.
+- [Classe computador com suas características, componentes e ações.](ex0093_classe_computador/ex0093_classe_computador.py)
+
+- [Classe empregado com nome, sobrenome e salário.](ex0093_classe_empregado/ex0093_classe_empregado.py)
 
 
 
@@ -13,5 +15,4 @@
 
 - [ex0096:](exercicio_py/ex0096_classe_usuario.py) Classe usuário com nome e data de nascimento.
 
-- [ex0097:](exercicio_py/ex0097_classe_empregado.py) Classe empregado com nome, sobrenome e salário.
 

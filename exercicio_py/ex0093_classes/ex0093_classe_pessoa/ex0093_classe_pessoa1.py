@@ -13,3 +13,10 @@ print(p1.nome)
 p1.falar()
 #print() vazio pula uma linha
 print()
+
+p2 = Humano()
+print(p2)
+p2.nome = 'Enrico'
+print(p2.nome)
+p2.falar()
+print()

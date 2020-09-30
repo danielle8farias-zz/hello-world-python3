@@ -33,7 +33,7 @@ def linha(tam=50):
     sem parâmetro.
     retorna sinais de = repetidos em 50 caracteres.
     '''
-    return '='*tam
+    print('='*tam)
 
 
 def ler_resposta(msg):

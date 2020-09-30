@@ -1,15 +1,15 @@
 #importando a classe que será usada para montar o objeto
 from ex0093_classe_pessoa import Humano
 
-
 print()
 #instanciando objeto
-pessoa1 = Humano()
+p1 = Humano()
 #mostra na tela o endereço de memória do objeto
-print(pessoa1)
-pessoa1.nome = 'Danielle'
+print(p1)
+p1.nome = 'Danielle'
 #retorna a string na tela
-print(pessoa1.nome)
+print(p1.nome)
 #chamando o método da classe
-pessoa1.falar()
+p1.falar()
+#print() vazio pula uma linha
 print()

@@ -7,10 +7,11 @@
 
 - [Classe personagem disney com nome e cor.](ex0093_classe_personagem_disney.py) 
 
+- [Classe pessoa com nome, idade e ações.](ex0093_classe_pessoa/ex0093_classe_pessoa.py) 
 
 
 
-- [ex0093:](exercicio_py/ex0093_classe_pessoa.py) Classe pessoa com nome, idade e ações.
+
 
 
 - [ex0096:](exercicio_py/ex0096_classe_usuario.py) Classe usuário com nome e data de nascimento.

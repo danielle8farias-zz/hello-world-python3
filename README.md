@@ -164,30 +164,9 @@ e pedir para que o usuário digite novamente.
 
 - [ex0080:](exercicio_py/ex0080_setdefault_dict.py) verificando a chave e criando um valor com o método setdefault, em um dicionário.
 
+- [ex0081:](exercicio_py/ex0081_produtos_papelaria_dict.py) Tabela de preços de produtos de uma livraria guardada em um dicionário.
 
-
-
-
-
-- [ex0073:](exercicio_py/ex0073_produtos_papelaria_dict.py) Tabela de preços de produtos de uma livraria guardada em um dicionário.
-
-- [ex0074:](exercicio_py/ex0074_boletim_dict.py) Usuário lê nomes e duas notas de vários alunos. O programa retorna o boletim com, o nome, o número e a média de cada aluno. Ao final é permitido escolher o aluno pelo número para ver as notas individualmente. Os dados são armazenados em um dicionário.
-
-- [ex0075:](exercicio_py/ex0075_funcao.py) Funções que criam linhas e formatos de títulos.
-
-- [ex0076:](exercicio_py/ex0076_calculadora_basica_funcao.py) Calculadora básica que soma, subtrai, multiplica ou divide dois números. Usando funções.
-
-- [ex0077:](exercicio_py/ex0077_dobra_valor_lista.py) Dobrando valores de uma lista através de uma função.
-
-- [ex0078:](exercicio_py/ex0078_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas. Fazendo validação do dado.
-
-- [ex0079:](exercicio_py/ex0079_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada. Com validação de dados.
-
-- [ex0080:](exercicio_py/ex0080_media_nota.py) Usuário informa quantas notas deseja cadastrar e informa o valor dessas notas. Programa calcula e retorna a média das notas. Se a média for maior ou igual a 6, a média é boa, senão é ruim. Com validação da entrada de dados.
-
-- [ex0081:](exercicio_py/ex0081_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido. Com validação dos dados.
-
-- [ex0082:](exercicio_py/ex0082_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse. Com validação de dados.
+- [ex0082:](exercicio_py/ex0082_boletim_dict.py) Usuário lê nomes e duas notas de vários alunos. O programa retorna o boletim com, o nome, o número e a média de cada aluno. Ao final é permitido escolher o aluno pelo número para ver as notas individualmente. Os dados são armazenados em um dicionário.
 
 - [ex0083:](exercicio_py/ex0083_soma_array.py) Usuário fornece um número inteiro que será o tamanho do array, em seguida insere números que serão elementos desse array. O programa retorna a soma desses elementos.
 
@@ -209,11 +188,15 @@ e pedir para que o usuário digite novamente.
 
 - [ex0092:](exercicio_py/ex0092_conversor_bases.py) Usuário informa um número inteiro e escolhe uma opção de conversão desse número. O programa retorna a conversão escolhida desse número para base binária, octal ou hexadecimal.
 
-- [ex0093:](exercicio_py/ex0093_classes/ex0093_classe.md) Diversos tipos de classes para criação de objetos diversos.
+- [ex0093:](exercicio_py/ex0093_funcao_linha_msg.py) Funções que criam linhas e formatação de mensagens.
 
+- [ex0094:](exercicio_py/ex0094_funcao_soma.py) Funções que somam dois inteiros.
 
+- [ex0095:](exercicio_py/ex0095_empacotamento_funcao.py) Empacotamento de funções.
 
+- [ex0096:](exercicio_py/ex0096_calculadora_basica_funcao.py) Calculadora básica que soma, subtrai, multiplica ou divide dois números. Usando funções.
 
+- [ex0097:](exercicio_py/ex0097_dobra_valor_lista.py) Dobrando valores de uma lista através de uma função; com enumerate.
 
 - [ex0098:](exercicio_py/ex0098_conversao_temperatura.py) Usuário tem a opção de esclher entre converter um valor de temperatura de Celsius para Farenheit ou de Farenheit para Celsius.
 
@@ -225,7 +208,32 @@ e pedir para que o usuário digite novamente.
 
 - [ex0102:](exercicio_py/ex0102_acesso_site.py) Acessando site.
 
-- [ex0103:](exercicio_py/ex0103_arquivo.py) Manipulação de arquivos.
+- [ex0103:](exercicio_py/ex0103_arquivo.py) Abrindo, lendo um arquivo com tratamento de exceções. Caso o arquivo não exista, ele será criado.
+
+
+
+
+
+
+
+- [ex0078:](exercicio_py/ex0078_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas. Fazendo validação do dado.
+
+- [ex0079:](exercicio_py/ex0079_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada. Com validação de dados.
+
+- [ex0080:](exercicio_py/ex0080_media_nota.py) Usuário informa quantas notas deseja cadastrar e informa o valor dessas notas. Programa calcula e retorna a média das notas. Se a média for maior ou igual a 6, a média é boa, senão é ruim. Com validação da entrada de dados.
+
+- [ex0081:](exercicio_py/ex0081_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido. Com validação dos dados.
+
+- [ex0082:](exercicio_py/ex0082_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse. Com validação de dados.
+
+
+
+
+
+
+
+
+
 
 - [ex0104:](exercicio_py/ex0104_cadastro_pessoas_arquivo/ex0104_cadastro_pessoas_arquivo.py) Usuário cadastra nome e idade de pessoas; programa guarda os dados em um arquivo de texto. É possível ver as pessoas cadastradas.
 

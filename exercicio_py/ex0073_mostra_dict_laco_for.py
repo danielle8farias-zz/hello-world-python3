@@ -1,3 +1,6 @@
+'''
+Mostrando cada dicionário, com as unidades federativas do Brasil, dentro da lista, com o laço for.
+'''
 #criando dicionário
 estado = {}
 brasil = []

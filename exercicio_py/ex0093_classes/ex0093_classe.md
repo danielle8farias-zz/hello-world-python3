@@ -9,11 +9,4 @@
 
 - [Classe pessoa com nome, idade e ações.](ex0093_classe_pessoa/ex0093_classe_pessoa.py) 
 
-
-
-
-
-
-- [ex0096:](exercicio_py/ex0096_classe_usuario.py) Classe usuário com nome e data de nascimento.
-
-
+- [Classe usuário com nome e data de nascimento.](ex0093_classe_usuario.py) 

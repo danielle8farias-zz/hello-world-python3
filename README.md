@@ -112,7 +112,7 @@ e pedir para que o usuário digite novamente.
 
 - [ex0054:](exercicio_py/ex0054_caixa_eletronico.py) Simulador de caixa eletrônico. Usuário informa o valor que deseja sacar. O programa retorna quantas cédulas de cada valor serão entregues. O caixa possui cédulas de 50, 20, 10 e 1.
 
-- [ex0055:](exercicio_py/ex0055_tupla.py) Cardápio de refeições organizado por tuplas.
+- [ex0055:](exercicio_py/ex0055_tupla_cardapio.py) Cardápio de refeições organizado por tuplas.
 
 - [ex0056:](exercicio_py/ex0056_dias_semana.py) Dias da semana armazenadas numa tupla. Usuário escohe um número inteiro de 0 a 6 e programa retorna um desses dias armazenados, de acordo com a posição na tupla.
 
@@ -146,7 +146,28 @@ e pedir para que o usuário digite novamente.
 
 - [ex0071:](exercicio_py/ex0071_boletim_lista_composta.py) Outra maneira de fazer o ex0070.
 
-- [ex0072:](exercicio_py/ex0072_dicionario/ex0072_dicionario.md) Dicionários com as unidades federativas do Brasil.
+- [ex0072:](exercicio_py/ex0072_dict_lista_for.py) Criando dicionário, com as unidades federativas do Brasil, dentro de uma lista com o laço for.
+
+- [ex0073:](exercicio_py/ex0073_mostra_dict_laco_for.py) Mostrando cada dicionário, com as unidades federativas do Brasil, dentro da lista, com o laço for.
+
+- [ex0074:](exercicio_py/ex0074_dict_chave_valor.py) Mostrando apenas os itens do dicionário, com as unidades federativas do Brasil, através de chave e valor;
+
+- [ex0075:](exercicio_py/ex0075_dict_mostra_valor.py) Mostrando apenas os valores dentro do dicionário, com as unidades federativas do Brasil; sem as chaves.
+
+- [ex0076:](exercicio_py/ex0076_in_dict.py) Checando as chaves e os valores de um dicionário que contém as unidades federativas do Brasil.
+
+- [ex0077:](exercicio_py/ex0077_add_chave_valor_dict.py) Adicionando nova chave e valor a um dicionário após a verificação de não existência da chave e valor.
+
+- [ex0078:](exercicio_py/ex0078_ver_chave_valor_dict.py) Verificando a existência de uma chave ou valor, com retorno booleano, em um dicionário.
+
+- [ex0079:](exercicio_py/ex0079_get_dict.py) Usando o método get em um dicionário.
+
+- [ex0080:](exercicio_py/ex0080_setdefault_dict.py) verificando a chave e criando um valor com o método setdefault, em um dicionário.
+
+
+
+
+
 
 - [ex0073:](exercicio_py/ex0073_produtos_papelaria_dict.py) Tabela de preços de produtos de uma livraria guardada em um dicionário.
 

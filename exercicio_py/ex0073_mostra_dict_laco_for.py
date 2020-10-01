@@ -13,7 +13,6 @@ brasil.append(estado1)
 brasil.append(estado2)
 brasil.append(estado3)
 
-
 #mostrando cada dicionário dentro da lista
 for i in brasil:
     print(i)

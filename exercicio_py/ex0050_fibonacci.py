@@ -1,5 +1,5 @@
 '''
-Usuário informa um número inteiro e programa retorna a sequência de Fibonacci dos n elementos lidos.
+Usuário informa um número inteiro e programa retorna a sequência de Fibonacci dos n elementos lidos. Usando while.
 '''
 
 num = int(input('Quantos termos você quer mostrar? '))

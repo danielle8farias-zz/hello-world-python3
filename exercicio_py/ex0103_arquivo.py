@@ -1,5 +1,9 @@
 #!/usr/bin/env python3.8
 
+'''
+Abrindo, lendo um arquivo com tratamento de exceções. Caso o arquivo não exista, ele será criado.
+'''
+
 def arquivo_existe(nome):
     try:
         a = open(nome, 'rt')
@@ -34,5 +38,3 @@ if not arquivo_existe(arquivo):
     criar_arquivo(arquivo)
 else:
     ler_arquivo(arquivo)
-
-#abrir, criar ou ler arquivos não funciona no terminal do VSCode por algum motivo

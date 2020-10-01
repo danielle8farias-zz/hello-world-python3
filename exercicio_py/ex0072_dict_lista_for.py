@@ -1,5 +1,5 @@
 '''
-Dicionário dentro de uma lista com o laço for.
+Criando dicionário, com as unidades federativas do Brasil, dentro de uma lista com o laço for.
 '''
 
 #criando dicionário

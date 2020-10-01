@@ -6,7 +6,7 @@ Criando linhas com o sinal de menos -, igual = e ponto.
 print('-'*20)
 print()
 
-#imprime o sinal - 30 vezes
+#imprime o sinal = 30 vezes
 print('='*30)
 print()
 

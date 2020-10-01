@@ -45,11 +45,3 @@ class Usuario:
         idade_anos = idade_dias/365
         #idade de anos deve ser um número inteiro
         return idade_dias, int(idade_anos)
-
-
-user1 = Usuario('Nicolau Farias', '11/09/1937')
-print(user1.nome_completo)
-print(user1.primeiro_nome)
-print(user1.ultimo_nome)
-print(user1.aniversario)
-print(user1.idade())

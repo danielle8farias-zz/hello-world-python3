@@ -1,0 +1,5 @@
+Frutas
+Cores
+Planetas
+Capitais brasileiras
+Sair

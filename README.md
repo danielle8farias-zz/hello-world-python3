@@ -210,32 +210,7 @@ e pedir para que o usuário digite novamente.
 
 - [ex0103:](exercicio_py/ex0103_arquivo.py) Abrindo, lendo um arquivo com tratamento de exceções. Caso o arquivo não exista, ele será criado.
 
-
-
-
-
-
-
-- [ex0078:](exercicio_py/ex0078_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas. Fazendo validação do dado.
-
-- [ex0079:](exercicio_py/ex0079_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada. Com validação de dados.
-
-- [ex0080:](exercicio_py/ex0080_media_nota.py) Usuário informa quantas notas deseja cadastrar e informa o valor dessas notas. Programa calcula e retorna a média das notas. Se a média for maior ou igual a 6, a média é boa, senão é ruim. Com validação da entrada de dados.
-
-- [ex0081:](exercicio_py/ex0081_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido. Com validação dos dados.
-
-- [ex0082:](exercicio_py/ex0082_tabuada_multiplicacao.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse. Com validação de dados.
-
-
-
-
-
-
-
-
-
-
-- [ex0104:](exercicio_py/ex0104_cadastro_pessoas_arquivo/ex0104_cadastro_pessoas_arquivo.py) Usuário cadastra nome e idade de pessoas; programa guarda os dados em um arquivo de texto. É possível ver as pessoas cadastradas.
+- [ex0104:](exercicio_py/ex0104_bem_vinda.py) Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas. Fazendo validação do dado.
 
 - [ex0105:](exercicio_py/ex0105_lista_ordenada.py) Usuário digita uma lista de valores inteiros. A lista pára de ser preenchida no momento de escolha do usuário. O programa retorna essa lista ordenada. Sem usar o método sort.
 
@@ -247,9 +222,9 @@ e pedir para que o usuário digite novamente.
 
 - [ex0109:](exercicio_py/ex0109_primo.py) Outro modo de fazer: Usuário digita um número natural inteiro e programa verifica se esse é número primo. Com validação de dados.
 
-- [ex0110:](exercicio_py/ex0110_matriz_arquivo/ex0110_matriz_arquivo.py) Abrindo uma matriz de um arquivo e mostrando seus elementos na tela.
+- [ex0110:](exercicio_py/ex0110_matriz_arquivo.py) Abrindo uma matriz de um arquivo e mostrando seus elementos na tela.
 
-- [ex0111:](exercicio_py/ex0111_jogo_forca/ex0111_jogo_forca.py) Jogo da forca.
+- [ex0111:](exercicio_py/ex0111_nascimento.py) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada. Com validação de dados.
 
 - [ex0112:](exercicio_py/ex0112_args_kwargs.py) Usando args e kwargs.
 
@@ -257,4 +232,20 @@ e pedir para que o usuário digite novamente.
 
 - [ex00114:](exercicio_py/ex0114_compreensao_lista.py) Usando compreensão de lista (List comprehension)
 
+- [ex0115:](exercicio_py/ex0115_media_nota.py) Usuário informa quantas notas deseja cadastrar e informa o valor dessas notas. Programa calcula e retorna a média das notas. Se a média for maior ou igual a 6, a média é boa, senão é ruim. Com validação da entrada de dados.
 
+- [ex0116:](exercicio_py/ex0116_hipotenusa.py) Usuário escolhe o que deseja calcular entre cateto ou hipotenusa e programa retorna o valor escolhido. Com validação dos dados.
+
+- [ex0117:](exercicio_py/ex0117_tabuada_multiplicacao_for.py) Usuário fornece um número inteiro e programa retorna a tabuada de multiplicação desse. Com validação de dados.
+
+- [ex0118:](exercicio_py/ex0118_a_cadastro_pessoas_arquivo.py) Usuário cadastra nome e idade de pessoas; programa guarda os dados em um arquivo de texto. É possível ver as pessoas cadastradas.
+
+- [ex0119:](exercicio_py/ex0119_classe_personagem_disney.py) Classe personagem disney com nome e cor.
+
+- [ex0120:](exercicio_py/ex0120_classe_computador.py) Classe computador com suas características, componentes e ações.
+
+- [ex0121:](exercicio_py/ex0121_classe_empregado.py) Classe empregado com nome, sobrenome e salário.
+
+- [ex0122:](exercicio_py/ex0122_classe_pessoa.py) Classe pessoa com nome, idade e ações.
+
+- [ex0123:](exercicio_py/ex0123_classe_usuario.py) Classe usuário com nome e data de nascimento.

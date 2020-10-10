@@ -21,7 +21,7 @@ class Pessoa:
     ano_atual = date.today().year
 
     #'self' é uma referência para o próprio objeto
-    #construtor
+    #construtor (serve para inicializar o objeto a cada instanciamento)
     def __init__(self, nome, idade, comendo=False, falando=False):
         #self.variável = parâmetro
         self.nome = nome

@@ -3,7 +3,7 @@ class Computador:
     '''
     Computador com seus componentes
     '''
-    #construtor
+    #construtor (serve para inicializar o objeto a cada instanciamento)
     def __init__(self, marca, memoria_ram, placa_video, hd, estado=False):
         #self.variável = parâmetro
         self.marca = marca

@@ -5,4 +5,4 @@ __pycache__/
 0000_teste/
 *.txt
 exercicio_py_bk/
-
+.pytest_cache/

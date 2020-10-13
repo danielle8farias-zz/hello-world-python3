@@ -1,11 +1,13 @@
-'''
-funções para:
-cabeçalho;
-linha;
-rodapé;
-resposta se quer continuar;
-validando recebimento de string;
-'''
+########
+# autora: danielle8farias@gmail.com 
+# repositório: https://github.com/danielle8farias
+# Descrição: Funções para:
+#           ler e criar um cabeçalho;
+#           criar um rodapé;
+#           criar linha;
+#           ler e validar resposta se deseja continuar
+#           validar recebimento de uma string formada apenas por letras.
+########
 
 def ler_cabecalho(msg):
     '''

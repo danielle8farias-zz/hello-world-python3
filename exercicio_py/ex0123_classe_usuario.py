@@ -5,7 +5,7 @@ class Usuario:
     '''
     Usuário com nome e data de nascimento
     '''
-    #construtor (serve para inicializar o objeto a cada instanciamento)
+    #para inicializar o objeto a cada instanciamento
     def __init__(self, nome_completo, aniversario):
         #self.variável = parâmetro
         self.nome_completo = nome_completo

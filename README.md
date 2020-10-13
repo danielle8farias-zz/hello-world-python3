@@ -249,3 +249,4 @@ e pedir para que o usuário digite novamente.
 - [ex0122:](exercicio_py/ex0122_classe_pessoa.py) Classe pessoa com nome, idade e ações.
 
 - [ex0123:](exercicio_py/ex0123_classe_usuario.py) Classe usuário com nome e data de nascimento.
+

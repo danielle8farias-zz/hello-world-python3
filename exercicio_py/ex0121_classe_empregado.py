@@ -10,7 +10,7 @@ class Empregado:
     #variável de instância
     num_empregados = 0
 
-    #construtor (serve para inicializar o objeto a cada instanciamento)
+    #inicializar o objeto a cada instanciamento
     def __init__(self, nome, sobrenome, pagamento):
         #self.variável = parâmetro
         self.nome = nome

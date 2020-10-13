@@ -3,7 +3,7 @@ class Computador:
     '''
     Computador com seus componentes
     '''
-    #construtor (serve para inicializar o objeto a cada instanciamento)
+    #para inicializar o objeto a cada instanciamento
     def __init__(self, marca, memoria_ram, placa_video, hd, estado=False):
         #self.variável = parâmetro
         self.marca = marca
@@ -51,13 +51,13 @@ class Computador:
 
 
 #passando atributos para a classe
-pc2 = Computador('Dell', '10gb', 'GeForce', '150gb')
+pc = Computador('Dell', '10gb', 'GeForce', '150gb')
 #retorna string formatada na tela
-print(f'\nMarca do computador: {pc2.marca}')
+print(f'\nMarca do computador: {pc.marca}')
 #print() vazia pula uma linha
 print()
 #chamando método da classe; mensagem
-pc2.desligar()
-pc2.ligar()
-pc2.exibir_config()
+pc.desligar()
+pc.ligar()
+pc.exibir_config()
 print()

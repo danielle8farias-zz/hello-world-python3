@@ -1,6 +1,6 @@
 #criando a classe
 class Personagem:
-    #construtor (serve para inicializar o objeto a cada instanciamento)
+    #para inicializar o objeto a cada instanciamento
     def __init__(self, nome, cor):
         #self.variável = parâmetro        
         self.nome = nome

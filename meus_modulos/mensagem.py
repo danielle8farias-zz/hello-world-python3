@@ -17,7 +17,7 @@ def ler_cabecalho(msg):
     print('-'*50)
 
 
-def rodape():
+def criar_rodape():
     '''
     sem parâmetro
     retorna a string FIM com espaçamento de 50 caracteres, incluindo a string.
@@ -28,12 +28,14 @@ def rodape():
     print('-'*50)
 
 
-def linha(tam=50):
+def criar_linha(tam=50):
     '''
     sem parâmetro.
     retorna sinais de = repetidos em 50 caracteres.
     '''
-    print('='*tam)
+    print()
+    print('-'*tam)
+    print()
 
 
 def ler_resposta(msg):

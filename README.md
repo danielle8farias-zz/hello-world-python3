@@ -93,23 +93,22 @@ pytest nomedoarquivo_test.py
 
 ## Índice:
 
-- [ex0000:](ex0000_boas_vindas) Captura o nome da pessoa e retorna uma mensagem de boas-vindas na tela.
+- [ex0000:](exercicio_py/ex0000_boas_vindas) Captura o nome da pessoa e retorna uma mensagem de boas-vindas na tela.
 
-- [ex0001:](ex0001_soma_numeros) Descrição: Usuário digita dois números inteiros e programa retorna a soma entre eles.
+- [ex0001:](exercicio_py/ex0001_soma_numeros) Descrição: Usuário digita dois números inteiros e programa retorna a soma entre eles.
 
-- [ex0002:](ex0002_tabuada_multiplicacao) Usuário digita dois números inteiros e programa retorna a tabuada de multiplicação desse.
+- [ex0002:](exercicio_py/ex0002_tabuada_multiplicacao) Usuário digita dois números inteiros e programa retorna a tabuada de multiplicação desse.
 
-- [ex0003:](ex0003_lista_frutas) Usuário informa nome de cinco frutas. O programa armazena numa lista e retorna em ordem alfabética.
+- [ex0003:](exercicio_py/ex0003_lista_frutas) Usuário informa nome de cinco frutas. O programa armazena numa lista e retorna em ordem alfabética.
 
-- [ex0004:](ex0004_conta_quantidade_caractere) Usuário informa nome e sobrenome. O programa retorna quantas letras o nome completo possui (excluindo espaços) e quantas letras o primeiro nome possui. 
+- [ex0004:](exercicio_py/ex0004_conta_quantidade_caractere) Usuário informa nome e sobrenome. O programa retorna quantas letras o nome completo possui (excluindo espaços) e quantas letras o primeiro nome possui. 
 
-- [ex0005:](ex0005_aumento_salario) Usuário informa o salário de uma pessoa. O programa retorna um reajuste de aumento desse salário.
+- [ex0005:](exercicio_py/ex0005_aumento_salario) Usuário informa o salário de uma pessoa. O programa retorna um reajuste de aumento desse salário.
 
-- [ex0006:](ex0006_obrigatoriedade_voto) Usuário informa a idade e programa retorna se o voto é obrigatório.
+- [ex0006:](exercicio_py/ex0006_obrigatoriedade_voto) Usuário informa a idade e programa retorna se o voto é obrigatório.
 
-- [ex0007:](ex0007_progressao_aritmetica) Usuário informa o 1º termo de uma progressão aritmética e sua razão. O programa retorna os 10 primeiros termos dessa PA.
+- [ex0007:](exercicio_py/ex0007_progressao_aritmetica) Usuário informa o 1º termo de uma progressão aritmética e sua razão. O programa retorna os 10 primeiros termos dessa PA.
 
-- [ex0008:](ex0008_palindromo) Usuário informa uma palavra ou frase e programa retorna se ela é um palíndromo.
+- [ex0008:](exercicio_py/ex0008_palindromo) Usuário informa uma palavra ou frase e programa retorna se ela é um palíndromo.
 
-- [ex0009:](ex0009_adivinha_numero) Jogo de adivinhação de números.
-
+- [ex0009:](exercicio_py/ex0009_adivinha_numero) Jogo de adivinhação de números.

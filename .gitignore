@@ -3,4 +3,6 @@ __pycache__/
 *.html
 *.json
 0000_teste/
-dados_pessoas.txt
+*.txt
+exercicio_py_bk/
+

@@ -1,6 +1,0 @@
-Sidnelson;6
-Jose;65
-Bombom;13
-Gustavo;41
-Victor;20
-sandra;50

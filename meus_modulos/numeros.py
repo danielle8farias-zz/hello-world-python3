@@ -11,7 +11,7 @@
 
 def ler_num_float(n):
     '''
-    Função que a validação de um número real
+    Validação todo o conjuntos dos números reais
     '''
     while True:
         try:
@@ -24,6 +24,9 @@ def ler_num_float(n):
 
 
 def ler_num_int(n):
+    '''
+    Valida números inteiros positivos ou negativos.
+    '''
     #laço
     while True:
         try:
@@ -46,6 +49,9 @@ def ler_num_int(n):
 
 def ler_divisor(n):
     while True:
+        '''
+        Valida divisor. Não aceita zero.
+        '''
         try:
             num = float(input(n))
             if num == 0:
@@ -62,7 +68,8 @@ def ler_divisor(n):
 
 def ler_indice(n):
     '''
-    valida índice de uma raiz
+    valida índice de uma raiz.
+    Deve ser maior ou igual a 2
     '''
     while True:
         try:

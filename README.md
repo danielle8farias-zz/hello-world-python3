@@ -119,3 +119,5 @@ pytest nomedoarquivo_test.py
 
 - [ex0012:](exercicio_py/ex0012_fibonacci) Sequência Fibonacci.
 
+- [ex0013:](exercicio_py/ex0013_par_ou_impar) Jogo do par ou ímpar.
+

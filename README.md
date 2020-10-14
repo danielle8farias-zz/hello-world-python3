@@ -122,3 +122,6 @@ pytest nomedoarquivo_test.py
 - [ex0013:](exercicio_py/ex0013_par_ou_impar) Jogo do par ou ímpar.
 
 - [ex0014:](exercicio_py/ex0014_caixa_eletronico) Simulador de um caixa eletrônico. Usuário informa o valor que deseja sacar e programa retorna a quantidade de cédulas que serão entregues.
+
+- [ex0015:](exercicio_py/ex0015_ordenacao_numeros) Usuário digita 5 valores inteiros. Esses valores são guardados em uma lista. A ordenação é feita no momento da inserção (sem método sort). Retorna o valor da lista ordenada.
+

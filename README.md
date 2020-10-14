@@ -130,3 +130,6 @@ pytest nomedoarquivo_test.py
 - [ex0017:](exercicio_py/ex0017_pilha_parenteses) Usuário digita uma expressão matemática que faça uso de parenteses. O programa deverá analisar se os números de parenteses abertos correspondem aos números de parenteses fechados.
 
 - [ex0018:](exercicio_py/ex0018_matrizes) Criação e operações com matrizes.
+
+- [ex0019:](exercicio_py/ex0019_palpite_mega_sena) Programa que dá palpites de números para o jogo da mega sena.
+

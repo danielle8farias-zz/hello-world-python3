@@ -125,3 +125,4 @@ pytest nomedoarquivo_test.py
 
 - [ex0015:](exercicio_py/ex0015_ordenacao_numeros) Usuário digita 5 valores inteiros. Esses valores são guardados em uma lista. A ordenação é feita no momento da inserção (sem método sort). Retorna o valor da lista ordenada.
 
+- [ex0016:](exercicio_py/ex0016_lista_pares_impares) Usuário informa vários números inteiros que serão guardados em uma lista. O programa retorna os valores pares em uma lista separada e ímpares em outra lista. Ao final, as três listas são exibidas.

@@ -133,3 +133,4 @@ pytest nomedoarquivo_test.py
 
 - [ex0019:](exercicio_py/ex0019_palpite_mega_sena) Programa que dá palpites de números para o jogo da mega sena.
 
+- [ex0020:](exercicio_py/ex0020_troca_vogal) Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por asterisco.

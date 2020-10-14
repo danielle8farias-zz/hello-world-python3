@@ -116,3 +116,6 @@ pytest nomedoarquivo_test.py
 - [ex0010:](exercicio_py/ex0010_fatorial) Usuário informa um número inteiro e programa retorna o seu fatorial.
 
 - [ex0011:](exercicio_py/ex0011_media_maior_menor_num) Usuário informa diversos números inteiros. O programa deve retornar a média desses números, qual o menor deles e o maior.
+
+- [ex0012:](exercicio_py/ex0012_fibonacci) Sequência Fibonacci.
+

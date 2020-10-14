@@ -128,3 +128,5 @@ pytest nomedoarquivo_test.py
 - [ex0016:](exercicio_py/ex0016_lista_pares_impares) Usuário informa vários números inteiros que serão guardados em uma lista. O programa retorna os valores pares em uma lista separada e ímpares em outra lista. Ao final, as três listas são exibidas.
 
 - [ex0017:](exercicio_py/ex0017_pilha_parenteses) Usuário digita uma expressão matemática que faça uso de parenteses. O programa deverá analisar se os números de parenteses abertos correspondem aos números de parenteses fechados.
+
+- [ex0018:](exercicio_py/ex0018_matrizes) Criação e operações com matrizes.

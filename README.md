@@ -139,3 +139,5 @@ pytest nomedoarquivo_test.py
 
 - [ex0022:](exercicio_py/ex0022_digitos_separados) Usuário informa um número inteiro entre 0 e 9999 e programa retorna a posição decimal de cada algarismo; unidade, dezena, centena, etc.
 
+- [ex0023:](exercicio_py/ex0023_ano_bissexto) Usuário informa um ano que deseja verificar e programa retorna se esse é bissexto.
+

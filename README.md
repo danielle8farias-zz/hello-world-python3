@@ -141,3 +141,5 @@ pytest nomedoarquivo_test.py
 
 - [ex0023:](exercicio_py/ex0023_ano_bissexto) Usuário informa um ano que deseja verificar e programa retorna se esse é bissexto.
 
+- [ex0024:](exercicio_py/ex0024_verifica_triangulo) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
+

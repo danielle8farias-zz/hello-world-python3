@@ -121,3 +121,4 @@ pytest nomedoarquivo_test.py
 
 - [ex0013:](exercicio_py/ex0013_par_ou_impar) Jogo do par ou ímpar.
 
+- [ex0014:](exercicio_py/ex0014_caixa_eletronico) Simulador de um caixa eletrônico. Usuário informa o valor que deseja sacar e programa retorna a quantidade de cédulas que serão entregues.

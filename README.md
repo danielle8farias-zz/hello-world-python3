@@ -134,3 +134,8 @@ pytest nomedoarquivo_test.py
 - [ex0019:](exercicio_py/ex0019_palpite_mega_sena) Programa que dá palpites de números para o jogo da mega sena.
 
 - [ex0020:](exercicio_py/ex0020_troca_vogal) Usuário digita uma palavra ou frase, e programa retorna a mesma com as vogais trocadas por asterisco.
+
+- [ex0021:](exercicio_py/ex0021_numero_primo) Verifica se um número dado é ímpar.
+
+- [ex0022:](exercicio_py/ex0022_digitos_separados) Usuário informa um número inteiro entre 0 e 9999 e programa retorna a posição decimal de cada algarismo; unidade, dezena, centena, etc.
+

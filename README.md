@@ -145,3 +145,5 @@ pytest nomedoarquivo_test.py
 
 - [ex0025:](exercicio_py/ex0025_acessando_site) Abrindo um determinado site.
 
+- [ex0026:](exercicio_py/ex0026_manipula_arquivo) Abrindo, lendo um arquivo com tratamento de exceções. Caso o arquivo não exista, ele será criado.
+

@@ -40,6 +40,6 @@ def lendo_matriz(nome):
 
 
 ler_cabecalho('abrindo matriz de um arquivo')
-arquivo = 'ex0018_matrizes_5.txt'
+arquivo = 'main_v5_arquivo.txt'
 lendo_matriz(arquivo)
 criar_rodape()

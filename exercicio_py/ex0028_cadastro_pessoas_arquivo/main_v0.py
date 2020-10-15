@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.8
+
 ########
 # autora: danielle8farias@gmail.com 
 # repositório: https://github.com/danielle8farias

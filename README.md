@@ -147,3 +147,7 @@ pytest nomedoarquivo_test.py
 
 - [ex0026:](exercicio_py/ex0026_manipula_arquivo) Abrindo, lendo um arquivo com tratamento de exceções. Caso o arquivo não exista, ele será criado.
 
+- [ex0027:](exercicio_py/ex0027_lista_numeros_ordenados) Ordenação de lista com inteiros sem o uso do método sort.
+
+- [0028:](exercicio_py/ex0028_cadastro_pessoas_arquivo) Cadastra pessoas com nome e idade num arquivo txt.
+

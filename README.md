@@ -143,3 +143,5 @@ pytest nomedoarquivo_test.py
 
 - [ex0024:](exercicio_py/ex0024_verifica_triangulo) Usuário informa o comprimento de 3 retas e programa retorna se é possível formar um triângulo e que tipo de triângulo.
 
+- [ex0025:](exercicio_py/ex0025_acessando_site) Abrindo um determinado site.
+

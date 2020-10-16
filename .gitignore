@@ -3,6 +3,6 @@ __pycache__/
 *.html
 *.json
 0000_teste/
-*.txt
 exercicio_py_bk/
 .pytest_cache/
+dados_cadastro_pessoas.txt

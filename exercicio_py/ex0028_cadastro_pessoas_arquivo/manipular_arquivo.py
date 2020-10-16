@@ -1,8 +1,17 @@
+########
+# autora: danielle8farias@gmail.com 
+# repositório: https://github.com/danielle8farias
+# Descrição: Verifica se o arquivo existe; cria o arquivo; faz a leitura e escrita do arquivo.
+########
+
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho
 
 def arquivo_existe(nome):
+    '''
+    Verifica se o arquivo existe.
+    '''
     try:
         a = open(nome, 'rt')
         a.close()
@@ -13,6 +22,9 @@ def arquivo_existe(nome):
 
 
 def criar_arquivo(nome):
+    '''
+    Cria um arquivo.
+    '''
     try:
         a = open(nome, 'wt+')
         a.close()
@@ -23,6 +35,9 @@ def criar_arquivo(nome):
 
 
 def ler_arquivo(nome):
+    '''
+    Faz a leitura do arquivo.
+    '''
     try:
         a = open(nome, 'rt')
     except:
@@ -38,6 +53,9 @@ def ler_arquivo(nome):
 
 
 def cadastrar_pessoa(arquivo, nome, idade):
+    '''
+    Registra a pessoa no arquivo.
+    '''
     try:
         a = open(arquivo, 'at')
     except:

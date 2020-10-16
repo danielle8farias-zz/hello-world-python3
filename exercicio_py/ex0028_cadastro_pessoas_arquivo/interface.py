@@ -1,3 +1,10 @@
+########
+# autora: danielle8farias@gmail.com 
+# repositório: https://github.com/danielle8farias
+# Descrição: Menu inicial do programa.
+#           Mostra as opções de interação do usuário com o programa.
+########
+
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from numeros import ler_num_int

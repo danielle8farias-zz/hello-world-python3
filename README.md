@@ -151,3 +151,4 @@ pytest nomedoarquivo_test.py
 
 - [0028:](exercicio_py/ex0028_cadastro_pessoas_arquivo) Cadastra pessoas com nome e idade num arquivo txt.
 
+- 0029: Jogo da forca.

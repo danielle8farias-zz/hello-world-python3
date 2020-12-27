@@ -153,3 +153,7 @@ pytest nomedoarquivo_test.py
 
 - [0029:](exercicio_py/ex0029_forca) Jogo da forca.
 
+- [0030:](exercicio_py/ex0030_ordena_lista_composta) Ordenação de lista composta.
+
+- [0031:](exercicio_py/ex0031_equacao_2_grau) Equação do segundo grau.
+

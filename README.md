@@ -157,3 +157,4 @@ pytest nomedoarquivo_test.py
 
 - [0031:](exercicio_py/ex0031_equacao_2_grau) Equação do segundo grau.
 
+- [0032:](exercicio_py/ex0032_validar_num_int) Validação de número inteiro.

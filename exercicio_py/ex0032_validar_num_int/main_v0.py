@@ -1,4 +1,9 @@
-#criando a função
+########
+# autora: danielle8farias@gmail.com 
+# repositório: https://github.com/danielle8farias
+# Descrição: Fazendo a validação de um número inteiro.
+########
+
 def ler_num_int(n: int) -> int:
     '''
     função que faz a validação de uma entrada; verificando se é um número inteiro.

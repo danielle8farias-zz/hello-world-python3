@@ -161,5 +161,7 @@ pytest nomedoarquivo_test.py
 
 - [0033:](exercicio_py/ex0033_validar_divisor) Validação de um divisor.
 
-- [0034:](exercicio_py/ex0034_http_status_codes) Programa retorna o status code de um site informado pelo usuário
+- [0034:](exercicio_py/ex0034_http_status_codes) Programa retorna o status code de um site informado pelo usuário.
+
+- [0035:](exercicio_py/ex0035_lat_longitude) Programa retorna a latitude e a longitude do usuário.
 

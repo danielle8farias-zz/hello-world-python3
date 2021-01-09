@@ -165,3 +165,5 @@ pytest nomedoarquivo_test.py
 
 - [0035:](exercicio_py/ex0035_lat_longitude) Programa retorna a latitude e a longitude do usuário.
 
+- [0036:](exercicio_py/ex0036_localizacao) Programa retorna o nome da cidade, estado e país do usuário.
+

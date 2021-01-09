@@ -1,12 +1,12 @@
 ########
 # autora: danielle8farias@gmail.com 
 # repositório: https://github.com/danielle8farias
-# Descrição: Programa retorna a latitude e a longitude do usuário
+# Descrição: Programa retorna o nome da cidade, estado e país onde quem está rodando o programa se encontra.
 ########
 
 import requests
 import json
-from pprint import pprint
+#from pprint import pprint
 
 chave_api = 'u5eoJmS3s9PJ0X7RYCxrKWWaZm1WJhws'
 
@@ -36,5 +36,12 @@ else:
         print('Não foi possível obter o código do local.')
     else:
         localizacao2 = (json.loads(requisicao2.text))
+        #guardando conteúdo das chaves do dicionário na variável
+        #cidade, estado - país
+        nome_local = localizacao2['LocalizedName'] + ', ' + localizacao2['AdministrativeArea']['LocalizedName'] \
+        + ' - ' + localizacao2['Country']['LocalizedName']
+        codigo_local = localizacao2['Key']
+        print(f'Local: {nome_local}')
+        print(f'Código do local: {codigo_local}')
         #pprint imprime na tela o dicionário em um formato mais legível para humanos
-        print(pprint(localizacao2))
+        #print(pprint(localizacao2))

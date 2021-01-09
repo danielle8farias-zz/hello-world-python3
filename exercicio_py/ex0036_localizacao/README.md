@@ -12,6 +12,10 @@ Adicione uma nova aplicação e preencha as informações requisitadas. Em segui
 
 ![chave da api](img/ex0036-2.png)
 
+----
+
+## Pegando o código do local
+
 Agora vá em **API PREFERENCE** e em **LOCATIONS API**.
 
 ![preferências da api](img/ex0036-3.png)

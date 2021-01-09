@@ -167,3 +167,5 @@ pytest nomedoarquivo_test.py
 
 - [0036:](exercicio_py/ex0036_localizacao) Programa retorna o nome da cidade, estado e país do usuário.
 
+- [0037:](exercicio_py/ex0037_tempo_clima) Programa retorna o tempo e temperatura da localidade do usuário.
+

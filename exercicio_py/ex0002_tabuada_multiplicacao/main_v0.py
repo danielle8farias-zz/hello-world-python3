@@ -1,7 +1,7 @@
 ########
 # autora: danielle8farias@gmail.com 
 # repositório: https://github.com/danielle8farias
-# Descrição: Usuário digita dois números inteiros e programa retorna a tabuada de multiplicação desse.
+# Descrição: Usuário digita um número inteiro e programa retorna a tabuada de multiplicação desse.
 ########
 
 #float() convertendo para número real

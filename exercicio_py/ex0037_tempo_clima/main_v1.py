@@ -59,7 +59,7 @@ def pegar_tempo_atual(codigo_local, nome_local):
 
     requisicao = requests.get(url_tempo_api)
     if requisicao.status_code != 200:
-        print('Não foi possível obter o código do local.')
+        print('Não foi possível obter o clima atual')
     else:
         #aqui temos um lista e um dicionário dentro
         tempo_atual = (json.loads(requisicao.text))

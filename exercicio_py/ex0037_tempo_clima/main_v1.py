@@ -70,4 +70,12 @@ def pegar_tempo_atual(codigo_local, nome_local):
 
         return info_clima_tempo
 
+
 #main
+coordenadas = pegar_coordenadas()
+local = pegar_codigo_local(coordenadas['latitude'], coordenadas['longitude'])
+clima = pegar_tempo_atual(local['codigo_local'], local['nome_local'])
+
+print('Clima em: ' + clima['nome_local'])
+print('Temperatura: ' + str(clima['temperatura']) + '°C')
+print('Tempo: ' + clima['clima'])

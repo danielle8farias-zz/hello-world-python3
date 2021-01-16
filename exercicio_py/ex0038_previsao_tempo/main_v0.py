@@ -1,0 +1,92 @@
+########
+# autora: danielle8farias@gmail.com 
+# repositório: https://github.com/danielle8farias
+# Descrição: Programa retorna a previsão do tempo para cinco dias da localidade do usuário
+########
+
+import requests
+import json
+from pprint import pprint
+
+chave_api = 'u5eoJmS3s9PJ0X7RYCxrKWWaZm1WJhws'
+
+def pegar_coordenadas():
+    #mandano uma requisição para o site indicado
+    requisicao = requests.get('http://www.geoplugin.net/json.gp')
+
+    #verificando o status do site (200 OK)
+    if requisicao.status_code != 200:
+        print('Não foi possível obter a localização.')
+    else:
+        #r.text é do tipo string
+        #json.loads retorna a string passada convertida em um dicionário
+        info_localizacao = (json.loads(requisicao.text))
+        #criando novo dicionário para as coordenadas
+        coordenadas = {}
+        #pegando a chave geoplugin_latitude do dicionário info_localizacao
+        coordenadas['latitude'] = info_localizacao['geoplugin_latitude']
+        #pegando a chave geoplugin_longitude do dicionário info_localizacao
+        coordenadas['longitude'] = info_localizacao['geoplugin_longitude']
+        
+        return coordenadas
+
+
+def pegar_codigo_local(latitude, longitude):
+    #url adaptava para usar as variáveis
+    url_local_api = 'http://dataservice.accuweather.com/locations/v1/cities/geoposition/' \
+    + 'search?apikey=' + chave_api \
+    + '&q=' + latitude + '%2C%20' + longitude + '&language=pt-br'
+
+    requisicao = requests.get(url_local_api)
+    if requisicao.status_code != 200:
+        print('Não foi possível obter o código do local.')
+        return None
+    else:
+        try:
+            localizacao = (json.loads(requisicao.text))
+            info_local = {}
+            #guardando conteúdo das chaves do dicionário na variável
+            #cidade, estado - país
+            info_local['nome_local'] = localizacao['LocalizedName'] + ', ' + localizacao['AdministrativeArea']['LocalizedName'] \
+            + ' - ' + localizacao['Country']['LocalizedName']
+        
+            info_local['codigo_local'] = localizacao['Key']
+            return info_local
+        except:
+            return None
+
+
+def pegar_tempo(codigo_local, nome_local):
+    url_tempo_api = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/' \
+    + codigo_local +'?apikey=' + chave_api + '&language=pt-br&metric=true'
+
+    requisicao = requests.get(url_tempo_api)
+    if requisicao.status_code != 200:
+        print('Não foi possível obter a previsão do tempo')
+        return None
+    else:
+        tempo = (json.loads(requisicao.text))
+        print(pprint(tempo))
+
+#        try:
+#        #aqui temos um lista e um dicionário dentro
+#            tempo = (json.loads(requisicao.text))
+#            info_clima_tempo = {}
+#            info_clima_tempo['clima'] = tempo[0]['WeatherText']
+#            info_clima_tempo['temperatura'] = tempo[0]['Temperature']['Metric']['Value']
+#            info_clima_tempo['nome_local'] = nome_local
+#            return info_clima_tempo
+#        except:
+#            return None
+
+
+#main
+coordenadas_dic = pegar_coordenadas()
+try:
+    codigo_dic = pegar_codigo_local(coordenadas_dic['latitude'], coordenadas_dic['longitude'])
+    clima = pegar_tempo(codigo_dic['codigo_local'], codigo_dic['nome_local'])
+#    print('Clima em: ' + clima['nome_local'])
+#    print('Temperatura: ' + str(clima['temperatura']) + '°C')
+#    print('Tempo: ' + clima['clima'])
+except:
+    print('Erro. Não foi possível obter o clima atual.')

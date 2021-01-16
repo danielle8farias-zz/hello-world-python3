@@ -6,7 +6,6 @@
 
 import requests
 import json
-#from pprint import pprint
 
 chave_api = 'u5eoJmS3s9PJ0X7RYCxrKWWaZm1WJhws'
 

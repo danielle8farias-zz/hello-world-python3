@@ -90,3 +90,5 @@ try:
 #    print('Tempo: ' + clima['clima'])
 except:
     print('Erro. Não foi possível obter o clima atual.')
+
+

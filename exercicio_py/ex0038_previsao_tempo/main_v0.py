@@ -7,6 +7,7 @@
 import requests
 import json
 from time import sleep
+from datetime import datetime
 
 chave_api = 'u5eoJmS3s9PJ0X7RYCxrKWWaZm1WJhws'
 
@@ -71,12 +72,17 @@ def pegar_tempo(codigo_local):
             info_clima_tempo = []
             for dia in previsao['DailyForecasts']:
                 clima_dia = {}
-                clima_dia['dia'] = dia['EpochDate']
+                #pegando o timestamp
+                timestamp = dia['EpochDate']
+                #objeto date_time
+                date_time = datetime.fromtimestamp(timestamp)
+                #formatando a data
+                d = date_time.strftime('%d/%m/%Y')
+                clima_dia['dia'] = d
                 clima_dia['tempo_dia'] = dia['Day']['IconPhrase']
                 clima_dia['tempo_noite'] = dia['Night']['IconPhrase']
                 clima_dia['max'] = dia['Temperature']['Maximum']['Value']
                 clima_dia['min'] = dia['Temperature']['Minimum']['Value']
-                #usando timestamp
                 info_clima_tempo.append(clima_dia)
             return info_clima_tempo
         except:

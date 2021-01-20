@@ -169,5 +169,5 @@ pytest nomedoarquivo_test.py
 
 - [0037:](exercicio_py/ex0037_tempo_clima) Programa retorna o tempo e temperatura da localidade do usuário.
 
-- [0038:](exercicio_py/ex0038_previsao_tempo) Programa retorna a previsão do tempo para cinco dias da localidade do usuário.
+- [0038:](exercicio_py/ex0038_previsao_tempo_local) Programa retorna a previsão do tempo para cinco dias da localidade do usuário.
 

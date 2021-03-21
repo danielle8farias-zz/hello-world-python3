@@ -14,6 +14,7 @@ from time import sleep
 from datetime import datetime
 
 chave_api = 'u5eoJmS3s9PJ0X7RYCxrKWWaZm1WJhws'
+mapbox_token = 'pk.eyJ1IjoiZGFuaWVsbGU4ZmFyaWFzIiwiYSI6ImNrbWlpYmQxMzBoaWgyd211cDNmbmplajkifQ.PNrsT9uiCJLsXKAVrXW7UQ'
 
 def pegar_coordenadas():
     #mandano uma requisição para o site indicado

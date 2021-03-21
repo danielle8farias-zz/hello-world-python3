@@ -1,12 +1,12 @@
 ########
 # autora: danielle8farias@gmail.com 
 # repositório: https://github.com/danielle8farias
-# Descrição: Programa retorna a latitude e a longitude do usuário
+# Descrição: Programa retorna a latitude e a longitude do usuário através do IP dele.
 ########
 
 import requests
 import json
-from pprint import pprint
+#from pprint import pprint
 
 #mandano uma requisição para o site indicado
 r = requests.get('http://www.geoplugin.net/json.gp')
@@ -25,4 +25,4 @@ else:
     print(f'latitude: {latitude} \nlongitude: {longitude}')
     #pprint imprime na tela o dicionário em um formato mais legível para humanos
     #usado inicialmente apenas para pegar as chaves geoplugin_longitude e geoplugin_latitude
-    #   print(pprint(localizacao))
+    #print(pprint(localizacao))

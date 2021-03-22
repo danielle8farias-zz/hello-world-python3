@@ -22,8 +22,6 @@ mapbox_token = 'pk.eyJ1IjoiZGFuaWVsbGU4ZmFyaWFzIiwiYSI6ImNrbWlpYmQxMzBoaWgyd211c
 
 def pesquisar_local(local):
     local_ajustado = quote(local)
-    print('print do local ajustado')
-    print(local_ajustado)
     mapbox_geocode_url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' \
         + local_ajustado + '.json?access_token=' + mapbox_token
 
@@ -34,34 +32,15 @@ def pesquisar_local(local):
     else:
         try:
             resposta_mapbox = (json.loads(requisicao.text))
-            print('pprint da resposta da requisição')
-            pprint.pprint(resposta_mapbox)
+            coordenadas = {}
+            coordenadas['longitude'] = str(resposta_mapbox['features'][0]['geometry']['coordinates'][0])
+            coordenadas['latitude'] = str(resposta_mapbox['features'][0]['geometry']['coordinates'][1])
+            return coordenadas
         except:
             return None
 
 
-def pegar_coordenadas():
-    #mandano uma requisição para o site indicado
-    requisicao = requests.get('http://www.geoplugin.net/json.gp')
-
-    #verificando o status do site (200 OK)
-    if requisicao.status_code != 200:
-        print('Não foi possível obter a localização.')
-    else:
-        #r.text é do tipo string
-        #json.loads retorna a string passada convertida em um dicionário
-        info_localizacao = (json.loads(requisicao.text))
-        #criando novo dicionário para as coordenadas
-        coordenadas = {}
-        #pegando a chave geoplugin_latitude do dicionário info_localizacao
-        coordenadas['latitude'] = info_localizacao['geoplugin_latitude']
-        #pegando a chave geoplugin_longitude do dicionário info_localizacao
-        coordenadas['longitude'] = info_localizacao['geoplugin_longitude']
-        
-        return coordenadas
-
-
-def pegar_codigo_local(latitude, longitude):
+def pegar_codigo_coordenadas(latitude, longitude):
     #url adaptava para usar as variáveis
     url_local_api = 'http://dataservice.accuweather.com/locations/v1/cities/geoposition/' \
     + 'search?apikey=' + chave_api \
@@ -141,7 +120,7 @@ def pegar_tempo(codigo_local):
 
 def mostrar_previsao(latitude, longitude):
     try:
-        codigo_dic = pegar_codigo_local(latitude, longitude)
+        codigo_dic = pegar_codigo_coordenadas(latitude, longitude)
         clima = pegar_tempo_atual(codigo_dic['codigo_local'], codigo_dic['nome_local'])
         print('Clima em: ' + clima['nome_local'])
         print('Temperatura: ' + str(clima['temperatura']) + '°C')
@@ -167,11 +146,13 @@ def mostrar_previsao(latitude, longitude):
 
 
 #main
-#ler_cabecalho('previsão do tempo')
-#coordenadas_dic = pegar_coordenadas()
+ler_cabecalho('previsão do tempo')
+
+print('Digite a cidade e o estado para o qual deseja ver a previsão do tempo')
+local = input('[cidade, estado ]: ')
+coordenadas_dic = pesquisar_local(local)
 try:
-    #mostrar_previsao(coordenadas_dic['latitude'], coordenadas_dic['longitude'])
-    pesquisar_local('São paulo')
+    mostrar_previsao(coordenadas_dic['latitude'], coordenadas_dic['longitude'])
 except:
     print('Erro. Não foi possível obter a previsão do tempo.')
 

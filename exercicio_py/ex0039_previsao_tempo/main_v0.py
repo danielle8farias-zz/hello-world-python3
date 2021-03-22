@@ -12,9 +12,33 @@ import requests
 import json
 from time import sleep
 from datetime import datetime
+from urllib.parse import quote
+import pprint
+
 
 chave_api = 'u5eoJmS3s9PJ0X7RYCxrKWWaZm1WJhws'
 mapbox_token = 'pk.eyJ1IjoiZGFuaWVsbGU4ZmFyaWFzIiwiYSI6ImNrbWlpYmQxMzBoaWgyd211cDNmbmplajkifQ.PNrsT9uiCJLsXKAVrXW7UQ'
+
+
+def pesquisar_local(local):
+    local_ajustado = quote(local)
+    print('print do local ajustado')
+    print(local_ajustado)
+    mapbox_geocode_url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' \
+        + local_ajustado + '.json?access_token=' + mapbox_token
+
+    requisicao = requests.get(mapbox_geocode_url)
+    if requisicao.status_code != 200:
+        print('Não foi possível obter o local')
+        return None
+    else:
+        try:
+            resposta_mapbox = (json.loads(requisicao.text))
+            print('pprint da resposta da requisição')
+            pprint.pprint(resposta_mapbox)
+        except:
+            return None
+
 
 def pegar_coordenadas():
     #mandano uma requisição para o site indicado
@@ -143,10 +167,12 @@ def mostrar_previsao(latitude, longitude):
 
 
 #main
-ler_cabecalho('previsão do tempo')
-coordenadas_dic = pegar_coordenadas()
+#ler_cabecalho('previsão do tempo')
+#coordenadas_dic = pegar_coordenadas()
 try:
-    mostrar_previsao(coordenadas_dic['latitude'], coordenadas_dic['longitude'])
+    #mostrar_previsao(coordenadas_dic['latitude'], coordenadas_dic['longitude'])
+    pesquisar_local('São paulo')
 except:
     print('Erro. Não foi possível obter a previsão do tempo.')
+
 criar_rodape()

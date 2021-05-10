@@ -1,9 +1,9 @@
 ########
 # autora: danielle8farias@gmail.com 
 # repositório: https://github.com/danielle8farias
-# Descrição: Usuário informa o salário de uma pessoa. O programa retorna um reajuste de aumento desse salário.
-#           Se o salário for superioe a R$1.250,00 o aumento deve ser de 10%;
-#           senão o aumento é de 15% 
+# Descrição: Usuário informa o salário de uma pessoa. 
+# O programa retorna um reajuste de aumento desse salário.
+# Se o salário for superior a R$1.250,00 o aumento deve ser de 10%; senão o aumento é de 15% 
 ########
 
 salario = float(input('Salário atual do funcionário: R$'))

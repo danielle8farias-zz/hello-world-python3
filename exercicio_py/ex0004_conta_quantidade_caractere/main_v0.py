@@ -1,7 +1,9 @@
 ########
 # autora: danielle8farias@gmail.com 
 # repositório: https://github.com/danielle8farias
-# Descrição: Usuário informa nome e sobrenome. O programa retorna quantas letras o nome completo possui (excluindo espaços) e quantas letras o primeiro nome possui. 
+# Descrição: Usuário informa nome e sobrenome. 
+# O programa retorna quantas letras o nome completo possui (excluindo espaços) 
+# e quantas letras o primeiro nome possui. 
 ########
 
 nome_completo = input('Digite seu nome completo: ')

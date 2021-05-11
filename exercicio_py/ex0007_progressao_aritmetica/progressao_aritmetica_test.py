@@ -1,7 +1,8 @@
 ########
 # autora: danielle8farias@gmail.com 
 # repositório: https://github.com/danielle8farias
-# Descrição: Função recebe como argumentos o 1º termo de uma PA, sua razão, número de termos e o An termo.
+# Descrição: Função recebe como argumentos o 1º termo de uma PA, sua razão e o número de termos. 
+# O programa retorna o An termo.
 ########
 
 def pa_termo(A1, r, n):

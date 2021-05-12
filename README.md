@@ -107,7 +107,7 @@ pytest nomedoarquivo_test.py
 
 - [ex0006:](exercicio_py/ex0006_obrigatoriedade_voto) Usuário informa a idade e programa retorna se o voto é obrigatório.
 
-- [ex0007:](exercicio_py/ex0007_progressao_aritmetica) Usuário informa o 1º termo de uma progressão aritmética e sua razão. O programa retorna os 10 primeiros termos dessa PA.
+- [ex0007:](exercicio_py/ex0007_progressao_aritmetica) Usuário informa o 1º termo de uma progressão aritmética e sua razão. O programa retorna os 10 primeiros termos dessa PA. Também é possível fazer a soma dos termos da PA.
 
 - [ex0008:](exercicio_py/ex0008_palindromo) Usuário informa uma palavra ou frase e programa retorna se ela é um palíndromo.
 
@@ -173,6 +173,4 @@ pytest nomedoarquivo_test.py
 
 - [0039:](exercicio_py/ex0039_previsao_tempo) Programa retorna a previsão do tempo para cinco dias de um local escolhido pelo usuário.
 
-- [0040:](exercicio_py/ex0040_soma_progressao_aritmetica) Função recebe como argumentos o 1º termo de uma PA, sua razão e o número de termos. O programa calcula a soma de todos os termos dessa PA.
-
-- [0041:](exercicio_py/ex0041_maximo_divisor_comum) O programa recebe dois números inteiros e retorna o máximo divisor comum.
+- [0040:](exercicio_py/ex0040_maximo_divisor_comum) O programa recebe dois números inteiros e retorna o máximo divisor comum.

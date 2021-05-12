@@ -174,3 +174,5 @@ pytest nomedoarquivo_test.py
 - [0039:](exercicio_py/ex0039_previsao_tempo) Programa retorna a previsão do tempo para cinco dias de um local escolhido pelo usuário.
 
 - [0040:](exercicio_py/ex0040_soma_progressao_aritmetica) Função recebe como argumentos o 1º termo de uma PA, sua razão e o número de termos. O programa calcula a soma de todos os termos dessa PA.
+
+- [0041:](exercicio_py/ex0041_maximo_divisor_comum) O programa recebe dois números inteiros e retorna o máximo divisor comum.

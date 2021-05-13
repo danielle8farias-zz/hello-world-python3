@@ -20,9 +20,9 @@ def mdc(a, b):
 
 
 if __name__ == '__main__':
-    print(mdc(20,36))
-    print(mdc(90,54))
-    print(mdc(400,320))
+    print(mdc(20,36)) # 4
+    print(mdc(90,54)) # 18
+    print(mdc(400,320)) # 80
 
 ####        EXPLICAÇÃO PARA O USO DE R=A%B      ####
 # MDC(a,b) =  MDC(a-b,b) para a > b

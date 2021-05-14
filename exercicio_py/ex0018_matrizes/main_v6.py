@@ -39,5 +39,5 @@ if __name__ == '__main__':
     #chamada da função
     #   matriz = [[1,2],[3,4]]
     #   número real = 5
-    multiplicar_real([[1,2],[3,4]], 5)
-    multiplicar_real([[1,2],[3,4]], 2.5)
+    multiplicar_real([[1,2],[3,4]], 5) # [[5, 10], [15, 20]]
+    multiplicar_real([[1,2],[3,4]], 2.5) # [[2.5, 5.0], [7.5, 10.0]]

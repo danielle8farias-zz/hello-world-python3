@@ -44,7 +44,7 @@ Antes de executar é preciso dar as permissões ao arquivo através do comando n
 $ chmod +x <nome_do_arquivo.py>
 ```
 
-- **chmod** vem de change mode que é quem vai fazer as mudanças;
+- **chmod**, vem de *change mode*, que é quem vai fazer as mudanças;
 - **+x** para adicionar as permissões de execução (e*x*ecute permission).
 
 Para chamar o arquivo, digite:

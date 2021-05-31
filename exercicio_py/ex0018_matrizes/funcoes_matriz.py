@@ -35,12 +35,18 @@ def construir_matriz (num_linhas, num_colunas):
     return matriz
 
 
-if __name__ == '__main__':
-    #chamada da função
-    #matriz de ordem 2
-    construir_matriz(2,2)
-    #matriz de ordem 1x3
-    construir_matriz(1,3)
-    #matriz de ordem 3x4
-    construir_matriz(3,4)
+def somar_matrizes (A, B):
+    '''
+    Recebe duas matrizes e retorna a soma entre elas
+    '''
+    num_linhas = len(A)
+    num_colunas = len(A[0]) #basta colocar o comprimento de uma das linhas de A
+    soma = []
+    for i in range(num_linhas):
+        linha = []
+        for j in range(num_colunas):
+            valor_soma = (A[i][j] + B[i][j])
+            linha.append(valor_soma)
+        soma.append(linha)
+    return soma
 

@@ -12,6 +12,7 @@ num_coluna = int(input('Digite o número de colunas: '))
 matriz = construir_matriz(num_linha, num_coluna)
 print()
 
+# imprimindo a matriz na tela para o usuário
 for i in range(num_linha):
     for j in range(num_coluna):
         print(f'[{matriz[i][j]:^4}]', end='')

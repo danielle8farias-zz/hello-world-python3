@@ -4,7 +4,7 @@
 # Descrição: Usuário escolhe o tamanho da matriz e digita o valor dos seus elementos. O programa retorna essa matriz formatada na tela.
 ########
 
-from construir_matriz import construir_matriz
+from funcoes_matriz import construir_matriz
 
 num_linha = int(input('Digite o número de linhas: '))
 num_coluna = int(input('Digite o número de colunas: '))

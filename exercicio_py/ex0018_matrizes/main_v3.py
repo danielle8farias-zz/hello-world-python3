@@ -8,7 +8,7 @@ import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
 from mensagem import ler_cabecalho, criar_rodape, ler_resposta
 from numeros import ler_num_int, ler_num_float
-from construir_matriz import construir_matriz
+from funcoes_matriz import construir_matriz, somar_matrizes
 from time import sleep
 
 
@@ -16,19 +16,6 @@ def linha_coluna ():
     num_linhas = ler_num_int('Digite o número de linhas: ')
     num_colunas = ler_num_int('Digite o número de colunas: ')
     return num_linhas, num_colunas
-
-
-def somar_matrizes (A, B):
-    num_linhas = len(A)
-    num_colunas = len(A[0]) #basta colocar o comprimento de uma das linhas de A
-    soma = []
-    for i in range(num_linhas):
-        linha = []
-        for j in range(num_colunas):
-            valor_soma = (A[i][j] + B[i][j])
-            linha.append(valor_soma)
-        soma.append(linha)
-    return soma
 
 
 while True:

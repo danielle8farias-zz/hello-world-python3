@@ -6,7 +6,7 @@
 
 import sys
 sys.path.append('/home/danielle8farias/hello-world-python3/meus_modulos')
-from mensagem import ler_cabecalho, criar_rodape, ler_resposta
+from mensagem import ler_cabecalho, criar_rodape
 from funcoes_matriz import imprimir_matriz, ler_matriz
 
 

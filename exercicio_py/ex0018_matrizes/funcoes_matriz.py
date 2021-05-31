@@ -79,3 +79,24 @@ def imprimir_matriz(M, Mi, Mj):
             sleep(0.5)
             print(f'[{M[i][j]:^5}]', end='', flush=True)
         print()
+
+
+def ler_matriz(nome):
+    '''
+    Abre um arquivo com uma matriz e guarda os dados numa lista.
+    '''
+    try:
+        a = open(nome, 'rt')
+    except:
+        print('ERRO! Não foi possível abrir o arquivo')
+    else:
+        matriz = []
+        linha = a.readline()
+        while linha != "":
+            elementos = linha.split()
+            for i in range(len(elementos)):
+                elementos[i] = float(elementos[i])
+            matriz.append(elementos)
+            linha = a.readline()
+        a.close()
+        return matriz

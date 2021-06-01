@@ -151,3 +151,19 @@ def matriz_transposta(M):
             # invertendo as posições pois é propriedade da matriz transposta
             T[j][i]= M[i][j]
     return T
+
+
+def igualdade(A,B):
+    n_linhasA, n_colunasA = len(A), len(A[0])
+    n_linhasB, n_colunasB = len(B), len(B[0])
+    # linhas e colunas das duas matrizes devem ser iguais para a comparação de igualdade
+    if (n_colunasA == n_colunasB) and (n_linhasA == n_linhasB):
+        for i in range(n_linhasA):
+            for j in range(n_colunasA):
+                # basta que um seja falso
+                if A[i][j] != B[i][j]:
+                    return False
+        return True
+
+    else:
+        return False

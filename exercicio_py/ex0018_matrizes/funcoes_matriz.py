@@ -131,3 +131,23 @@ def multiplicar_real(A, n):
         multi_real.append(linha)
     #retorna a nova matriz com o resultado das multiplicações
     return multi_real
+
+
+def matriz_nula(Ai, Aj):
+    N = []
+    for i in range(Ai):
+        # criando as colunas dentro de cada linha
+        linha = [0] * Aj
+        N.append(linha)
+    return N
+
+
+def matriz_transposta(M):
+    n_linhas = len(M)
+    n_colunas = len(M[0])
+    T = matriz_nula (n_colunas, n_linhas)
+    for i in range(n_linhas):
+        for j in range(n_colunas):
+            # invertendo as posições pois é propriedade da matriz transposta
+            T[j][i]= M[i][j]
+    return T

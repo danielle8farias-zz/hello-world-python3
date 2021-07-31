@@ -174,3 +174,5 @@ pytest nomedoarquivo_test.py
 - [0039:](exercicio_py/ex0039_previsao_tempo) Programa retorna a previsão do tempo para cinco dias de um local escolhido pelo usuário.
 
 - [0040:](exercicio_py/ex0040_maximo_divisor_comum) O programa calcula o máximo divisor comum (MDC).
+
+- [0041:]() O programa lê e faz uma cópia de uma imagem (arquivo).

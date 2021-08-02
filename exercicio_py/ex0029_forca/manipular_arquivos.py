@@ -13,6 +13,7 @@ def abrir_arquivo(nome):
     lista_itens = []
     for linha in arq:
         #removendo quebra de linha dos arquivos
+        # pode ser usado o strip() para retirar a quebra de linha
         item = linha.replace('\n', '')
         #criando uma lista dos dados do arquivo
         lista_itens.append(item)

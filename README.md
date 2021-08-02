@@ -84,4 +84,4 @@
 
 - [0040:](exercicio_py/ex0040_maximo_divisor_comum) O programa calcula o máximo divisor comum (MDC).
 
-- [0041:]() O programa lê e faz uma cópia de uma imagem (arquivo).
+- [0041:](exercicio_py/ex0041_copiar_imagem) O programa lê e faz uma cópia de uma imagem (arquivo).

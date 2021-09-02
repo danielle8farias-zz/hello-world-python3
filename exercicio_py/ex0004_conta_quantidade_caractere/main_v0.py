@@ -14,6 +14,6 @@ nome_completo = input('Digite seu nome completo: ')
 tamanho_completo = len(nome_completo) - nome_completo.count(' ')
 print(f'Seu nome completo possui: {tamanho_completo} letras.')
 #find() retorna a posição de um caractere
-#   nesse caso queremos enccontrar o primeiro espaço
+#   nesse caso queremos encontrar o primeiro espaço
 num = nome_completo.find(' ')
 print(f'Seu primeiro nome possui: {num} letras.\n')

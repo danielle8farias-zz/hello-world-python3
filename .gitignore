@@ -6,3 +6,4 @@ __pycache__/
 exercicio_py_bk/
 .pytest_cache/
 dados_cadastro_pessoas.txt
+.idea
